@@ -1,0 +1,81 @@
+---
+import { render, type CollectionEntry } from 'astro:content';
+import Layout from './Layout.astro';
+import Section from '../components/Section.astro';
+import Container from '../components/Container.astro';
+
+interface Props {
+  entry: CollectionEntry<'pages'>;
+  heroHeading: string;
+}
+
+const { entry, heroHeading } = Astro.props;
+const { Content } = await render(entry);
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  ogImage={entry.data.ogImage}
+  heroHeading={heroHeading}
+>
+  <Section variant="cream">
+    <Container>
+      <div class="prose-content font-nav-book text-body-text max-w-[810px] mx-auto">
+        <Content />
+      </div>
+    </Container>
+  </Section>
+</Layout>
+
+<style>
+  .prose-content :global(h1) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(h2) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 26px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(h3) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 20px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-content :global(ol) {
+    list-style: decimal;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(ul) {
+    list-style: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(p) {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  .prose-content :global(a) {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+  .prose-content :global(a:hover) {
+    color: var(--color-link-hover);
+    text-decoration: none;
+  }
+  .prose-content :global(img) {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+</style>

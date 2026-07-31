@@ -1,0 +1,22 @@
+---
+// H2 verified against live computed styles: 32px/32px, weight 500, color #614B34 (brown)
+// H1 is handled separately by HeroSection (white-on-image hero treatment).
+type Level = 'h2' | 'h3' | 'h4';
+
+interface Props {
+  level?: Level;
+  class?: string;
+}
+const { level = 'h2', class: className = '' } = Astro.props;
+const Tag = level;
+
+const styles: Record<Level, string> = {
+  h2: 'font-body text-brown text-[28px] lg:text-[32px] leading-tight font-medium',
+  h3: 'font-body text-brown text-[24px] leading-tight font-medium',
+  h4: 'font-nav text-white text-[17px] leading-[1.2]',
+};
+---
+
+<Tag class:list={[styles[level], className]}>
+  <slot />
+</Tag>

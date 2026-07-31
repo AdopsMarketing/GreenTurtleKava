@@ -1,0 +1,314 @@
+---
+import Layout from "../layouts/Layout.astro";
+import HeroSection from "../components/HeroSection.astro";
+import Container from "../components/Container.astro";
+import MenuAccordion from "../components/MenuAccordion.astro";
+import Button from "../components/Button.astro";
+import { menuCategories } from "../data/menu";
+
+const vibeCards = [
+  {
+    label: "Kava Bar at Daytona Beach",
+    href: "/kava-bar-at-daytona-beach/",
+    image: "/images/uploads/2021/07/Depositphotos_27155705_l-2015.jpg",
+  },
+  {
+    label: "Kava Bar at Ormond Beach",
+    href: "/kava-bar-at-ormond-beach/",
+    image: "/images/uploads/2021/07/Depositphotos_43499039_l-2015.jpg",
+  },
+  {
+    label: "Kava Bar at St. Augustine",
+    href: "/kava-bar-at-st-augustine/",
+    image: "/images/uploads/2021/07/sea-turtle-547163_1280.jpg",
+  },
+];
+---
+
+<Layout
+  title="Green Turtle Kava Bar | St Augustines Kava & Tea Bar Near Me"
+  description="Kava and Tea Bar near me? Welcome to Green Turtle Kava Bar at St Augustine - your local spot to relax and reset. Come bula and have some shells for shells!"
+  canonical="https://greenturtlekava.co/"
+>
+  <HeroSection heading="RELEASE YOUR RELAX" />
+
+  <section
+    class="bg-cover bg-no-repeat py-16"
+    style="background-image: url('/images/theme/big.png')"
+  >
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div class="text-left">
+          <h2
+            class="font-body text-brown text-[32px] leading-none"
+          >
+            OUR VIBES
+          </h2>
+          <p
+            class="font-article italic text-tan text-[19px] pt-5 max-w-[420px]"
+          >
+            You Can&rsquo;t Buy Happiness But You Can Buy Kava And That&rsquo;s
+            Kind Of The Same Thing.
+          </p>
+        </div>
+        <div>
+          <img
+            src="/images/uploads/2021/05/bar.png"
+            alt="kava bar near me image of people"
+            width="575"
+            height="679"
+            class="w-full h-auto"
+          />
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-3 mt-20">
+        {
+          vibeCards.map((card) => (
+            <a
+              href={card.href}
+              class="block bg-tan bg-cover bg-center p-5 rounded-none"
+              style={`background-image: url('${card.image}')`}
+            >
+              <div class="border border-white h-110 flex items-end">
+                <p class="font-nav-book uppercase text-white text-[21px] flex items-center gap-2.5 bg-tan w-full py-2 px-4">
+                  <svg
+                    viewBox="0 0 24 24"
+                    class="w-5 h-5 shrink-0"
+                    fill="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z" />
+                  </svg>
+                  {card.label}
+                </p>
+              </div>
+            </a>
+          ))
+        }
+      </div>
+    </Container>
+  </section>
+
+  <section
+    class="bg-cover bg-center bg-no-repeat py-20 text-center"
+    style="background-image: url('/images/theme/bg.png')"
+  >
+    <Container>
+      <h2 class="font-script text-white text-[70px] relative inline-block">
+        What We Offer
+        <img src="/images/theme/line.png" alt="" class="mx-auto mt-1 w-34" />
+      </h2>
+      <p class="text-white text-[32px] font-body mt-2">
+        KAVA, HERBAL TEA &amp; MORE
+      </p>
+    </Container>
+  </section>
+
+  <section
+    class="bg-cover bg-no-repeat py-16 relative"
+    style="background-image: url('/images/theme/s-bg.png')"
+  >
+    <Container class="py-16">
+      <div class="relative bg-white max-w-[810px] mx-auto lg:mt-[85px] p-5 lg:py-10 lg:px-10">
+        <img
+          src="/images/uploads/2021/05/site-cup.png"
+          alt=""
+          class="hidden lg:block absolute top-0 -right-[120px] w-[228px] z-10"
+        />
+        <img
+          src="/images/uploads/2021/05/big-cup.png"
+          alt=""
+          class="block w-full max-w-none relative lg:-top-[90px] lg:-left-[165px]"
+        />
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:mt-0 lg:!-mt-[50px]">
+          <h2
+            class="text-brown-dark text-[30px] lg:text-[54px] leading-tight font-body pb-[14px] lg:pb-0"
+          >
+            COME FOR KAVA<br />STAY FOR THE VIBE
+          </h2>
+          <p class="font-body text-[16px]">
+            From your first shell or tea, you will find a place to call home
+            with a vibe that is unparalleled in the community. We respect and
+            embrace, as is the tradition of kava&hellip; it brings people
+            together.
+          </p>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cream py-16 text-center">
+    <Container>
+      <h2 class="font-body text-brown text-[40px]">SHELLS FOR SHELLS&trade;</h2>
+      <div
+        class="grid lg:grid-cols-2 gap-10 items-center mt-10 text-left max-w-[900px] mx-auto"
+      >
+        <a
+          href="https://navarrebeachseaturtles.org/community-partners"
+          target="_blank"
+          rel="noopener"
+          class="block mx-auto lg:mx-0 max-w-[300px]"
+        >
+          <img
+            src="/images/uploads/2022/01/turtle-center-logo-1.png"
+            alt="Navarre beach sea turtle Green Turtle Kava bar"
+            width="300"
+            height="281"
+          />
+        </a>
+        <div class="font-nav-book text-muted-blue">
+          <p class="mb-4">
+            Green Turtle is extremely thrilled to announce our partnership with
+            Navarre Beach Sea Turtle Conservation Center located in the Florida
+            panhandle! We have pledged a portion of all kava proceeds to sea
+            turtle conservation.
+          </p>
+          <p class="uppercase text-sm tracking-wide">
+            The Navarre Beach Sea Turtle Conservation Center (NBSTCC) is a
+            working conservation center open to the public on Navarre Beach,
+            Florida. Founded in 2013 through grassroots community involvement,
+            the NBSTCC&rsquo;s mission is &ldquo;giving sea turtles more
+            tomorrows through conservation, education, and research.&rdquo;
+          </p>
+          <a
+            href="https://navarrebeachseaturtles.org/"
+            target="_blank"
+            rel="noopener"
+            class="inline-block mt-3 text-link hover:text-link-hover underline"
+          >
+            Learn More
+          </a>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cream py-16">
+    <Container>
+      <div class="max-w-5xl mx-auto aspect-video">
+        <iframe
+          class="w-full h-full"
+          src="https://www.youtube.com/embed/ZWpIqoLhpu4?autoplay=0&mute=1&loop=1&playlist=ZWpIqoLhpu4"
+          title="Green Turtle Kava Bar"
+          loading="lazy"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+      </div>
+    </Container>
+  </section>
+
+  <section
+    class="bg-cover bg-no-repeat py-16"
+    style="background-image: url('/images/theme/back.png')"
+  >
+    <Container>
+      <h1
+        class="font-body text-brown text-[45px] lg:text-[80px] text-center flex items-center justify-center gap-4"
+      >
+        <img
+          src="/images/theme/line.png"
+          alt=""
+          class="max-w-[80px] hidden md:block"
+        />
+        <span>MENU</span>
+        <img
+          src="/images/theme/line.png"
+          alt=""
+          class="max-w-[80px] hidden md:block"
+        />
+      </h1>
+      <div class="max-w-[900px] mx-auto">
+        <MenuAccordion categories={menuCategories} exclusive />
+      </div>
+      <div class="text-center mt-8">
+        <Button href="/menu/" variant="view">VIEW MENU</Button>
+      </div>
+    </Container>
+  </section>
+
+  <section
+    class="bg-cover bg-no-repeat py-16 text-center"
+    style="background-image: url('/images/theme/obg.png')"
+  >
+    <Container>
+      <h2
+        class="font-script text-tan-light text-[70px] leading-none"
+      >
+        What your
+      </h2>
+      <h1 class="font-body text-brown text-[30px] lg:text-[70px] mb-5">
+        TURTLE TRIBE IS SAYING....
+      </h1>
+      <div class="grid grid-cols-3 gap-8 items-center max-w-[700px] mx-auto">
+        <a
+          href="https://g.page/r/CaEOOAOqSzSDEAE?gm"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="/images/uploads/2021/05/b1.png"
+            alt="Google Reviews"
+            class="w-full h-auto"
+          />
+        </a>
+        <a
+          href="https://www.yelp.com/biz/green-turtle-kava-bar-st-augustine-st-augustine"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="/images/uploads/2021/05/b2.png"
+            alt="Yelp Reviews"
+            class="w-full h-auto"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/greenturtlekavabar"
+          target="_blank"
+          rel="noopener"
+        >
+          <img
+            src="/images/uploads/2021/05/b3.png"
+            alt="Facebook Reviews"
+            class="w-full h-auto"
+          />
+        </a>
+      </div>
+      <div class="mt-8">
+        <Button
+          href="https://customers.clover.com/start/?merchantUuid=6ef61bb4-a8be-4038-8ce1-5be968f77b1a&t=1631902268082"
+          variant="customer"
+        >
+          25% OFF NEW CUSTOMER
+        </Button>
+      </div>
+    </Container>
+  </section>
+
+  <section
+    class="bg-cover bg-no-repeat py-16 -mt-6"
+    style="background-image: url('/images/theme/beach.png')"
+  >
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <img
+          src="/images/uploads/2021/05/cup.png"
+          alt="what is kava tea near me"
+          width="582"
+          height="406"
+          class="w-full h-auto"
+        />
+        <div class="text-center">
+          <h1 class="text-white text-[45px] lg:text-[65px] font-body">
+            WHAT IS KAVA?
+          </h1>
+          <p class="text-white text-[21px] lg:text-[28px] font-nav-book">
+            Find out more about this ancient crop from the south pacific
+            islands, consumed to relax and sedate
+          </p>
+        </div>
+      </div>
+    </Container>
+  </section>
+</Layout>

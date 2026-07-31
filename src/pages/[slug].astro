@@ -1,0 +1,200 @@
+---
+import { getCollection, render } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+import MenuAccordion from '../components/MenuAccordion.astro';
+import SocialIcons from '../components/icons/SocialIcons.astro';
+import { locationMenus } from '../data/locationMenus';
+
+export async function getStaticPaths() {
+  const posts = await getCollection('blog');
+  const locations = await getCollection('locations');
+  return [
+    ...posts.map((post) => ({ params: { slug: post.data.slug }, props: { kind: 'blog' as const, entry: post } })),
+    ...locations.map((loc) => ({ params: { slug: loc.data.slug }, props: { kind: 'location' as const, entry: loc } })),
+  ];
+}
+
+const { kind, entry } = Astro.props;
+const { Content } = await render(entry);
+
+const date =
+  kind === 'blog'
+    ? new Date((entry.data as any).date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })
+    : '';
+---
+
+<Layout
+  title={kind === 'blog' ? `${entry.data.title} | Green Turtle Kava Bar` : (entry.data as any).seoTitle}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  ogImage={entry.data.ogImage}
+  heroHeading={kind === 'blog' ? entry.data.title : `KAVA BAR AT ${(entry.data as any).shortName.toUpperCase()}`}
+>
+  {kind === 'blog' ? (
+    <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/big.png')">
+      <Container>
+        <p class="font-nav-book text-muted-gray text-center mt-2">{date}</p>
+
+        {entry.data.ogImage && (
+          <img
+            src={entry.data.ogImage}
+            alt={entry.data.title}
+            class="w-full max-w-[900px] mx-auto mt-8 h-auto"
+            width="1600"
+            height="900"
+          />
+        )}
+
+        <article class="prose-content font-article text-body-text max-w-[810px] mx-auto mt-10">
+          <Content />
+        </article>
+      </Container>
+    </section>
+  ) : (
+    <>
+      <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/big.png')">
+        <Container>
+          <header class="mt-4 text-center">
+            <p class="font-nav-book text-muted-blue mt-3">{(entry.data as any).address}</p>
+            <p class="font-nav mt-1">
+              <a href={`tel:${(entry.data as any).phone}`} class="text-link hover:text-link-hover">
+                {(entry.data as any).phone}
+              </a>
+            </p>
+            <div class="mt-4 flex justify-center gap-4">
+              <Button href={`tel:${(entry.data as any).phone}`} variant="customer">Call Kava Bar</Button>
+              <Button
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((entry.data as any).mapEmbedQuery)}`}
+                variant="view"
+              >
+                Get Directions
+              </Button>
+            </div>
+          </header>
+
+          <iframe
+            src={`https://www.google.com/maps?q=${encodeURIComponent((entry.data as any).mapEmbedQuery)}&output=embed`}
+            width="100%"
+            height="300"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+            class="mt-8 border-0 max-w-[900px] mx-auto block"
+          />
+
+          <article class="prose-content font-nav-book text-body-text max-w-[810px] mx-auto mt-10">
+            <Content />
+          </article>
+        </Container>
+      </section>
+
+      <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/obg.png')">
+        <Container>
+          <div class="max-w-[900px] mx-auto">
+            <h1 class="font-body text-brown text-[30px] lg:text-[55px] text-center flex items-center justify-center gap-4">
+              <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+              <span>Menu</span>
+              <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+            </h1>
+            <MenuAccordion categories={locationMenus[(entry.data as any).slug] ?? []} />
+          </div>
+
+          <div class="text-center mt-16">
+            <h2 class="font-script text-tan-light text-[35px] lg:text-[90px] leading-none">What your</h2>
+            <h1 class="font-body text-brown text-[35px] lg:text-[70px] mt-2">TURTLE TRIBE IS SAYING....</h1>
+            <div class="grid grid-cols-3 gap-8 items-center max-w-[700px] mx-auto mt-8">
+              <img src="/images/uploads/2021/05/b1.png" alt="Google Reviews" class="w-full h-auto" />
+              <img src="/images/uploads/2021/05/b2.png" alt="Yelp Reviews" class="w-full h-auto" />
+              <img src="/images/uploads/2021/05/b3.png" alt="Facebook Reviews" class="w-full h-auto" />
+            </div>
+          </div>
+
+          <div class="text-center mt-16">
+            <h1 class="font-body text-brown text-[35px] lg:text-[70px] mb-4">CONNECT WITH US</h1>
+            <div class="flex justify-center gap-6">
+              <a href="https://www.facebook.com/greenturtlekavabar" target="_blank" rel="noopener" class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brown text-tan-light" aria-label="Facebook">
+                <SocialIcons name="facebook" class="w-7 h-7" />
+              </a>
+              <a
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent((entry.data as any).mapEmbedQuery)}`}
+                target="_blank"
+                rel="noopener"
+                class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-brown text-tan-light"
+                aria-label="Get Directions"
+              >
+                <svg viewBox="0 0 24 24" class="w-7 h-7" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </Container>
+      </section>
+    </>
+  )}
+</Layout>
+
+<style>
+  .prose-content :global(h1) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 32px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  .prose-content :global(h2) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 28px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+  .prose-content :global(h3) {
+    font-family: var(--font-body);
+    color: var(--color-brown);
+    font-size: 22px;
+    margin-top: 1.5rem;
+    margin-bottom: 0.75rem;
+  }
+  .prose-content :global(p) {
+    margin-bottom: 1.25rem;
+    line-height: 1.7;
+  }
+  .prose-content :global(ul),
+  .prose-content :global(ol) {
+    padding-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .prose-content :global(ul) {
+    list-style: disc;
+  }
+  .prose-content :global(ol) {
+    list-style: decimal;
+  }
+  .prose-content :global(a) {
+    color: var(--color-link);
+    text-decoration: underline;
+  }
+  .prose-content :global(a:hover) {
+    color: var(--color-link-hover);
+    text-decoration: none;
+  }
+  .prose-content :global(img) {
+    max-width: 100%;
+    height: auto;
+    margin: 1.5rem 0;
+  }
+  .prose-content :global(table) {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 1.5rem;
+  }
+  .prose-content :global(td),
+  .prose-content :global(th) {
+    border: 1px solid var(--color-brown);
+    padding: 0.5rem 0.75rem;
+    text-align: left;
+  }
+</style>

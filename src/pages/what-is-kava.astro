@@ -1,0 +1,99 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+
+const entry = await getEntry('pages', 'what-is-kava');
+if (!entry) throw new Error('Missing what-is-kava content entry');
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="WHAT IS KAVA?"
+>
+  <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/big-bg.png')">
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <img src="/images/uploads/2021/05/l1.png" alt="what is kava green turtle kava leaf" width="655" height="506" class="w-full h-auto" />
+        <div>
+          <h2 class="font-body text-body-text text-[32px]">What is Kava in the first place?</h2>
+          <h3 class="font-body text-muted-blue text-[30px] mt-2">RELAXATION | COMMUNITY | HARMONY</h3>
+          <p class="font-article italic text-gold text-[17px] mt-4">
+            &ldquo;Kava-kava&rdquo; &ndash; derived from the root of the pepper plant. The indigenous people of the
+            south pacific drink kava to unwind and reset.
+          </p>
+        </div>
+      </div>
+
+      <div class="grid lg:grid-cols-2 gap-10 items-center mt-16">
+        <h3 class="font-body text-brown text-[50px] lg:text-[71px] text-center leading-none">
+          <span>DELIGHTFUL</span><br />EXPERIENCE
+        </h3>
+        <img src="/images/uploads/elementor/thumbs/l2-pgdkfc5qh90qlgn5lnz8c0t2a7uf6xpzob1zehheuc.png" alt="what is kava kava leaf closeup" class="w-full h-auto" />
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cream py-16">
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <img src="/images/uploads/2021/05/l3.png" alt="kava tea root" width="352" height="568" class="w-full max-w-[352px] mx-auto h-auto" />
+        <div class="font-nav-book text-muted-blue text-[16px] lg:text-[18px] space-y-4">
+          <p>
+            Kava, also called &ldquo;kava-kava,&rdquo; is an herbal substance that comes from the root of Piper
+            methysticum &ndash; a plant native to the western Pacific Islands.
+          </p>
+          <p>The name kava comes from the Polynesian word &ldquo;awa&rdquo; and literally means &ldquo;intoxicating pepper.&rdquo;</p>
+          <p>
+            The substance has been used by native islanders for centuries as both a medicinal treatment and a
+            part of religious ceremonies due to its sedative, euphoriant, and psychotropic properties.
+          </p>
+          <p>Typically consumed as either a beverage or extract, kava is considered to be non-alcoholic but psychoactive.</p>
+          <p>
+            As people have become increasingly interested in the concept of natural and herbal remedies to
+            treat various diseases and ailments in today&rsquo;s society, kava has become more popular and
+            well-known.
+          </p>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-center py-16 relative" style="background-image: url('/images/theme/b-bg.png')">
+    <Container>
+      <div class="relative bg-white max-w-[810px] mx-auto lg:mt-[85px] p-5 lg:py-10 lg:px-10">
+        <img
+          src="/images/uploads/2021/05/site-cup.png"
+          alt=""
+          class="hidden lg:block absolute top-0 -right-[120px] w-[228px] z-10"
+        />
+        <img
+          src="/images/uploads/2021/05/big-cup.png"
+          alt=""
+          class="block w-full max-w-none relative lg:-top-[90px] lg:-left-[165px]"
+        />
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:mt-0 lg:!-mt-[50px]">
+          <h2 class="text-brown-dark text-[30px] lg:text-[54px] leading-tight font-body pb-[14px] lg:pb-0">
+            COME FOR KAVA<br />STAY FOR THE VIBE
+          </h2>
+          <p class="font-body text-[16px]">
+            From your first shell or tea, you will find a place to call home with a vibe that
+            is unparalleled in the community. We respect and embrace, as is the tradition of
+            kava&hellip; it brings people together.
+          </p>
+        </div>
+      </div>
+
+      <div class="max-w-4xl mx-auto text-center mt-16">
+        <h2 class="font-body text-white text-[39px] mb-2">Join The Turtle Tribe</h2>
+        <p class="font-nav-book text-white text-[19px] lg:text-[36px] mb-8">
+          Sign up free with the link below for updates on upcoming events, promos and rewards for turtle tribe members
+        </p>
+        <Button href="/contact-us/" variant="sign">Sign Up</Button>
+      </div>
+    </Container>
+  </section>
+</Layout>

@@ -1,0 +1,31 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  event: CollectionEntry<"events">;
+}
+const { event } = Astro.props;
+const date = new Date(event.data.date).toLocaleDateString("en-US", {
+  month: "long",
+  day: "numeric",
+  year: "numeric",
+});
+---
+
+<a href={`/event/${event.data.slug}/`} class="block relative h-full aspect-350/434 overflow-hidden">
+  <img
+    src={event.data.ogImage}
+    alt={event.data.title}
+    class="absolute inset-0 w-full h-full object-cover"
+  />
+  <span class="absolute top-9 right-0 bg-alert-red px-3 py-1.5 z-10">
+    <span class="text-white text-[16px] font-nav block leading-tight">{date}</span>
+  </span>
+  <div
+    class="absolute inset-5 border border-white shadow-[0_0_0_1px_rgba(0,0,0,0.25)] flex flex-col justify-end"
+  >
+    <h4 class="font-nav text-white text-[30px] leading-tight bg-tan/84 px-3 py-3">
+      {event.data.title}
+    </h4>
+  </div>
+</a>

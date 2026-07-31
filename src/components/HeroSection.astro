@@ -1,0 +1,20 @@
+---
+// Matches #header-content .banner: shared background image, 259px vertical padding,
+// background-size cover, centered — verified in wp-content/themes/green_turtle/css/style.css
+interface Props {
+  heading: string;
+  image?: string;
+}
+const { heading, image = '/images/theme/banner.png' } = Astro.props;
+---
+
+<div
+  class="bg-cover bg-center bg-no-repeat text-center py-[100px] lg:py-[259px]"
+  style={`background-image: url('${image}')`}
+>
+  <div class="mx-auto max-w-[1140px] px-[15px]">
+    <h1 class="inline-block border border-gold bg-[rgba(27,23,25,0.7)] px-5 py-1.5 text-white font-body text-[30px] lg:text-[70px] leading-tight">
+      {heading}
+    </h1>
+  </div>
+</div>

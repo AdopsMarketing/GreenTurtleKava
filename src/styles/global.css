@@ -1,0 +1,52 @@
+@import "tailwindcss";
+@import "./fonts.css";
+
+@theme {
+  /* Colors — exact values from wp-content/themes/green_turtle/css/style.css */
+  --color-navy: #2b495f;
+  --color-gold: #c5a771;
+  --color-brown: #614b34;
+  --color-brown-dark: #604a34;
+  --color-tan: #af976c;
+  --color-tan-light: #b39d76;
+  --color-cream: #e6d8be;
+  --color-muted-blue: #73848e;
+  --color-muted-gray: #869195;
+  --color-heading-blue: #445e71;
+  --color-link: #614b34;
+  --color-link-hover: #2b1e10;
+  --color-alert-red: #e11738;
+  --color-body-text: #212529;
+
+  /* Fonts */
+  --font-heading: "Foregen Rough", cursive;
+  --font-body: "Foregen Rough", cursive;
+  --font-nav: "Futura PT Medium", sans-serif;
+  --font-nav-book: "Futura PT Book", sans-serif;
+  --font-nav-light: "Futura PT Light", sans-serif;
+  --font-script: "Nagietha", cursive;
+  --font-article: "Merriweather", serif;
+
+  /* Layout */
+  --container-page: 1140px;
+  --spacing-header-topbar: 41px;
+  --spacing-header-nav: 145px;
+
+  /* Radius: the theme is flat/sharp-cornered by design — 0 everywhere except circles */
+  --radius-none: 0px;
+}
+
+:root {
+  /* Lets height:auto participate in transitions (accordion open/close animation) */
+  interpolate-size: allow-keywords;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-cream);
+  color: var(--color-body-text);
+}
+
+/* Links inherit their context color (footer → white, colored headings → their color) rather than a
+   global override, matching how the theme scopes link colors per-region. Content-body link colors
+   (theme a{color:#614b34}/a:hover{#2b1e10}) are applied in the .prose-content scope where they belong. */

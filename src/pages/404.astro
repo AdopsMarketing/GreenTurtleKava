@@ -1,0 +1,24 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/Section.astro';
+import Container from '../components/Container.astro';
+import Heading from '../components/Heading.astro';
+import Button from '../components/Button.astro';
+---
+
+<Layout title="Page Not Found | Green Turtle Kava Bar" description="The page you're looking for couldn't be found." heroHeading="404">
+  <Section variant="cream">
+    <Container>
+      <div class="text-center py-16">
+        <Heading level="h2" class="!text-[60px]">404</Heading>
+        <p class="font-nav-book text-muted-gray text-xl mt-2 mb-8">
+          We couldn&rsquo;t find that page. It may have moved or no longer exists.
+        </p>
+        <div class="flex flex-wrap gap-4 justify-center">
+          <Button href="/" variant="customer">Back Home</Button>
+          <Button href="/contact-us/" variant="view">Contact Us</Button>
+        </div>
+      </div>
+    </Container>
+  </Section>
+</Layout>

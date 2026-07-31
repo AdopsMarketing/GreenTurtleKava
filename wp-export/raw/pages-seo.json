@@ -1,0 +1,2491 @@
+[
+  {
+    "status": 200,
+    "title": "CONTACT - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/contact-form/",
+    "og_title": "CONTACT - GREEN TURTLE KAVA BAR",
+    "og_description": null,
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/contact-form/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/contact-form/",
+                  "name": "CONTACT"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/contact-form/#webpage",
+            "url": "https://greenturtlekava.co/contact-form/",
+            "name": "CONTACT - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-11-30T19:41:07-04:00",
+            "dateModified": "2023-11-30T19:41:07-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/contact-form/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/contact-form/#author",
+            "name": "Mike Ferrari",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/70e6c2bbec1e2ed91fd1051422301763e5f2b5d4eacedf6ae1cb72d32301d1c6?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/70e6c2bbec1e2ed91fd1051422301763e5f2b5d4eacedf6ae1cb72d32301d1c6?s=96&amp;d=mm&amp;r=g",
+              "caption": "Mike Ferrari",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "CONTACT - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-11-30T19:41:07-04:00",
+            "dateModified": "2023-11-30T19:41:07-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/contact-form/#author",
+              "name": "Mike Ferrari"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "name": "CONTACT - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/contact-form/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/contact-form/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/contact-form/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "contact-form",
+    "link": "https://greenturtlekava.co/contact-form/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Shop - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/kava-shop/",
+    "og_title": "Kava Shop - GREEN TURTLE KAVA BAR",
+    "og_description": "Shop Shop by Category Shop by Products",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/kava-shop/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/kava-shop/",
+                  "name": "Kava Shop"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/kava-shop/#webpage",
+            "url": "https://greenturtlekava.co/kava-shop/",
+            "name": "Kava Shop - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-09-12T04:21:09-04:00",
+            "dateModified": "2024-01-24T05:51:09-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/kava-shop/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/kava-shop/#author",
+            "name": "Mike Ferrari",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/70e6c2bbec1e2ed91fd1051422301763e5f2b5d4eacedf6ae1cb72d32301d1c6?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/70e6c2bbec1e2ed91fd1051422301763e5f2b5d4eacedf6ae1cb72d32301d1c6?s=96&amp;d=mm&amp;r=g",
+              "caption": "Mike Ferrari",
+              "inLanguage": "en-US"
+            },
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Shop - GREEN TURTLE KAVA BAR",
+            "keywords": "kava shop",
+            "datePublished": "2023-09-12T04:21:09-04:00",
+            "dateModified": "2024-01-24T05:51:09-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/kava-shop/#author",
+              "name": "Mike Ferrari"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Shop Shop by Category Shop by Products",
+            "name": "Kava Shop - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/kava-shop/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/kava-shop/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/kava-shop/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "kava-shop",
+    "link": "https://greenturtlekava.co/kava-shop/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar at Ormond Beach - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/kava-bar-at-ormond-beach/",
+    "og_title": "Kava Bar at Ormond Beach - GREEN TURTLE KAVA BAR",
+    "og_description": "NOW OPEN! GET READY TO RELAX AND RESET at The Green Turtle Kava Bar Ormond BeachYOUR LOCAL TURTLE SANCTUARY and Tea House! Our drinks provide a soothing and relaxing effect for your mind, body, and spirit.We take pride in providing the highest quality of Botanical Teas and Premium Kava from the South Pacific. Ormond Beach\u2019sAuthentic [\u2026]",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_43499039_l-2015.jpg",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_43499039_l-2015.jpg",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_43499039_l-2015.jpg",
+            "width": "1920",
+            "height": "1260",
+            "caption": "green turtle kava team_turtle 5",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/",
+                  "name": "Kava Bar at Ormond Beach"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#webpage",
+            "url": "https://greenturtlekava.co/kava-bar-at-ormond-beach/",
+            "name": "Kava Bar at Ormond Beach - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-07-31T07:05:42-04:00",
+            "dateModified": "2024-02-19T04:05:12-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_43499039_l-2015.jpg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar at Ormond Beach - GREEN TURTLE KAVA BAR",
+            "keywords": "kava bar at ormond beach",
+            "datePublished": "2023-07-31T07:05:42-04:00",
+            "dateModified": "2024-02-19T04:05:12-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Our drinks provide a soothing and relaxing effect for your mind, body, and spirit.We take pride in providing the highest quality of Botanical Teas and Premium Kava from the South Pacific.",
+            "name": "Kava Bar at Ormond Beach - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_43499039_l-2015.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-ormond-beach/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "kava-bar-at-ormond-beach",
+    "link": "https://greenturtlekava.co/kava-bar-at-ormond-beach/"
+  },
+  {
+    "status": 200,
+    "title": "My account - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": null,
+    "og_title": "My account - GREEN TURTLE KAVA BAR",
+    "og_description": null,
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/my-account/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/my-account/",
+                  "name": "My account"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/my-account/#webpage",
+            "url": "https://greenturtlekava.co/my-account/",
+            "name": "My account - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2023-12-01T06:45:33-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/my-account/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/my-account/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "My account - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2023-12-01T06:45:33-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/my-account/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "name": "My account - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/my-account/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/my-account/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/my-account/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "my-account",
+    "link": "https://greenturtlekava.co/my-account/"
+  },
+  {
+    "status": 200,
+    "title": "Cart - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": null,
+    "og_title": "Cart - GREEN TURTLE KAVA BAR",
+    "og_description": null,
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/cart/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/cart/",
+                  "name": "Cart"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/cart/#webpage",
+            "url": "https://greenturtlekava.co/cart/",
+            "name": "Cart - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2024-01-24T06:06:15-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/cart/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/cart/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Cart - GREEN TURTLE KAVA BAR",
+            "keywords": "cart,page",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2024-01-24T06:06:15-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/cart/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "name": "Cart - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/cart/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/cart/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/cart/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "checkout",
+    "link": "https://greenturtlekava.co/checkout/"
+  },
+  {
+    "status": 200,
+    "title": "Cart - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": null,
+    "og_title": "Cart - GREEN TURTLE KAVA BAR",
+    "og_description": null,
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/cart/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/cart/",
+                  "name": "Cart"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/cart/#webpage",
+            "url": "https://greenturtlekava.co/cart/",
+            "name": "Cart - GREEN TURTLE KAVA BAR",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2024-01-24T06:06:15-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/cart/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/cart/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Cart - GREEN TURTLE KAVA BAR",
+            "keywords": "cart,page",
+            "datePublished": "2023-07-12T18:30:48-04:00",
+            "dateModified": "2024-01-24T06:06:15-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/cart/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "name": "Cart - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/cart/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/cart/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/cart/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "cart",
+    "link": "https://greenturtlekava.co/cart/"
+  },
+  {
+    "status": 200,
+    "title": "Page not found - GREEN TURTLE KAVA BAR",
+    "meta_description": "Products Archive - GREEN TURTLE KAVA BAR",
+    "canonical": null,
+    "og_title": "Page not found - GREEN TURTLE KAVA BAR",
+    "og_description": "Products Archive - GREEN TURTLE KAVA BAR",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/shop/",
+                  "name": "Product"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "#webpage",
+            "url": "",
+            "name": "Page not found - GREEN TURTLE KAVA BAR",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "#breadcrumb"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "shop",
+    "link": "https://greenturtlekava.co/shop/"
+  },
+  {
+    "status": 200,
+    "title": "Locations - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/locations/",
+    "og_title": "Locations - GREEN TURTLE KAVA BAR",
+    "og_description": null,
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/locations/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/locations/",
+                  "name": "Locations"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/locations/#webpage",
+            "url": "https://greenturtlekava.co/locations/",
+            "name": "Locations - GREEN TURTLE KAVA BAR",
+            "datePublished": "2021-10-16T16:20:39-04:00",
+            "dateModified": "2023-11-13T05:35:43-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/locations/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/locations/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Locations - GREEN TURTLE KAVA BAR",
+            "keywords": "locations",
+            "datePublished": "2021-10-16T16:20:39-04:00",
+            "dateModified": "2023-11-13T05:35:43-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/locations/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "name": "Locations - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/locations/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/locations/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/locations/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "locations",
+    "link": "https://greenturtlekava.co/locations/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar at St Augustine | Where you'll find your good vibe tribe...",
+    "meta_description": "Kava Bar at St Augustine | Where you'll find your good vibe tribe... Serving the finest kava, kratom & coffee products sourced from around the world.",
+    "canonical": "https://greenturtlekava.co/kava-bar-at-st-augustine/",
+    "og_title": "Kava Bar at St Augustine | Where you'll find your good vibe tribe...",
+    "og_description": "Kava Bar at St Augustine | Where you'll find your good vibe tribe... Serving the finest kava, kratom & coffee products sourced from around the world.",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/07/sea-turtle-547163_1280.jpg",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/sea-turtle-547163_1280.jpg",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/sea-turtle-547163_1280.jpg",
+            "width": "1280",
+            "height": "960",
+            "caption": "green turtle kava bar st augustine turtle",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/",
+                  "name": "Kava Bar at St. Augustine"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#webpage",
+            "url": "https://greenturtlekava.co/kava-bar-at-st-augustine/",
+            "name": "Kava Bar at St Augustine | Where you&#039;ll find your good vibe tribe...",
+            "datePublished": "2021-10-15T09:34:38-04:00",
+            "dateModified": "2024-01-24T05:49:25-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/sea-turtle-547163_1280.jpg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar at St Augustine | Where you&#039;ll find your good vibe tribe...",
+            "keywords": "kava bar at st augustine",
+            "datePublished": "2021-10-15T09:34:38-04:00",
+            "dateModified": "2024-01-24T05:49:25-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava Bar at St Augustine | Where you&#039;ll find your good vibe tribe... Serving the finest kava, kratom &amp; coffee products sourced from around the world.",
+            "name": "Kava Bar at St Augustine | Where you&#039;ll find your good vibe tribe...",
+            "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/sea-turtle-547163_1280.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-st-augustine/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "kava-bar-at-st-augustine",
+    "link": "https://greenturtlekava.co/kava-bar-at-st-augustine/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar at Daytona Beach | Where you'll find your good vibe tribe...",
+    "meta_description": "Kava Bar at Daytona Beach | Where you'll find your good vibe tribe... Serving the finest kava, kratom & coffee products sourced from around the world.",
+    "canonical": "https://greenturtlekava.co/kava-bar-at-daytona-beach/",
+    "og_title": "Kava Bar at Daytona Beach | Where you'll find your good vibe tribe...",
+    "og_description": "Kava Bar at Daytona Beach | Where you'll find your good vibe tribe... Serving the finest kava, kratom & coffee products sourced from around the world.",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_27155705_l-2015.jpg",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_27155705_l-2015.jpg",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_27155705_l-2015.jpg",
+            "width": "1920",
+            "height": "1440",
+            "caption": "green turtle kava bar daytona beach turtle",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/",
+                  "name": "Kava Bar at Daytona Beach"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#webpage",
+            "url": "https://greenturtlekava.co/kava-bar-at-daytona-beach/",
+            "name": "Kava Bar at Daytona Beach | Where you&#039;ll find your good vibe tribe...",
+            "datePublished": "2021-10-15T07:49:45-04:00",
+            "dateModified": "2024-01-24T05:47:50-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_27155705_l-2015.jpg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar at Daytona Beach | Where you&#039;ll find your good vibe tribe...",
+            "keywords": "kava bar at daytona beach",
+            "datePublished": "2021-10-15T07:49:45-04:00",
+            "dateModified": "2024-01-24T05:47:50-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava Bar at Daytona Beach | Where you&#039;ll find your good vibe tribe... Serving the finest kava, kratom &amp; coffee products sourced from around the world.",
+            "name": "Kava Bar at Daytona Beach | Where you&#039;ll find your good vibe tribe...",
+            "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/07/Depositphotos_27155705_l-2015.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/kava-bar-at-daytona-beach/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "kava-bar-at-daytona-beach",
+    "link": "https://greenturtlekava.co/kava-bar-at-daytona-beach/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Tea Near Me | Meet Great People - Enjoy a Some Kava Tea Today!",
+    "meta_description": "Looking for kava tea near me? Visit your turtle tribe with great people and the best kava tea, period | Come reset your day!",
+    "canonical": "https://greenturtlekava.co/turtle-tribe/",
+    "og_title": "Kava Tea Near Me | Meet Great People - Enjoy a Some Kava Tea Today!",
+    "og_description": "Looking for kava tea near me? Visit your turtle tribe with great people and the best kava tea, period | Come reset your day!",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/05/turtle.png",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/turtle.png",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/05/turtle.png",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/turtle-tribe/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/turtle-tribe/",
+                  "name": "TURTLE TRIBE"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/turtle-tribe/#webpage",
+            "url": "https://greenturtlekava.co/turtle-tribe/",
+            "name": "Kava Tea Near Me | Meet Great People - Enjoy a Some Kava Tea Today!",
+            "datePublished": "2021-05-04T21:05:52-04:00",
+            "dateModified": "2024-01-23T06:33:56-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/turtle.png"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/turtle-tribe/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/turtle-tribe/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Tea Near Me | Meet Great People - Enjoy a Some Kava Tea Today!",
+            "keywords": "kava tea near me,turtle tribe",
+            "datePublished": "2021-05-04T21:05:52-04:00",
+            "dateModified": "2024-01-23T06:33:56-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/turtle-tribe/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Looking for kava tea near me? Visit your turtle tribe with great people and the best kava tea, period | Come reset your day!",
+            "name": "Kava Tea Near Me | Meet Great People - Enjoy a Some Kava Tea Today!",
+            "@id": "https://greenturtlekava.co/turtle-tribe/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/turtle-tribe/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/turtle.png"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/turtle-tribe/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "turtle-tribe",
+    "link": "https://greenturtlekava.co/turtle-tribe/"
+  },
+  {
+    "status": 200,
+    "title": "BLOG - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/blog/",
+    "og_title": "BLOG - GREEN TURTLE KAVA BAR",
+    "og_description": "Drinking kava leads to its popular calming properties. The plant offers benefits not just for your internal health but also shows positive effects on your skin. Originating from the South Pacific, the beneficial plant contains anti-inflammatory properties and antioxidants that address acne issues and minimize irritation while addressing aging skin problems. This article evaluates kava [\u2026]",
+    "og_image": null,
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/blog/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "CollectionPage",
+            "@id": "https://greenturtlekava.co/blog/#webpage",
+            "url": "https://greenturtlekava.co/blog/",
+            "name": "BLOG - GREEN TURTLE KAVA BAR",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/blog/#breadcrumb"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "blog",
+    "link": "https://greenturtlekava.co/blog/"
+  },
+  {
+    "status": 200,
+    "title": "PRIVACY POLICY - GREEN TURTLE KAVA BAR",
+    "meta_description": null,
+    "canonical": "https://greenturtlekava.co/privacy-policy/",
+    "og_title": "PRIVACY POLICY - GREEN TURTLE KAVA BAR",
+    "og_description": "Green Turtle Kava PRIVACY POLICY Last Modified: June 29, 2021 Introduction Green Turtle Kava \u201cGTK\u201d is dedicated to protecting your personal information and informing you about how we use your information. This privacy policy applies to your use of GTK services including our website and services (collectively \u201cPlatform\u201d). This Privacy Policy should be read in [\u2026]",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/privacy-policy/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/privacy-policy/",
+                  "name": "PRIVACY POLICY"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/privacy-policy/#webpage",
+            "url": "https://greenturtlekava.co/privacy-policy/",
+            "name": "PRIVACY POLICY - GREEN TURTLE KAVA BAR",
+            "datePublished": "2021-05-01T19:25:29-04:00",
+            "dateModified": "2024-01-24T06:05:09-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/privacy-policy/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/privacy-policy/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "PRIVACY POLICY - GREEN TURTLE KAVA BAR",
+            "keywords": "privacy policy",
+            "datePublished": "2021-05-01T19:25:29-04:00",
+            "dateModified": "2024-01-24T06:05:09-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/privacy-policy/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Green Turtle Kava \u201cGTK\u201d is dedicated to protecting your personal information and informing you about how we use your information. This privacy policy applies to your use of GTK services including our website and services (collectively \u201cPlatform\u201d). This Privacy Policy should be read in conjunction with the Terms of Use and is integrated into the Terms of Use. All capitalized proper nouns not defined in this Agreement will have the same definitions and meanings as defined by the Terms of Use. Please review this Privacy Policy periodically as we may revise it from time to time. If you do not agree with or accept our Privacy Policy in it\u2019s entirety, you must not access or use the Platform. If you use the Platform following a change to the terms of this Privacy Policy you agree to accept the revised policies.",
+            "name": "PRIVACY POLICY - GREEN TURTLE KAVA BAR",
+            "@id": "https://greenturtlekava.co/privacy-policy/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/privacy-policy/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/privacy-policy/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "privacy-policy",
+    "link": "https://greenturtlekava.co/privacy-policy/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar Menu | Green Turtle Kava Bar St Augustine FL",
+    "meta_description": "Kava Bar menu at Green Turtle Kava Bar St Augustine FL | Highest quality kava and tea sourced and served to order | Enjoy some PREMIUM kava and herbal tea today!",
+    "canonical": "https://greenturtlekava.co/menu/",
+    "og_title": "Kava Bar Menu | Green Turtle Kava Bar St Augustine FL",
+    "og_description": "Kava Bar menu at Green Turtle Kava Bar St Augustine FL | Highest quality kava and tea sourced and served to order | Enjoy some PREMIUM kava and herbal tea today!",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/menu/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/menu/",
+                  "name": "MENU"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/menu/#webpage",
+            "url": "https://greenturtlekava.co/menu/",
+            "name": "Kava Bar Menu | Green Turtle Kava Bar St Augustine FL",
+            "datePublished": "2021-05-01T19:22:37-04:00",
+            "dateModified": "2023-11-13T04:59:41-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/menu/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/menu/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar Menu | Green Turtle Kava Bar St Augustine FL",
+            "keywords": "Kava bar menu",
+            "datePublished": "2021-05-01T19:22:37-04:00",
+            "dateModified": "2023-11-13T04:59:41-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/menu/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava Bar menu at Green Turtle Kava Bar St Augustine FL | Highest quality kava and tea sourced and served to order | Enjoy some PREMIUM kava and herbal tea today!",
+            "name": "Kava Bar Menu | Green Turtle Kava Bar St Augustine FL",
+            "@id": "https://greenturtlekava.co/menu/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/menu/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/menu/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "menu",
+    "link": "https://greenturtlekava.co/menu/"
+  },
+  {
+    "status": 200,
+    "title": "What is kava? Learn what kava is and why it's trending in the US",
+    "meta_description": "What is kava? Learn what kava-kava is all about and why this ancient elixir is taking the US by storm. Your tribe is waiting - see you soon!",
+    "canonical": "https://greenturtlekava.co/what-is-kava/",
+    "og_title": "What is kava? Learn what kava is and why it's trending in the US",
+    "og_description": "What is kava? Learn what kava-kava is all about and why this ancient elixir is taking the US by storm. Your tribe is waiting - see you soon!",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/05/l1.png",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/l1.png",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/05/l1.png",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/what-is-kava/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/what-is-kava/",
+                  "name": "WHAT IS KAVA?"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/what-is-kava/#webpage",
+            "url": "https://greenturtlekava.co/what-is-kava/",
+            "name": "What is kava? Learn what kava is and why it&#039;s trending in the US",
+            "datePublished": "2021-05-01T19:22:32-04:00",
+            "dateModified": "2024-01-22T06:33:09-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/l1.png"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/what-is-kava/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/what-is-kava/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "What is kava? Learn what kava is and why it&#039;s trending in the US",
+            "keywords": "What is kava",
+            "datePublished": "2021-05-01T19:22:32-04:00",
+            "dateModified": "2024-01-22T06:33:09-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/what-is-kava/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "What is kava? Learn what kava-kava is all about and why this ancient elixir is taking the US by storm. Your tribe is waiting - see you soon!",
+            "name": "What is kava? Learn what kava is and why it&#039;s trending in the US",
+            "@id": "https://greenturtlekava.co/what-is-kava/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/what-is-kava/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/l1.png"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/what-is-kava/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "what-is-kava",
+    "link": "https://greenturtlekava.co/what-is-kava/"
+  },
+  {
+    "status": 200,
+    "title": "Green Turtle Kava Bar | St Augustines Kava & Tea Bar Near Me",
+    "meta_description": "Kava and Tea Bar near me? Welcome to Green Turtle Kava Bar at St Augustine - your local spot to relax and reset. Come bula and have some shells for shells!",
+    "canonical": "https://greenturtlekava.co/",
+    "og_title": "Green Turtle Kava Bar | St Augustines Kava & Tea Bar Near Me",
+    "og_description": "Kava and Tea Bar near me? Welcome to Green Turtle Kava Bar at St Augustine - your local spot to relax and reset. Come bula and have some shells for shells!",
+    "og_image": null,
+    "og_type": "website",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://greenturtlekava.co/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/big-cup.png",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/05/big-cup.png",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/#webpage",
+            "url": "https://greenturtlekava.co/",
+            "name": "Green Turtle Kava Bar | St Augustines Kava &amp; Tea Bar Near Me",
+            "datePublished": "2021-05-01T19:22:27-04:00",
+            "dateModified": "2023-11-13T04:56:32-04:00",
+            "about": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/big-cup.png"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Green Turtle Kava Bar | St Augustines Kava &amp; Tea Bar Near Me",
+            "keywords": "Green Turtle Kava Bar",
+            "datePublished": "2021-05-01T19:22:27-04:00",
+            "dateModified": "2023-11-13T04:56:32-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava and Tea Bar near me? Welcome to Green Turtle Kava Bar at St Augustine - your local spot to relax and reset. Come bula and have some shells for shells!",
+            "name": "Green Turtle Kava Bar | St Augustines Kava &amp; Tea Bar Near Me",
+            "@id": "https://greenturtlekava.co/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/big-cup.png"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "kava-bar-near-me-st-augustine",
+    "link": "https://greenturtlekava.co/"
+  },
+  {
+    "status": 200,
+    "title": "Kava near me and more! Local Kava Bar events and specials",
+    "meta_description": "Kava near me? Visit Green Turtle Kava today! Find your local Turtle Tribe to relax and reset. Can't wait to meet you there!",
+    "canonical": "https://greenturtlekava.co/events/",
+    "og_title": "Kava near me and more! Local Kava Bar events and specials",
+    "og_description": "Kava near me? Visit Green Turtle Kava today! Find your local Turtle Tribe to relax and reset. Can't wait to meet you there!",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/events/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/events/",
+                  "name": "EVENTS"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/events/#webpage",
+            "url": "https://greenturtlekava.co/events/",
+            "name": "Kava near me and more! Local Kava Bar events and specials",
+            "datePublished": "2021-05-01T19:22:22-04:00",
+            "dateModified": "2023-11-13T05:21:23-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/events/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/events/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava near me and more! Local Kava Bar events and specials",
+            "keywords": "Kava near me",
+            "datePublished": "2021-05-01T19:22:22-04:00",
+            "dateModified": "2023-11-13T05:21:23-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/events/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava near me? Visit Green Turtle Kava today! Find your local Turtle Tribe to relax and reset. Can&#039;t wait to meet you there!",
+            "name": "Kava near me and more! Local Kava Bar events and specials",
+            "@id": "https://greenturtlekava.co/events/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/events/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/events/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "events",
+    "link": "https://greenturtlekava.co/events/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar Florida locations | Learn. Relax. Reset. Contact Us Today",
+    "meta_description": "Kava Bar Florida locations and growing! Chill and get connected with excellent people. Stop in for kava, tea, and more. Kava bar specials and upcoming events.",
+    "canonical": "https://greenturtlekava.co/contact-us/",
+    "og_title": "Kava Bar Florida locations | Learn. Relax. Reset. Contact Us Today",
+    "og_description": "Kava Bar Florida locations and growing! Chill and get connected with excellent people. Stop in for kava, tea, and more. Kava bar specials and upcoming events.",
+    "og_image": null,
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/contact-us/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/contact-us/",
+                  "name": "CONTACT US"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/contact-us/#webpage",
+            "url": "https://greenturtlekava.co/contact-us/",
+            "name": "Kava Bar Florida locations | Learn. Relax. Reset. Contact Us Today",
+            "datePublished": "2021-05-01T19:22:15-04:00",
+            "dateModified": "2023-11-13T05:30:26-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/contact-us/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/contact-us/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar Florida locations | Learn. Relax. Reset. Contact Us Today",
+            "keywords": "Kava Bar Florida",
+            "datePublished": "2021-05-01T19:22:15-04:00",
+            "dateModified": "2023-11-13T05:30:26-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/contact-us/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava Bar Florida locations and growing! Chill and get connected with excellent people. Stop in for kava, tea, and more. Kava bar specials and upcoming events.",
+            "name": "Kava Bar Florida locations | Learn. Relax. Reset. Contact Us Today",
+            "@id": "https://greenturtlekava.co/contact-us/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/contact-us/#webpage"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/contact-us/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "contact-us",
+    "link": "https://greenturtlekava.co/contact-us/"
+  },
+  {
+    "status": 200,
+    "title": "Kava Bar St Augustine | Green Turtle Kava Bar - Who We Are...",
+    "meta_description": "Kava Bar St Augustine FL | Premium sourced kava and tea | Eco conscious & turtle friendly | Come find your turtle tribe today at Green Turtle Kava Bar",
+    "canonical": "https://greenturtlekava.co/about-us/",
+    "og_title": "Kava Bar St Augustine | Green Turtle Kava Bar - Who We Are...",
+    "og_description": "Kava Bar St Augustine FL | Premium sourced kava and tea | Eco conscious & turtle friendly | Come find your turtle tribe today at Green Turtle Kava Bar",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2021/05/t-2.png",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/t-2.png",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2021/05/t-2.png",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/about-us/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/about-us/",
+                  "name": "WHO WE ARE"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/about-us/#webpage",
+            "url": "https://greenturtlekava.co/about-us/",
+            "name": "Kava Bar St Augustine | Green Turtle Kava Bar - Who We Are...",
+            "datePublished": "2021-05-01T19:22:06-04:00",
+            "dateModified": "2024-01-24T05:59:20-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/t-2.png"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/about-us/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/about-us/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava Bar St Augustine | Green Turtle Kava Bar - Who We Are...",
+            "keywords": "who we are,kava drink,about us",
+            "datePublished": "2021-05-01T19:22:06-04:00",
+            "dateModified": "2024-01-24T05:59:20-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/about-us/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava Bar St Augustine FL | Premium sourced kava and tea | Eco conscious &amp; turtle friendly | Come find your turtle tribe today at Green Turtle Kava Bar",
+            "name": "Kava Bar St Augustine | Green Turtle Kava Bar - Who We Are...",
+            "@id": "https://greenturtlekava.co/about-us/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/about-us/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2021/05/t-2.png"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/about-us/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "about-us",
+    "link": "https://greenturtlekava.co/about-us/"
+  },
+  {
+    "status": 200,
+    "title": "Kava lounge near me and more | Kava lounge jobs and opportunities",
+    "meta_description": "Kava lounge near me jobs? Apply for an awesome job at your local kava lounge. Submit the form and a turtle tribe member will respond on upcoming availability!",
+    "canonical": "https://greenturtlekava.co/jobs/",
+    "og_title": "Kava lounge near me and more | Kava lounge jobs and opportunities",
+    "og_description": "Kava lounge near me jobs? Apply for an awesome job at your local kava lounge. Submit the form and a turtle tribe member will respond on upcoming availability!",
+    "og_image": "https://greenturtlekava.co/wp-content/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg",
+    "og_type": "article",
+    "twitter_card": "summary_large_image",
+    "jsonld": [
+      {
+        "@context": "https://schema.org",
+        "@graph": [
+          {
+            "@type": "Organization",
+            "@id": "https://greenturtlekava.co/#organization",
+            "name": "Green Turtle Kava Bar",
+            "url": "https://greenturtlekava.co",
+            "logo": {
+              "@type": "ImageObject",
+              "@id": "https://greenturtlekava.co/#logo",
+              "url": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "contentUrl": "https://greenturtlekava.co/wp-content/uploads/2021/07/logo.png",
+              "caption": "Green Turtle Kava",
+              "inLanguage": "en-US",
+              "width": "282",
+              "height": "262"
+            }
+          },
+          {
+            "@type": "WebSite",
+            "@id": "https://greenturtlekava.co/#website",
+            "url": "https://greenturtlekava.co",
+            "name": "Green Turtle Kava",
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "ImageObject",
+            "@id": "https://greenturtlekava.co/wp-content/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg",
+            "url": "https://greenturtlekava.co/wp-content/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg",
+            "width": "200",
+            "height": "200",
+            "inLanguage": "en-US"
+          },
+          {
+            "@type": "BreadcrumbList",
+            "@id": "https://greenturtlekava.co/jobs/#breadcrumb",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": "1",
+                "item": {
+                  "@id": "https://greenturtlekava.co",
+                  "name": "Home"
+                }
+              },
+              {
+                "@type": "ListItem",
+                "position": "2",
+                "item": {
+                  "@id": "https://greenturtlekava.co/jobs/",
+                  "name": "JOBS"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "WebPage",
+            "@id": "https://greenturtlekava.co/jobs/#webpage",
+            "url": "https://greenturtlekava.co/jobs/",
+            "name": "Kava lounge near me and more | Kava lounge jobs and opportunities",
+            "datePublished": "2021-05-01T19:21:44-04:00",
+            "dateModified": "2023-11-13T05:26:35-04:00",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/#website"
+            },
+            "primaryImageOfPage": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg"
+            },
+            "inLanguage": "en-US",
+            "breadcrumb": {
+              "@id": "https://greenturtlekava.co/jobs/#breadcrumb"
+            }
+          },
+          {
+            "@type": "Person",
+            "@id": "https://greenturtlekava.co/jobs/#author",
+            "name": "green_turtle",
+            "image": {
+              "@type": "ImageObject",
+              "@id": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "url": "https://secure.gravatar.com/avatar/2b310b6423115383858bd9bf692d306407c7f78b3ba0dc5e90577428c96db61f?s=96&amp;d=mm&amp;r=g",
+              "caption": "green_turtle",
+              "inLanguage": "en-US"
+            },
+            "sameAs": [
+              "https://greenturtlekava.co"
+            ],
+            "worksFor": {
+              "@id": "https://greenturtlekava.co/#organization"
+            }
+          },
+          {
+            "@type": "Article",
+            "headline": "Kava lounge near me and more | Kava lounge jobs and opportunities",
+            "keywords": "Kava lounge near me",
+            "datePublished": "2021-05-01T19:21:44-04:00",
+            "dateModified": "2023-11-13T05:26:35-04:00",
+            "author": {
+              "@id": "https://greenturtlekava.co/jobs/#author",
+              "name": "green_turtle"
+            },
+            "publisher": {
+              "@id": "https://greenturtlekava.co/#organization"
+            },
+            "description": "Kava lounge near me jobs? Apply for an awesome job at your local kava lounge. Submit the form and a turtle tribe member will respond on upcoming availability!",
+            "name": "Kava lounge near me and more | Kava lounge jobs and opportunities",
+            "@id": "https://greenturtlekava.co/jobs/#richSnippet",
+            "isPartOf": {
+              "@id": "https://greenturtlekava.co/jobs/#webpage"
+            },
+            "image": {
+              "@id": "https://greenturtlekava.co/wp-content/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg"
+            },
+            "inLanguage": "en-US",
+            "mainEntityOfPage": {
+              "@id": "https://greenturtlekava.co/jobs/#webpage"
+            }
+          }
+        ]
+      }
+    ],
+    "slug": "jobs",
+    "link": "https://greenturtlekava.co/jobs/"
+  }
+]

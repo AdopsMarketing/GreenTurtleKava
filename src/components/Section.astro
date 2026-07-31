@@ -1,0 +1,19 @@
+---
+type Variant = 'cream' | 'white' | 'brown';
+
+interface Props {
+  variant?: Variant;
+  class?: string;
+}
+const { variant = 'cream', class: className = '' } = Astro.props;
+
+const variants: Record<Variant, string> = {
+  cream: 'bg-cream',
+  white: 'bg-white',
+  brown: 'bg-brown text-white',
+};
+---
+
+<section class:list={['py-12 lg:py-20', variants[variant], className]}>
+  <slot />
+</section>

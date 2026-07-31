@@ -1,0 +1,60 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+import Container from '../../components/Container.astro';
+import FormInput from '../../components/FormInput.astro';
+import Button from '../../components/Button.astro';
+
+const order = ['kava-bar-at-daytona-beach', 'kava-bar-at-ormond-beach', 'kava-bar-at-st-augustine'];
+const locations = await getCollection('locations');
+const sorted = order.map((slug) => locations.find((l) => l.data.slug === slug)!).filter(Boolean);
+---
+
+<Layout
+  title="Locations | Green Turtle Kava Bar"
+  description="Find Green Turtle Kava Bar near you — St. Augustine, Daytona Beach, and Ormond Beach, Florida."
+  canonical="https://greenturtlekava.co/locations/"
+  heroHeading="LOCATIONS"
+>
+  <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/obg.png')">
+    <Container>
+      <div class="grid md:grid-cols-3 gap-3">
+        {sorted.map((loc) => (
+          <a
+            href={`/${loc!.data.slug}/`}
+            class="block bg-tan bg-cover bg-no-repeat p-5 rounded-none"
+            style={`background-image: url('${loc!.data.ogImage}')`}
+          >
+            <div class="border border-white pt-[230px] lg:pt-[438px] pl-[25px] pb-[10px]">
+              <p class="font-nav-light text-white text-[24px] flex items-center gap-2.5">
+                <svg viewBox="0 0 24 24" class="w-5 h-5 shrink-0" fill="currentColor" aria-hidden="true">
+                  <path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7Zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5Z"/>
+                </svg>
+                Kava Bar at {loc!.data.shortName}
+              </p>
+            </div>
+          </a>
+        ))}
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-no-repeat py-24 lg:py-32" style="background-image: url('/images/theme/b-bg.png')">
+    <Container>
+      <div class="max-w-[500px] mx-auto text-center">
+        <h1 class="font-body text-white text-[30px] lg:text-[80px] mb-2">Join The Turtle Tribe</h1>
+        <p class="font-nav-book text-white mb-6">
+          Sign up free with the link below for updates on upcoming events, promos and rewards for turtle tribe members
+        </p>
+        <form class="space-y-4 text-left">
+          <FormInput name="first_name" label="First Name" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
+          <FormInput name="email" type="email" label="Your Email" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
+          <FormInput name="phone" type="tel" label="Phone" class="[&_input]:text-white border-tan border-2 rounded-xs" />
+          <div class="text-center pt-2">
+            <Button type="submit" variant="sign">Sign Up</Button>
+          </div>
+        </form>
+      </div>
+    </Container>
+  </section>
+</Layout>

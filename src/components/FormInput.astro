@@ -1,0 +1,23 @@
+---
+// Underline-style inputs verified from theme CSS: transparent bg, bottom border only,
+// border-bottom-color #614B34 default, #C5A771 on focus, radius 0.
+interface Props {
+  type?: 'text' | 'email' | 'tel' | 'password';
+  name: string;
+  label: string;
+  required?: boolean;
+  class?: string;
+}
+const { type = 'text', name, label, required = false, class: className = '' } = Astro.props;
+---
+
+<label class:list={['block font-nav-book', className]}>
+  <span class="sr-only">{label}</span>
+  <input
+    type={type}
+    name={name}
+    placeholder={label}
+    required={required}
+    class="w-full bg-transparent border-b border-brown rounded-none py-2 px-2 placeholder:text-muted-gray focus:outline-none focus:border-gold transition-colors"
+  />
+</label>

@@ -1,0 +1,21 @@
+---
+interface Props {
+  name: string;
+  label: string;
+  required?: boolean;
+  rows?: number;
+  class?: string;
+}
+const { name, label, required = false, rows = 4, class: className = '' } = Astro.props;
+---
+
+<label class:list={['block font-nav-book', className]}>
+  <span class="sr-only">{label}</span>
+  <textarea
+    name={name}
+    placeholder={label}
+    required={required}
+    rows={rows}
+    class="w-full bg-transparent border-0 border-b border-brown rounded-none py-2 px-0 placeholder:text-muted-gray focus:outline-none focus:border-gold transition-colors resize-none"
+  ></textarea>
+</label>

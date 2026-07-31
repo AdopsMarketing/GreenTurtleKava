@@ -1,0 +1,125 @@
+---
+import Container from './Container.astro';
+import SocialIcons from './icons/SocialIcons.astro';
+
+// Structure verified against the live site's rendered header HTML (desktop: two flanking
+// nav lists around the logo; mobile: separate 7-item collapse menu). No dropdowns exist
+// anywhere in the source nav — it is intentionally flat.
+const leftNav = [
+  { label: 'HOME', href: '/' },
+  { label: 'WHO WE ARE', href: '/about-us/' },
+  { label: 'MENU', href: '/menu/' },
+];
+const rightNav = [
+  { label: 'EVENTS', href: '/events/' },
+  { label: 'WHAT IS KAVA?', href: '/what-is-kava/' },
+  { label: 'CONTACT US', href: '/contact-us/' },
+];
+// Mobile menu includes two extra items (Locations, Blog) that desktop omits, matching source.
+const mobileNav = [
+  { label: 'HOME', href: '/' },
+  { label: 'WHO WE ARE', href: '/about-us/' },
+  { label: 'MENU', href: '/menu/' },
+  { label: 'LOCATIONS', href: '/locations/' },
+  { label: 'WHAT IS KAVA', href: '/what-is-kava/' },
+  { label: 'BLOG', href: '/blog/' },
+  { label: 'CONTACT US', href: '/contact-us/' },
+];
+
+const currentPath = Astro.url.pathname;
+function isActive(href: string) {
+  return href === '/' ? currentPath === '/' : currentPath.startsWith(href);
+}
+---
+
+<header id="site-header">
+  <div class="bg-navy text-white h-[41px] flex items-center">
+    <Container class="flex items-center justify-between">
+      <button aria-label="Search" class="text-gold">
+        <SocialIcons name="search" class="w-4 h-4" />
+      </button>
+      <div class="flex items-center gap-4 text-[17px] font-nav">
+        <span class="hidden sm:inline">CONNECT</span>
+        <a href="https://www.facebook.com/greenturtlekavabar" class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gold text-navy border border-gold transition-colors duration-300 hover:bg-transparent hover:text-gold" aria-label="Facebook">
+          <SocialIcons name="facebook" class="w-3.5 h-3.5" />
+        </a>
+        <a href="https://www.instagram.com/greenturtlekavabar" class="text-gold" aria-label="Instagram">
+          <SocialIcons name="instagram" class="w-4 h-4" />
+        </a>
+        <a href="#" class="text-gold" aria-label="TikTok">
+          <SocialIcons name="tiktok" class="w-4 h-4" />
+        </a>
+        <a href="tel:9046949052" class="transition-colors duration-300 hover:text-link-hover">9046949052</a>
+      </div>
+    </Container>
+  </div>
+
+  <div class="relative bg-gold">
+    <Container class="grid grid-cols-3 items-center py-2 lg:py-0 lg:h-[145px]">
+      <nav class="hidden lg:flex justify-start">
+        <ul class="flex gap-6 font-nav text-[16px]">
+          {leftNav.map((item) => (
+            <li>
+              <a href={item.href} class:list={['text-white hover:text-brown-dark transition-colors duration-300', isActive(item.href) && '!text-brown-dark']}>
+                {item.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+
+      <div class="flex justify-center">
+        <a href="/" class="block relative lg:-mb-16">
+          <img src="/images/logo.png" alt="Green Turtle Kava logo" width="141" height="131" class="w-[110px] lg:w-[141px] h-auto" />
+        </a>
+      </div>
+
+      <div class="flex justify-end items-center">
+        <nav class="hidden lg:flex">
+          <ul class="flex gap-6 font-nav text-[16px]">
+            {rightNav.map((item) => (
+              <li>
+                <a href={item.href} class:list={['text-white hover:text-brown-dark transition-colors duration-300', isActive(item.href) && '!text-brown-dark']}>
+                  {item.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </nav>
+        <button
+          id="mobile-menu-toggle"
+          aria-controls="mobile-menu"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+          class="lg:hidden flex flex-col justify-center items-center gap-1.5 w-11 h-11"
+        >
+          <span class="block h-0.5 w-6 bg-body-text"></span>
+          <span class="block h-0.5 w-6 bg-body-text"></span>
+          <span class="block h-0.5 w-6 bg-body-text"></span>
+        </button>
+      </div>
+    </Container>
+
+    <nav id="mobile-menu" class="lg:hidden hidden bg-gold border-t border-brown/20">
+      <ul class="flex flex-col font-nav text-[17px]">
+        {mobileNav.map((item) => (
+          <li class="border-b border-brown/10 last:border-b-0">
+            <a href={item.href} class:list={['block px-4 py-3 text-white hover:text-brown-dark transition-colors duration-300', isActive(item.href) && '!text-brown-dark']}>
+              {item.label}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  const toggle = document.getElementById('mobile-menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  toggle?.addEventListener('click', () => {
+    const expanded = toggle.getAttribute('aria-expanded') === 'true';
+    toggle.setAttribute('aria-expanded', String(!expanded));
+    menu?.classList.toggle('hidden');
+  });
+</script>

@@ -1,0 +1,85 @@
+---
+interface Props {
+  targetIso: string;
+  title: string;
+  href: string;
+  image?: string;
+}
+const { targetIso, title, href, image } = Astro.props;
+---
+
+<section
+  class="bg-cover bg-no-repeat py-16 overflow-hidden lg:overflow-visible"
+  style="background-image: url('/images/theme/flo-bg.png')"
+>
+  <div class="mx-auto max-w-[1140px] px-[15px] grid lg:grid-cols-2 gap-16 lg:gap-10 items-center">
+    <h1 class="font-body text-brown text-[50px] lg:text-[90px] leading-none text-center lg:text-left">
+      <span class="inline-flex items-center gap-3">
+        Next
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden lg:inline" />
+      </span>
+      <br />
+      Upcoming Event
+    </h1>
+
+    <div class="relative max-w-[420px] mx-auto lg:mx-0 lg:ml-[110px]">
+      {image && <img src={image} alt={title} class="w-full h-auto rounded-none" />}
+
+      <div class="bg-[#437df9] text-center px-4 py-2 mt-4 mx-auto w-fit lg:mt-0 lg:absolute lg:-left-[90px] lg:top-[62%] lg:w-auto">
+        <p class="text-white font-nav-book text-[50px] leading-none inline-block align-middle">
+          {new Date(targetIso).getDate()}
+        </p>
+        <span class="text-white font-nav-light text-sm ml-2 inline-block align-middle leading-tight">
+          {new Date(targetIso).toLocaleDateString('en-US', { month: 'short' })}<br />
+          {new Date(targetIso).getFullYear()}
+        </span>
+      </div>
+
+      <div class="bg-navy border border-white p-5 text-center mt-6 mx-auto max-w-[380px] lg:mt-0 lg:absolute lg:top-[20%] lg:-right-[70px] lg:max-w-[320px]">
+        <a href={href} class="text-white font-nav text-[30px] hover:text-gold">{title}</a>
+        <p class="text-white font-nav-book text-sm mt-1">EVENT DETAIL</p>
+        <div class="grid grid-cols-4 gap-2 mt-4" data-countdown={targetIso}>
+          <div>
+            <p class="text-white font-nav text-[40px] leading-none" data-unit="days">&ndash;</p>
+            <p class="text-white font-nav-light text-[10px] mt-1">DAYS</p>
+          </div>
+          <div>
+            <p class="text-white font-nav text-[40px] leading-none" data-unit="hours">&ndash;</p>
+            <p class="text-white font-nav-light text-[10px] mt-1">HOURS</p>
+          </div>
+          <div>
+            <p class="text-white font-nav text-[40px] leading-none" data-unit="minutes">&ndash;</p>
+            <p class="text-white font-nav-light text-[10px] mt-1">MINUTES</p>
+          </div>
+          <div>
+            <p class="text-white font-nav text-[40px] leading-none" data-unit="seconds">&ndash;</p>
+            <p class="text-white font-nav-light text-[10px] mt-1">SECOND</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script>
+  function tick() {
+    const root = document.querySelector('[data-countdown]');
+    if (!root) return;
+    const target = new Date(root.getAttribute('data-countdown')!).getTime();
+    const diff = Math.max(0, target - Date.now());
+    const days = Math.floor(diff / 86400000);
+    const hours = Math.floor((diff % 86400000) / 3600000);
+    const minutes = Math.floor((diff % 3600000) / 60000);
+    const seconds = Math.floor((diff % 60000) / 1000);
+    const set = (unit: string, val: number) => {
+      const el = root.querySelector(`[data-unit="${unit}"]`);
+      if (el) el.textContent = String(val);
+    };
+    set('days', days);
+    set('hours', hours);
+    set('minutes', minutes);
+    set('seconds', seconds);
+  }
+  tick();
+  setInterval(tick, 1000);
+</script>

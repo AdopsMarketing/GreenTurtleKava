@@ -1,0 +1,25 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Section from '../components/Section.astro';
+import Container from '../components/Container.astro';
+import ContactForm from '../components/ContactForm.astro';
+
+const entry = await getEntry('pages', 'contact-form');
+if (!entry) throw new Error('Missing contact-form content entry');
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="CONTACT"
+>
+  <Section variant="cream">
+    <Container>
+      <div class="bg-white p-8 max-w-[600px] mx-auto">
+        <ContactForm showSmsOptIn />
+      </div>
+    </Container>
+  </Section>
+</Layout>

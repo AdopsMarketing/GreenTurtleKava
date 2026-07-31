@@ -1,0 +1,110 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+import EventCard from '../components/EventCard.astro';
+
+const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
+
+const entry = await getEntry('pages', 'jobs');
+if (!entry) throw new Error('Missing jobs content entry');
+
+const featuredSlugs = ['grand-opening', 'veterans-meet-up', 'upcoming-event'];
+const featuredEvents = (await Promise.all(featuredSlugs.map((slug) => getEntry('events', slug)))).filter(
+  (e): e is NonNullable<typeof e> => Boolean(e)
+);
+
+const labelClass = 'block font-nav text-gold text-[21px] mb-1';
+const inputClass =
+  'w-full bg-transparent border-b border-brown text-body-text rounded-none py-1.5 focus:outline-none focus:border-gold transition-colors';
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="JOBS"
+>
+  <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/big-bg.png')">
+    <Container>
+      <div class="max-w-[900px] mx-auto bg-navy p-5">
+        <div class="border border-white p-5 lg:p-8 grid lg:grid-cols-3 gap-6 items-center">
+          <div class="lg:col-span-2">
+            <img
+              src="/images/uploads/2022/03/Pink-Handdrawn-Heart-Polaroid-Photo-Collage_website_jobs-.jpg"
+              alt="kava bar tribe and jobs photo"
+              width="640"
+              height="640"
+              class="w-full h-auto"
+            />
+          </div>
+          <div class="text-center">
+            <h2 class="font-body text-gold text-[28px]">WHAT IS KAVA?</h2>
+            <p class="font-nav-book text-white text-[15px] mt-2">
+              Kava, also called &ldquo;kava-kava,&rdquo; is an herbal substance that comes from the root of
+              Piper methysticum &ndash; a plant native to the western Pacific Islands. The name kava comes
+              from the Polynesian word &ldquo;awa&rdquo; and literally means &ldquo;intoxicating pepper.&rdquo;
+            </p>
+            <h2 class="font-body text-white text-[24px] mt-6">Join Our Tribe</h2>
+            <p class="font-nav-book text-white text-[15px] mt-2">
+              Are you personable and customer-focused? Enhance your people skills while forming lasting
+              relationships. Submit your information below to apply!
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="font-body text-brown text-[36px] lg:text-[70px] text-center flex items-center justify-center gap-4 mt-16">
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+        <span>APPLY FOR JOB</span>
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+      </h1>
+
+      <form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" class="space-y-8 max-w-[600px] mx-auto mt-10">
+        <div>
+          <label for="jf-name" class={labelClass}>Your name</label>
+          <input id="jf-name" type="text" name="your-name" required class={inputClass} />
+        </div>
+        <div>
+          <label for="jf-email" class={labelClass}>Your email</label>
+          <input id="jf-email" type="email" name="your-email" required class={inputClass} />
+        </div>
+        <div>
+          <label for="jf-education" class={labelClass}>Education</label>
+          <input id="jf-education" type="text" name="your-education" required class={inputClass} />
+        </div>
+        <div>
+          <label for="jf-experience" class={labelClass}>Job Experience</label>
+          <input id="jf-experience" type="text" name="your-experience" class={inputClass} />
+        </div>
+
+        <div>
+          <h4 class="font-nav text-gold text-[21px] mb-2">Days available to work: *</h4>
+          <div class="flex flex-wrap gap-x-6 gap-y-2">
+            {days.map((day) => (
+              <label class="flex items-center gap-2 font-nav-book text-body-text text-sm">
+                <input type="checkbox" name="days_available[]" value={day} />
+                {day}
+              </label>
+            ))}
+          </div>
+        </div>
+
+        <div class="pt-2">
+          <Button type="submit" variant="submit">Submit</Button>
+        </div>
+      </form>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/b-bg.png')">
+    <Container>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 max-w-[1100px] mx-auto">
+        {featuredEvents.map((event) => (
+          <EventCard event={event} />
+        ))}
+      </div>
+    </Container>
+  </section>
+</Layout>

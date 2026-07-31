@@ -1,0 +1,35 @@
+---
+// Replaces the original Contact Form 7 / Gravity Forms widget. Submits to Formspree —
+// swap data-form-id below for the client's real Formspree (or serverless) endpoint before launch.
+interface Props {
+  submitLabel?: string;
+  showMessage?: boolean;
+  showSmsOptIn?: boolean;
+}
+import FormInput from './FormInput.astro';
+import FormTextarea from './FormTextarea.astro';
+import Button from './Button.astro';
+
+const { submitLabel = 'Send Message', showMessage = true, showSmsOptIn = false } = Astro.props;
+---
+
+<form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" class="space-y-5 max-w-[600px] mx-auto">
+  <FormInput name="name" label="Name" required />
+  <FormInput name="email" type="email" label="Email" required />
+  <FormInput name="phone" type="tel" label="Phone" />
+  {showMessage && <FormTextarea name="message" label="Message" rows={5} />}
+  {showSmsOptIn && (
+    <label class="flex items-start gap-2 font-nav-book text-sm text-muted-gray">
+      <input type="checkbox" name="sms_opt_in" required class="mt-1" />
+      <span>
+        Sign Up For SMS. You agree to receive automatic Transactional messages. Terms and
+        Privacy Policy can be found at
+        <a href="/privacy-policy/" class="text-link hover:text-link-hover underline">https://greenturtlekava.co/privacy-policy/</a>.
+        You may receive up to 5 msgs/mo. Txt and data rates may apply. Reply STOP to end or HELP for help.
+      </span>
+    </label>
+  )}
+  <div class="text-center pt-2">
+    <Button type="submit" variant="submit">{submitLabel}</Button>
+  </div>
+</form>

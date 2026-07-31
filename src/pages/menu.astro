@@ -1,0 +1,18 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import MenuSections from '../components/MenuSections.astro';
+import { menuCategories } from '../data/menu';
+
+const entry = await getEntry('pages', 'menu');
+if (!entry) throw new Error('Missing menu content entry');
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="MENU"
+>
+  <MenuSections categories={menuCategories} />
+</Layout>

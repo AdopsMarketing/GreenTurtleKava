@@ -1,0 +1,21 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import Button from './Button.astro';
+
+interface Props {
+  location: CollectionEntry<'locations'>;
+}
+const { location } = Astro.props;
+const { shortName, address, phone, slug } = location.data;
+---
+
+<div class="bg-white rounded-none p-6 text-center border border-brown/10">
+  <h3 class="font-body text-brown text-[24px]">{shortName}</h3>
+  <p class="font-nav-book text-muted-gray mt-2">{address}</p>
+  <p class="font-nav mt-2">
+    <a href={`tel:${phone}`} class="text-link hover:text-link-hover">{phone}</a>
+  </p>
+  <div class="mt-4">
+    <Button href={`/${slug}/`} variant="view">Visit Location</Button>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+---
+import { getEntry } from 'astro:content';
+import ContentPage from '../layouts/ContentPage.astro';
+
+const entry = await getEntry('pages', 'privacy-policy');
+if (!entry) throw new Error('Missing privacy-policy content entry');
+---
+
+<ContentPage entry={entry} heroHeading="PRIVACY POLICY" />

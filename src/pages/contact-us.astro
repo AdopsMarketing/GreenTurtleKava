@@ -1,0 +1,97 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+
+const entry = await getEntry('pages', 'contact-us');
+if (!entry) throw new Error('Missing contact-us content entry');
+
+const locations = [
+  { name: 'Kava Bar at St. Augustine', address: '156 S.R. #312 Unit 172 St. Augustine, FL 32086', image: '/images/theme/st_augustine.png' },
+  { name: 'Kava Bar at Daytona Beach', address: '1500 Beville Rd #103 Daytona Beach, FL 32114', image: '/images/theme/daytona.png' },
+];
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="CONTACT US"
+>
+  <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/cbg.png')">
+    <Container>
+      <h1 class="font-body text-brown text-[30px] lg:text-[70px] text-center flex items-center justify-center gap-4">
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+        <span>CONTACT WITH US NOW</span>
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+      </h1>
+
+      <div class="max-w-[900px] mx-auto mt-10 bg-navy p-5">
+        <div class="border border-white p-5 lg:p-8">
+          <form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" class="space-y-8">
+            <div>
+              <label for="cf-name" class="block font-nav text-white text-[21px] mb-1">Your name</label>
+              <input
+                id="cf-name"
+                type="text"
+                name="your-name"
+                required
+                class="w-full bg-transparent border-b border-white text-white rounded-none py-1.5 focus:outline-none focus:border-gold transition-colors"
+              />
+            </div>
+            <div>
+              <label for="cf-email" class="block font-nav text-white text-[21px] mb-1">Your email</label>
+              <input
+                id="cf-email"
+                type="email"
+                name="your-email"
+                required
+                class="w-full bg-transparent border-b border-white text-white rounded-none py-1.5 focus:outline-none focus:border-gold transition-colors"
+              />
+            </div>
+            <div>
+              <label for="cf-subject" class="block font-nav text-white text-[21px] mb-1">Subject</label>
+              <input
+                id="cf-subject"
+                type="text"
+                name="your-subject"
+                required
+                class="w-full bg-transparent border-b border-white text-white rounded-none py-1.5 focus:outline-none focus:border-gold transition-colors"
+              />
+            </div>
+            <div>
+              <label for="cf-message" class="block font-nav text-white text-[21px] mb-1">Your message / question (optional)</label>
+              <textarea
+                id="cf-message"
+                name="your-message"
+                rows="6"
+                class="w-full bg-transparent border-b border-white text-white rounded-none py-1.5 focus:outline-none focus:border-gold transition-colors"></textarea>
+            </div>
+            <Button type="submit" variant="submit">Submit</Button>
+          </form>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-x-16 gap-y-24 max-w-[1080px] mx-auto mt-24">
+        {locations.map((loc) => (
+          <div class="relative max-w-[490px] w-full mx-auto">
+            <img
+              src={loc.image}
+              alt={loc.name}
+              width="410"
+              height="273"
+              class="relative z-10 block w-[82%] max-w-[410px] h-auto -mb-14 md:-ml-4"
+            />
+            <div class="bg-white px-8 pt-20 pb-10">
+              <div class="flex items-start gap-x-8">
+                <h2 class="font-body text-brown-dark text-[32px] leading-tight basis-[46%] shrink-0">{loc.name}</h2>
+                <p class="font-body text-body-text text-[16px] leading-snug basis-[40%]">{loc.address}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+    </Container>
+  </section>
+</Layout>

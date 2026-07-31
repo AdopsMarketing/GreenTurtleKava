@@ -1,0 +1,32 @@
+---
+// Variants match the theme's exact button classes (btn-customer/btn-view/btn-click/btn-submit/btn-sign)
+// verbatim from wp-content/themes/green_turtle/css/style.css — see design-reference/tokens.md
+type Variant = 'customer' | 'view' | 'click' | 'submit' | 'sign';
+
+interface Props {
+  href?: string;
+  type?: 'button' | 'submit';
+  variant?: Variant;
+  class?: string;
+}
+
+const { href, type = 'button', variant = 'customer', class: className = '' } = Astro.props;
+
+const variants: Record<Variant, string> = {
+  customer:
+    'border-2 border-tan bg-brown-dark text-white font-nav text-[20px] hover:bg-tan hover:text-brown',
+  view: 'border-2 border-brown bg-transparent text-brown font-nav text-[20px] hover:bg-brown hover:text-gold',
+  click: 'border border-gold bg-transparent text-white font-nav-book text-[18px] hover:bg-gold hover:text-[#0b0907]',
+  submit: 'border-[3px] border-gold bg-navy text-white font-nav text-[19px] hover:bg-transparent hover:text-brown',
+  sign: 'border-2 border-tan text-white font-nav text-[20px] hover:bg-tan',
+};
+
+const base = 'inline-block rounded-none px-5 py-1.5 transition-colors duration-300';
+const classes = [base, variants[variant], className].join(' ');
+
+const Tag = href ? 'a' : 'button';
+---
+
+<Tag class={classes} href={href} type={href ? undefined : type}>
+  <slot />
+</Tag>

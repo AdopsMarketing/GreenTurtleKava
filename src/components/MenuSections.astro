@@ -1,0 +1,72 @@
+---
+interface MenuItem {
+  name: string;
+  price: string;
+  description: string;
+}
+interface Category {
+  name: string;
+  items: MenuItem[];
+}
+
+interface Props {
+  categories: Category[];
+}
+const { categories } = Astro.props;
+---
+
+<div>
+  <section class="py-16 bg-cover bg-center" style="background-image: url('/images/theme/m-bg.png')">
+    <div class="mx-auto max-w-[1140px] px-[15px] text-center">
+      <h1 class="font-script text-gold text-[45px] lg:text-[70px]">Eat Well, Kava Often.</h1>
+      <h1 class="font-body text-brown text-[36px] lg:text-[70px] flex items-center justify-center gap-4 mt-2">
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+        <span>{categories[0].name}</span>
+        <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+      </h1>
+
+      <div class="grid md:grid-cols-2 gap-x-10 gap-y-6 mt-10 text-left max-w-[900px] mx-auto">
+        {categories[0].items.map((item) => (
+          <div class="flex gap-3 items-start">
+            <img src="/images/theme/menu-icon.png" alt="" width="46" height="46" class="shrink-0" />
+            <div class="flex-1">
+              <h5 class="relative text-tan text-[18px] font-nav-book">
+                {item.name}
+                <span class="float-right">{item.price}</span>
+              </h5>
+              <p class="font-article italic text-muted-blue text-[15px] mt-1">{item.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  {categories.slice(1).map((cat) => (
+    <>
+      <section class="py-24 lg:py-[150px] bg-cover bg-center text-center" style="background-image: url('/images/theme/bg.png')">
+        <h1 class="font-body text-white text-[36px] lg:text-[70px] flex items-center justify-center gap-4">
+          <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+          <span>{cat.name}</span>
+          <img src="/images/theme/line.png" alt="" class="w-[80px] hidden md:block" />
+        </h1>
+      </section>
+      <section class="py-16 bg-cover bg-center" style="background-image: url('/images/theme/n-bg.png')">
+        <div class="mx-auto max-w-[900px] px-[15px] grid md:grid-cols-2 gap-x-10 gap-y-6">
+          {cat.items.map((item) => (
+            <div class="flex gap-3 items-start">
+              <img src="/images/theme/menu-icon.png" alt="" width="46" height="46" class="shrink-0" />
+              <div class="flex-1">
+                <h5 class="relative text-tan text-[18px] font-nav-book">
+                  {item.name}
+                  <span class="float-right">{item.price}</span>
+                </h5>
+                <p class="font-article italic text-muted-blue text-[15px] mt-1">{item.description}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </section>
+    </>
+  ))}
+</div>

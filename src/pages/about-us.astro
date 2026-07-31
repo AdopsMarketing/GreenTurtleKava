@@ -1,0 +1,95 @@
+---
+import { getEntry } from 'astro:content';
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+
+const entry = await getEntry('pages', 'about-us');
+if (!entry) throw new Error('Missing about-us content entry');
+---
+
+<Layout
+  title={`${entry.data.title} | Green Turtle Kava Bar`}
+  description={entry.data.metaDescription}
+  canonical={entry.data.canonical}
+  heroHeading="WHO WE ARE"
+>
+  <section class="bg-cover bg-center py-16 text-center" style="background-image: url('/images/theme/big.png')">
+    <Container>
+      <h1 class="font-body text-brown text-[50px] lg:text-[70px]">OUR MISSION</h1>
+      <p class="font-nav-book text-muted-blue text-[20px] lg:text-[36px] max-w-[900px] mx-auto mt-2">
+        Green Turtle Kava exists to bring communities the finest Kava in the world while fostering
+        connectedness, creativity, and service.
+      </p>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/bowl.png')">
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <img src="/images/uploads/2021/05/t-2.png" alt="kava bar stress relief tea - beach view" width="549" height="772" class="w-full h-auto" />
+        <div>
+          <h2 class="font-body text-gold text-[32px] pb-2">WHO WE ARE</h2>
+          <div class="font-nav-book text-white text-[16px] lg:text-[20px] space-y-4">
+            <p>
+              The Green Turtle is a place that promotes the idea of community, where like minded
+              people can come together and feel a sense of belonging. We strive to create a
+              welcoming atmosphere, where a person can feel accepted. Green turtles represent
+              peace, longevity and wisdom.
+            </p>
+            <p>
+              We try to incorporate these ideas into our mantra, working to make the Green Turtle
+              a place where a person can slow down and take a moment. Here, we believe that it is
+              this reflection that helps to foster balance within one&rsquo;s life.
+            </p>
+            <p>After all, it is all about enjoying the journey of life and serving along the way.</p>
+            <p>If you align with the vibe, come find your turtle tribe.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="grid md:grid-cols-2 gap-4 mt-10 max-w-[1100px] mx-auto">
+        <img src="/images/uploads/2021/05/s-1.png" alt="Kava Bar in Saint Augustine, FL shell on beach" width="549" height="628" class="w-full h-auto object-cover" />
+        <img src="/images/uploads/2021/05/t-1.png" alt="kava bar green turtle team" width="549" height="628" class="w-full h-auto object-cover" />
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/back.png')">
+    <Container>
+      <div class="grid lg:grid-cols-2 gap-10 items-center">
+        <div>
+          <h2 class="font-script text-tan-light text-[70px] leading-none">Green Turtle</h2>
+          <h1 class="font-body text-brown text-[30px] lg:text-[95px] leading-none mt-2">
+            KAVA SHARED<br />WITH A FRIEND<br />IS HAPPINESS
+          </h1>
+        </div>
+        <div class="relative">
+          <img src="/images/uploads/2021/05/hot.png" alt="Kava Bar in Saint Augustine, FL" width="503" height="813" class="w-full h-auto" />
+          <div class="lg:absolute lg:top-[15%] lg:left-[8%] bg-black/90 p-6 lg:p-8 max-w-[400px] mt-4 lg:mt-0">
+            <h3 class="text-gold text-[40px] font-body">RESET AND RELAX</h3>
+            <p class="text-white font-nav-book text-[19px] lg:text-[23px] mt-2">
+              Kava and Tea to bring you together for good conversation with good people.<br />
+              Your local oasis to unwind, connect with friends and reset during the day.
+            </p>
+            <div class="flex justify-end mt-4">
+              <Button href="/turtle-tribe/" variant="click">CLICK HERE</Button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+
+  <section class="bg-cover bg-no-repeat py-16 text-center" style="background-image: url('/images/theme/obg.png')">
+    <Container>
+      <h2 class="font-script text-tan-light text-[70px] leading-none">What your</h2>
+      <h1 class="font-body text-brown text-[30px] lg:text-[70px] mt-2">TURTLE TRIBE IS SAYING....</h1>
+      <div class="grid grid-cols-3 gap-8 items-center max-w-[700px] mx-auto mt-10">
+        <img src="/images/uploads/2021/05/b1.png" alt="Google Reviews" class="w-full h-auto" />
+        <img src="/images/uploads/2021/05/b2.png" alt="Yelp Reviews" class="w-full h-auto" />
+        <img src="/images/uploads/2021/05/b3.png" alt="Facebook Reviews" class="w-full h-auto" />
+      </div>
+    </Container>
+  </section>
+</Layout>

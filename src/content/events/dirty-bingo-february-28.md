@@ -1,0 +1,36 @@
+---
+title: "Dirty Bingo"
+slug: "dirty-bingo-february-28"
+date: "2026-02-25T14:45:21"
+link: "https://greenturtlekava.co/event/dirty-bingo-february-28/"
+metaDescription: "Join us for Dirty Bingo at Green Turtle Kava Bar – cheeky laughs, good vibes, and smooth kava. Game night just got a whole lot more fun!"
+canonical: "https://greenturtlekava.co/event/dirty-bingo-february-28/"
+ogImage: "/images/uploads/2026/02/Dirty-Bingo.jpg"
+---
+<h1>Green Turtle Kava Bar at ST. Augustine</h1>
+<h2>Dirty Bingo</h2>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<div>
+<p>Dirty Bingo is going down at Green Turtle Kava Bar – and it’s anything but ordinary! Come for the laughs, stay for the wild prizes and unexpected twists. Sip on some relaxing kava or your favorite drink while you play. It’s the perfect night to let loose, get cheeky, and have a blast with friends. Bingo has never been this bold!</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
