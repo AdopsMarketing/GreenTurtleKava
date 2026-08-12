@@ -1,0 +1,101 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Container from '../../components/Container.astro';
+---
+
+<Layout
+  title="Cart | Green Turtle Kava Bar"
+  description="Your Green Turtle Kava shopping cart."
+  canonical="https://greenturtlekava.co/cart/"
+  heroHeading="CART"
+>
+  <section class="bg-cream py-16 min-h-[40vh]">
+    <Container>
+      <h1 class="font-body text-brown text-[35px] lg:text-[55px] text-center mb-10">Your Cart</h1>
+
+      <div data-cart-empty class="hidden text-center">
+        <p class="font-nav-book text-muted-blue text-[19px]">Your cart is empty.</p>
+        <a href="/shop/" class="inline-block mt-6 border-2 border-tan bg-brown-dark text-white font-nav text-[20px] px-6 py-2.5 transition-colors hover:bg-tan hover:text-brown">
+          Browse the shop
+        </a>
+      </div>
+
+      <div data-cart-filled class="hidden max-w-[900px] mx-auto">
+        <div data-cart-lines class="space-y-4"></div>
+
+        <div class="border-t-2 border-gold mt-8 pt-6 flex flex-col items-end gap-4">
+          <p class="font-nav text-brown text-[22px]">
+            Subtotal: <span data-subtotal class="text-brown-dark">$0.00</span>
+          </p>
+          <p class="font-nav-book text-muted-gray text-[15px]">Shipping &amp; taxes calculated at checkout.</p>
+          <div class="flex flex-wrap gap-3 justify-end">
+            <a href="/shop/" class="border-2 border-brown text-brown font-nav text-[18px] px-5 py-2 transition-colors hover:bg-brown hover:text-gold">
+              Continue shopping
+            </a>
+            <a href="/checkout/" class="border-2 border-tan bg-brown-dark text-white font-nav text-[18px] px-6 py-2 transition-colors hover:bg-tan hover:text-brown">
+              Proceed to Checkout
+            </a>
+          </div>
+        </div>
+      </div>
+    </Container>
+  </section>
+</Layout>
+
+<script>
+  import { getResolvedCart, setQty, removeItem, cartSubtotal } from '../../scripts/cart';
+  import { formatUsd } from '../../data/products';
+
+  const emptyEl = document.querySelector<HTMLElement>('[data-cart-empty]')!;
+  const filledEl = document.querySelector<HTMLElement>('[data-cart-filled]')!;
+  const linesEl = document.querySelector<HTMLElement>('[data-cart-lines]')!;
+  const subtotalEl = document.querySelector<HTMLElement>('[data-subtotal]')!;
+
+  function render() {
+    const cart = getResolvedCart();
+    if (cart.length === 0) {
+      emptyEl.classList.remove('hidden');
+      filledEl.classList.add('hidden');
+      return;
+    }
+    emptyEl.classList.add('hidden');
+    filledEl.classList.remove('hidden');
+
+    linesEl.innerHTML = cart
+      .map(
+        (l) => `
+      <div class="flex items-center gap-4 bg-white p-4" data-line="${l.variantId}">
+        <img src="${l.product.image}" alt="" width="80" height="80" class="w-20 h-20 object-contain shrink-0" />
+        <div class="flex-1 min-w-0">
+          <p class="font-nav-book text-heading-blue text-[17px] font-semibold leading-tight">${l.product.name}</p>
+          <p class="font-nav-book text-muted-gray text-[14px]">${l.product.optionName}: ${l.variant.label}</p>
+          <p class="font-nav-book text-muted-blue text-[14px]">${formatUsd(l.variant.price)} each</p>
+        </div>
+        <input type="number" min="0" max="99" value="${l.qty}" data-qty="${l.variantId}"
+          class="w-16 bg-white border border-brown rounded-none py-1.5 px-2 text-center font-nav-book text-body-text focus:outline-none focus:border-gold" />
+        <p class="font-nav text-brown-dark text-[18px] w-24 text-right">${formatUsd(l.lineTotal)}</p>
+        <button type="button" data-remove="${l.variantId}" aria-label="Remove" class="text-muted-gray hover:text-alert-red text-[22px] leading-none px-1">&times;</button>
+      </div>`
+      )
+      .join('');
+
+    subtotalEl.textContent = formatUsd(cartSubtotal());
+  }
+
+  linesEl.addEventListener('change', (e) => {
+    const t = e.target as HTMLInputElement;
+    if (t.dataset.qty) {
+      setQty(t.dataset.qty, Math.max(0, parseInt(t.value, 10) || 0));
+      render();
+    }
+  });
+  linesEl.addEventListener('click', (e) => {
+    const btn = (e.target as HTMLElement).closest<HTMLElement>('[data-remove]');
+    if (btn) {
+      removeItem(btn.dataset.remove!);
+      render();
+    }
+  });
+
+  render();
+</script>

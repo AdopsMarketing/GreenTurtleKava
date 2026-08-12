@@ -50,6 +50,13 @@ function isActive(href: string) {
           <SocialIcons name="tiktok" class="w-4 h-4" />
         </a>
         <a href="tel:9046949052" class="transition-colors duration-300 hover:text-link-hover">9046949052</a>
+        <a href="/shop/" class="hidden sm:inline transition-colors duration-300 hover:text-gold">SHOP</a>
+        <a href="/cart/" class="relative inline-flex items-center text-gold transition-colors duration-300 hover:text-white" aria-label="Cart">
+          <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" aria-hidden="true">
+            <path d="M7 4h-2l-1 2H2v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 8 21h11v-2H8.42a.25.25 0 0 1-.22-.37l.94-1.63h6.45a2 2 0 0 0 1.8-1.11l3.58-7.16A1 1 0 0 0 20 7H6.21l-.94-2H7zM8 22a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
+          </svg>
+          <span data-cart-count class="hidden absolute -top-2 -right-2 min-w-[16px] h-4 px-1 rounded-full bg-alert-red text-white text-[11px] font-nav-book leading-4 text-center">0</span>
+        </a>
       </div>
     </Container>
   </div>
@@ -121,5 +128,22 @@ function isActive(href: string) {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
     menu?.classList.toggle('hidden');
+  });
+</script>
+
+<script>
+  import { cartCount } from '../scripts/cart';
+  const badge = document.querySelector<HTMLElement>('[data-cart-count]');
+  function refresh() {
+    if (!badge) return;
+    const n = cartCount();
+    badge.textContent = String(n);
+    badge.classList.toggle('hidden', n === 0);
+  }
+  refresh();
+  window.addEventListener('cart:updated', refresh);
+  // Reflect changes made in other tabs.
+  window.addEventListener('storage', (e) => {
+    if (e.key === 'gtk_cart') refresh();
   });
 </script>

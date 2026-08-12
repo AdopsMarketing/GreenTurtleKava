@@ -1,0 +1,42 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Container from '../../components/Container.astro';
+import { orderedProducts, priceRange } from '../../data/products';
+---
+
+<Layout
+  title="Shop | Green Turtle Kava Bar"
+  description="Shop premium Fijian kava and Green Turtle Kava merchandise online."
+  canonical="https://greenturtlekava.co/shop/"
+  heroHeading="SHOP"
+>
+  <section class="bg-cream py-16">
+    <Container>
+      <div class="grid grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-10">
+        {orderedProducts.map((p) => (
+          <div class="flex flex-col">
+            <a href={`/product/${p.slug}/`} class="group block">
+              <div class="overflow-hidden bg-white">
+                <img
+                  src={p.image}
+                  alt={p.name}
+                  width="300"
+                  height="300"
+                  class="w-full aspect-square object-contain transition-transform duration-500 group-hover:scale-105"
+                />
+              </div>
+              <h2 class="font-body text-brown text-[16px] mt-3 leading-tight">{p.name}</h2>
+            </a>
+            <p class="font-nav-book text-[14px] mt-1 text-[#958e09]">{priceRange(p)}</p>
+            <a
+              href={`/product/${p.slug}/`}
+              class="mt-3 inline-block w-fit rounded-[3px] bg-[#e9e6ed] text-[#515151] font-nav-book text-[15px] px-4 py-2 transition-colors hover:bg-[#ddd8e4]"
+            >
+              Select options
+            </a>
+          </div>
+        ))}
+      </div>
+    </Container>
+  </section>
+</Layout>

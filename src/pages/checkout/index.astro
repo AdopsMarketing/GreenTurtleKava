@@ -1,0 +1,94 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Container from '../../components/Container.astro';
+---
+
+<Layout
+  title="Checkout | Green Turtle Kava Bar"
+  description="Review your order and check out securely."
+  canonical="https://greenturtlekava.co/checkout/"
+  heroHeading="CHECKOUT"
+>
+  <section class="bg-cream py-16 min-h-[40vh]">
+    <Container>
+      <h1 class="font-body text-brown text-[35px] lg:text-[55px] text-center mb-10">Checkout</h1>
+
+      <div data-empty class="hidden text-center">
+        <p class="font-nav-book text-muted-blue text-[19px]">Your cart is empty.</p>
+        <a href="/shop/" class="inline-block mt-6 border-2 border-tan bg-brown-dark text-white font-nav text-[20px] px-6 py-2.5 transition-colors hover:bg-tan hover:text-brown">Browse the shop</a>
+      </div>
+
+      <div data-summary class="hidden max-w-[640px] mx-auto bg-white p-6 lg:p-8">
+        <h2 class="font-nav text-brown text-[22px] mb-4">Order summary</h2>
+        <div data-lines class="divide-y divide-brown/15"></div>
+        <div class="border-t-2 border-gold mt-4 pt-4 flex justify-between font-nav text-brown text-[20px]">
+          <span>Subtotal</span><span data-subtotal class="text-brown-dark">$0.00</span>
+        </div>
+        <p class="font-nav-book text-muted-gray text-[14px] mt-2">
+          Shipping and taxes are calculated on the secure payment page.
+        </p>
+
+        <button data-pay type="button"
+          class="w-full mt-6 border-2 border-tan bg-brown-dark text-white font-nav text-[20px] px-6 py-3 transition-colors hover:bg-tan hover:text-brown disabled:opacity-60 disabled:cursor-not-allowed">
+          Proceed to Payment
+        </button>
+        <p class="font-nav-book text-muted-gray text-[13px] text-center mt-3">
+          You&rsquo;ll be redirected to our secure Stripe payment page. We never see your card details.
+        </p>
+        <p data-error class="hidden mt-4 text-center font-nav-book text-alert-red text-[15px]"></p>
+      </div>
+    </Container>
+  </section>
+</Layout>
+
+<script>
+  import { getResolvedCart, getCart } from '../../scripts/cart';
+  import { formatUsd } from '../../data/products';
+
+  const emptyEl = document.querySelector<HTMLElement>('[data-empty]')!;
+  const summaryEl = document.querySelector<HTMLElement>('[data-summary]')!;
+  const linesEl = document.querySelector<HTMLElement>('[data-lines]')!;
+  const subtotalEl = document.querySelector<HTMLElement>('[data-subtotal]')!;
+  const payBtn = document.querySelector<HTMLButtonElement>('[data-pay]')!;
+  const errorEl = document.querySelector<HTMLElement>('[data-error]')!;
+
+  const cart = getResolvedCart();
+  if (cart.length === 0) {
+    emptyEl.classList.remove('hidden');
+  } else {
+    summaryEl.classList.remove('hidden');
+    linesEl.innerHTML = cart
+      .map(
+        (l) => `<div class="flex justify-between py-2 font-nav-book text-[16px]">
+          <span class="text-body-text">${l.product.name} <span class="text-muted-gray">(${l.variant.label}) ×${l.qty}</span></span>
+          <span class="text-brown-dark whitespace-nowrap">${formatUsd(l.lineTotal)}</span>
+        </div>`
+      )
+      .join('');
+    subtotalEl.textContent = formatUsd(cart.reduce((s, l) => s + l.lineTotal, 0));
+
+    payBtn.addEventListener('click', async () => {
+      payBtn.disabled = true;
+      payBtn.textContent = 'Redirecting…';
+      errorEl.classList.add('hidden');
+      try {
+        const res = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ items: getCart() }),
+        });
+        const data = await res.json();
+        if (res.ok && data.url) {
+          window.location.href = data.url;
+          return;
+        }
+        throw new Error(data.error || 'Unable to start checkout.');
+      } catch (err) {
+        errorEl.textContent = err instanceof Error ? err.message : 'Something went wrong.';
+        errorEl.classList.remove('hidden');
+        payBtn.disabled = false;
+        payBtn.textContent = 'Proceed to Payment';
+      }
+    });
+  }
+</script>

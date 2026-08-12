@@ -1,0 +1,32 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import Container from '../../components/Container.astro';
+---
+
+<Layout
+  title="Thank You | Green Turtle Kava Bar"
+  description="Thank you for your order."
+  canonical="https://greenturtlekava.co/shop/thank-you/"
+  heroHeading="THANK YOU"
+>
+  <section class="bg-cream py-20 min-h-[40vh]">
+    <Container>
+      <div class="max-w-[560px] mx-auto text-center">
+        <h1 class="font-body text-brown text-[35px] lg:text-[55px]">Bula! Thank you</h1>
+        <p class="font-nav-book text-muted-blue text-[19px] mt-4">
+          Your order is confirmed and a receipt is on its way to your email. We appreciate you
+          being part of the Turtle Tribe.
+        </p>
+        <a href="/shop/" class="inline-block mt-8 border-2 border-tan bg-brown-dark text-white font-nav text-[20px] px-6 py-2.5 transition-colors hover:bg-tan hover:text-brown">
+          Continue shopping
+        </a>
+      </div>
+    </Container>
+  </section>
+</Layout>
+
+<script>
+  // The cart has served its purpose once the customer lands on the confirmation page.
+  import { clearCart } from '../../scripts/cart';
+  clearCart();
+</script>
