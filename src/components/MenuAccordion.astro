@@ -16,31 +16,31 @@ interface Props {
 const { categories, exclusive = false } = Astro.props;
 ---
 
-<div class="mt-10 space-y-4">
+<div class="mt-10">
   {categories.map((cat, i) => (
-    <details class="border border-gold rounded-none bg-transparent group" open={i === 0} name={exclusive ? 'home-menu' : undefined}>
-      <summary class="cursor-pointer list-none bg-brown px-5 py-2 flex items-center justify-between">
-        <span class="text-gold text-[32px] font-nav">{cat.name}</span>
+    <details class:list={['border border-gold rounded-none bg-transparent group', i > 0 && '-mt-px']} open={i === 0} name={exclusive ? 'home-menu' : undefined}>
+      <summary class="cursor-pointer list-none bg-brown px-5 py-4 flex items-center gap-3">
         <svg
           viewBox="0 0 24 24"
-          class="w-5 h-5 text-gold shrink-0 transition-transform duration-500 group-open:rotate-180"
+          class="w-4 h-4 text-gold shrink-0 transition-transform duration-500 group-open:rotate-180"
           fill="none"
           stroke="currentColor"
           stroke-width="2"
         >
           <path d="M6 15l6-6 6 6" />
         </svg>
+        <span class="text-gold text-[30px] font-body leading-none">{cat.name}</span>
       </summary>
       <div class="grid md:grid-cols-2 gap-x-8 gap-y-4 p-5">
         {cat.items.map((item) => (
           <div class="flex gap-3 items-start">
             <img src="/images/theme/menu-icon.png" alt="" width="46" height="46" class="shrink-0" />
             <div class="flex-1">
-              <h5 class="relative text-tan text-[18px] font-nav-book">
+              <h5 class="relative text-tan text-[18px] font-body md:after:content-[''] md:after:absolute md:after:left-0 md:after:-bottom-1 md:after:w-full md:after:h-[2px] md:after:bg-tan">
                 {item.name}
                 <span class="float-right">{item.price}</span>
               </h5>
-              <p class="font-article italic text-muted-blue text-[15px] mt-1">{item.description}</p>
+              <p class="font-article italic text-muted-blue text-[15px] mt-2">{item.description}</p>
             </div>
           </div>
         ))}

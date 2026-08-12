@@ -30,15 +30,29 @@ const currentPath = Astro.url.pathname;
 function isActive(href: string) {
   return href === '/' ? currentPath === '/' : currentPath.startsWith(href);
 }
+
+// Full-height brown-dark divider on each nav item's left edge, plus a trailing one on the last item —
+// matches theme: .main-nav li:before / .main-nav .last:after { background:#604a34; width:2px; height:147px }
+const navItemClass =
+  "relative px-5 before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[2px] before:h-[147px] before:bg-brown-dark " +
+  "last:after:content-[''] last:after:absolute last:after:right-0 last:after:top-1/2 last:after:-translate-y-1/2 last:after:w-[2px] last:after:h-[147px] last:after:bg-brown-dark";
 ---
 
-<header id="site-header">
-  <div class="bg-navy text-white h-[41px] flex items-center">
-    <Container class="flex items-center justify-between">
-      <button aria-label="Search" class="text-gold">
-        <SocialIcons name="search" class="w-4 h-4" />
-      </button>
-      <div class="flex items-center gap-4 text-[17px] font-nav">
+<header id="site-header" class="relative">
+  <div class="bg-navy text-white min-h-[41px] flex items-center">
+    <Container class="w-full flex items-center justify-between gap-4">
+      <form method="get" action="/" class="flex items-center gap-2 w-[340px] max-w-[45%] shrink">
+        <span class="text-gold shrink-0" aria-hidden="true">
+          <SocialIcons name="search" class="w-4 h-4" />
+        </span>
+        <input
+          type="text"
+          name="s"
+          aria-label="Search"
+          class="w-full bg-transparent border-0 border-b border-transparent text-white placeholder:text-white/50 rounded-none py-1 focus:outline-none focus:border-gold transition-colors text-[16px]"
+        />
+      </form>
+      <div class="flex items-center gap-4 text-[17px] font-nav shrink-0">
         <span class="hidden sm:inline">CONNECT</span>
         <a href="https://www.facebook.com/greenturtlekavabar" class="inline-flex items-center justify-center w-6 h-6 rounded-full bg-gold text-navy border border-gold transition-colors duration-300 hover:bg-transparent hover:text-gold" aria-label="Facebook">
           <SocialIcons name="facebook" class="w-3.5 h-3.5" />
@@ -50,13 +64,6 @@ function isActive(href: string) {
           <SocialIcons name="tiktok" class="w-4 h-4" />
         </a>
         <a href="tel:9046949052" class="transition-colors duration-300 hover:text-link-hover">9046949052</a>
-        <a href="/shop/" class="hidden sm:inline transition-colors duration-300 hover:text-gold">SHOP</a>
-        <a href="/cart/" class="relative inline-flex items-center text-gold transition-colors duration-300 hover:text-white" aria-label="Cart">
-          <svg viewBox="0 0 24 24" class="w-5 h-5" fill="currentColor" aria-hidden="true">
-            <path d="M7 4h-2l-1 2H2v2h2l3.6 7.59-1.35 2.44A2 2 0 0 0 8 21h11v-2H8.42a.25.25 0 0 1-.22-.37l.94-1.63h6.45a2 2 0 0 0 1.8-1.11l3.58-7.16A1 1 0 0 0 20 7H6.21l-.94-2H7zM8 22a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3m9 0a1.5 1.5 0 1 0 0 3 1.5 1.5 0 0 0 0-3"/>
-          </svg>
-          <span data-cart-count class="hidden absolute -top-2 -right-2 min-w-[16px] h-4 px-1 rounded-full bg-alert-red text-white text-[11px] font-nav-book leading-4 text-center">0</span>
-        </a>
       </div>
     </Container>
   </div>
@@ -64,9 +71,9 @@ function isActive(href: string) {
   <div class="relative bg-gold">
     <Container class="grid grid-cols-3 items-center py-2 lg:py-0 lg:h-[145px]">
       <nav class="hidden lg:flex justify-start">
-        <ul class="flex gap-6 font-nav text-[16px]">
+        <ul class="flex font-nav text-[16px]">
           {leftNav.map((item) => (
-            <li>
+            <li class={navItemClass}>
               <a href={item.href} class:list={['text-white hover:text-brown-dark transition-colors duration-300', isActive(item.href) && '!text-brown-dark']}>
                 {item.label}
               </a>
@@ -76,16 +83,16 @@ function isActive(href: string) {
       </nav>
 
       <div class="flex justify-center">
-        <a href="/" class="block relative lg:-mb-16">
-          <img src="/images/logo.png" alt="Green Turtle Kava logo" width="141" height="131" class="w-[110px] lg:w-[141px] h-auto" />
+        <a href="/" class="lg:hidden block relative z-20">
+          <img src="/images/logo.png" alt="Green Turtle Kava logo" width="282" height="262" class="w-[120px] h-auto" />
         </a>
       </div>
 
       <div class="flex justify-end items-center">
         <nav class="hidden lg:flex">
-          <ul class="flex gap-6 font-nav text-[16px]">
+          <ul class="flex font-nav text-[16px]">
             {rightNav.map((item) => (
-              <li>
+              <li class={navItemClass}>
                 <a href={item.href} class:list={['text-white hover:text-brown-dark transition-colors duration-300', isActive(item.href) && '!text-brown-dark']}>
                   {item.label}
                 </a>
@@ -119,6 +126,12 @@ function isActive(href: string) {
       </ul>
     </nav>
   </div>
+
+  <!-- Desktop logo: absolutely centered over the whole header so it overlaps the top bar and
+       hangs below the nav bar without affecting the grid row height (keeps the nav dividers contained). -->
+  <a href="/" class="hidden lg:block absolute left-1/2 -translate-x-1/2 top-0 z-30" aria-label="Green Turtle Kava — home">
+    <img src="/images/logo.png" alt="Green Turtle Kava logo" width="282" height="262" class="w-[282px] max-w-none h-auto" />
+  </a>
 </header>
 
 <script>
@@ -128,22 +141,5 @@ function isActive(href: string) {
     const expanded = toggle.getAttribute('aria-expanded') === 'true';
     toggle.setAttribute('aria-expanded', String(!expanded));
     menu?.classList.toggle('hidden');
-  });
-</script>
-
-<script>
-  import { cartCount } from '../scripts/cart';
-  const badge = document.querySelector<HTMLElement>('[data-cart-count]');
-  function refresh() {
-    if (!badge) return;
-    const n = cartCount();
-    badge.textContent = String(n);
-    badge.classList.toggle('hidden', n === 0);
-  }
-  refresh();
-  window.addEventListener('cart:updated', refresh);
-  // Reflect changes made in other tabs.
-  window.addEventListener('storage', (e) => {
-    if (e.key === 'gtk_cart') refresh();
   });
 </script>
