@@ -15,13 +15,15 @@ const rightNav = [
   { label: 'WHAT IS KAVA?', href: '/what-is-kava/' },
   { label: 'CONTACT US', href: '/contact-us/' },
 ];
-// Mobile menu includes two extra items (Locations, Blog) that desktop omits, matching source.
+// Mobile menu is a superset of the desktop nav (which is split left/right around the
+// center logo) plus the extra items (Locations, Blog) that only fit in a stacked menu.
 const mobileNav = [
   { label: 'HOME', href: '/' },
   { label: 'WHO WE ARE', href: '/about-us/' },
   { label: 'MENU', href: '/menu/' },
+  { label: 'EVENTS', href: '/events/' },
   { label: 'LOCATIONS', href: '/locations/' },
-  { label: 'WHAT IS KAVA', href: '/what-is-kava/' },
+  { label: 'WHAT IS KAVA?', href: '/what-is-kava/' },
   { label: 'BLOG', href: '/blog/' },
   { label: 'CONTACT US', href: '/contact-us/' },
 ];
@@ -34,7 +36,7 @@ function isActive(href: string) {
 // Full-height brown-dark divider on each nav item's left edge, plus a trailing one on the last item —
 // matches theme: .main-nav li:before / .main-nav .last:after { background:#604a34; width:2px; height:147px }
 const navItemClass =
-  "relative px-5 before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[2px] before:h-[147px] before:bg-brown-dark " +
+  "relative whitespace-nowrap px-3 xl:px-5 before:content-[''] before:absolute before:left-0 before:top-1/2 before:-translate-y-1/2 before:w-[2px] before:h-[147px] before:bg-brown-dark " +
   "last:after:content-[''] last:after:absolute last:after:right-0 last:after:top-1/2 last:after:-translate-y-1/2 last:after:w-[2px] last:after:h-[147px] last:after:bg-brown-dark";
 ---
 
@@ -69,7 +71,7 @@ const navItemClass =
   </div>
 
   <div class="relative bg-gold">
-    <Container class="grid grid-cols-3 items-center py-2 lg:py-0 lg:h-[145px]">
+    <Container class="flex justify-between lg:grid lg:grid-cols-[1fr_300px_1fr] items-center py-2 lg:py-0 lg:h-[145px]">
       <nav class="hidden lg:flex justify-start">
         <ul class="flex font-nav text-[16px]">
           {leftNav.map((item) => (
