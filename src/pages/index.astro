@@ -4,6 +4,7 @@ import HeroSection from "../components/HeroSection.astro";
 import Container from "../components/Container.astro";
 import MenuAccordion from "../components/MenuAccordion.astro";
 import Button from "../components/Button.astro";
+import ReviewsSection from "../components/ReviewsSection.astro";
 import { menuCategories } from "../data/menu";
 
 const vibeCards = [
@@ -39,9 +40,7 @@ const vibeCards = [
     <Container>
       <div class="grid lg:grid-cols-2 gap-10 items-center">
         <div class="text-left">
-          <h2
-            class="font-body text-brown text-[32px] leading-none"
-          >
+          <h2 class="font-body text-brown text-[32px] leading-none">
             OUR VIBES
           </h2>
           <p
@@ -95,10 +94,12 @@ const vibeCards = [
     style="background-image: url('/images/theme/bg.png')"
   >
     <Container>
-      <h2 class="font-script text-tan-light text-[70px] relative inline-block">
+      <h2
+        class="font-script text-tan-light text-[70px] leading-1 relative inline-block"
+      >
         What We Offer
-        <img src="/images/theme/line.png" alt="" class="mx-auto mt-1 w-[177px]" />
       </h2>
+      <img src="/images/theme/line.png" alt="" class="mx-auto w-45" />
       <p class="text-white text-[32px] font-body mt-2">
         KAVA, HERBAL TEA &amp; MORE
       </p>
@@ -110,7 +111,9 @@ const vibeCards = [
     style="background-image: url('/images/theme/s-bg.png')"
   >
     <Container class="py-16">
-      <div class="relative bg-white max-w-[810px] mx-auto lg:mt-[85px] p-5 lg:py-10 lg:px-10">
+      <div
+        class="relative bg-white max-w-[810px] mx-auto lg:mt-[85px] p-5 lg:py-10 lg:px-10"
+      >
         <img
           src="/images/uploads/2021/05/site-cup.png"
           alt=""
@@ -121,7 +124,9 @@ const vibeCards = [
           alt=""
           class="block w-full max-w-none relative lg:-top-[90px] lg:-left-[165px]"
         />
-        <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:mt-0 lg:!-mt-[50px]">
+        <div
+          class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:mt-0 lg:!-mt-[50px]"
+        >
           <h2
             class="text-brown-dark text-[30px] lg:text-[54px] leading-tight font-body pb-[14px] lg:pb-0"
           >
@@ -140,7 +145,9 @@ const vibeCards = [
 
   <section class="bg-cream py-16 text-center">
     <Container>
-      <h2 class="font-body text-body-text text-[40px]">SHELLS FOR SHELLS&trade;</h2>
+      <h2 class="font-body text-body-text text-[40px]">
+        SHELLS FOR SHELLS&trade;
+      </h2>
       <div
         class="grid lg:grid-cols-2 gap-10 items-center mt-10 text-left max-w-[900px] mx-auto"
       >
@@ -227,65 +234,7 @@ const vibeCards = [
     </Container>
   </section>
 
-  <section
-    class="bg-cover bg-no-repeat py-16 text-center"
-    style="background-image: url('/images/theme/obg.png')"
-  >
-    <Container>
-      <h2
-        class="font-script text-tan-light text-[70px] leading-none"
-      >
-        What your
-        <img src="/images/theme/line.png" alt="" class="mx-auto mt-1 w-[177px]" />
-      </h2>
-      <h1 class="font-body text-brown text-[30px] lg:text-[70px] mb-5">
-        TURTLE TRIBE IS SAYING....
-      </h1>
-      <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 max-w-[900px] mx-auto">
-        <a
-          href="https://g.page/r/CaEOOAOqSzSDEAE?gm"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            src="/images/uploads/2021/05/b1.png"
-            alt="Google Reviews"
-            class="h-auto w-auto max-w-[222px]"
-          />
-        </a>
-        <a
-          href="https://www.yelp.com/biz/green-turtle-kava-bar-st-augustine-st-augustine"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            src="/images/uploads/2021/05/b2.png"
-            alt="Yelp Reviews"
-            class="h-auto w-auto max-w-[262px]"
-          />
-        </a>
-        <a
-          href="https://www.facebook.com/greenturtlekavabar"
-          target="_blank"
-          rel="noopener"
-        >
-          <img
-            src="/images/uploads/2021/05/b3.png"
-            alt="Facebook Reviews"
-            class="h-auto w-auto max-w-[280px]"
-          />
-        </a>
-      </div>
-      <div class="mt-8">
-        <Button
-          href="https://customers.clover.com/start/?merchantUuid=6ef61bb4-a8be-4038-8ce1-5be968f77b1a&t=1631902268082"
-          variant="customer"
-        >
-          25% OFF NEW CUSTOMER
-        </Button>
-      </div>
-    </Container>
-  </section>
+  <ReviewsSection showButton />
 
   <section
     class="bg-cover bg-no-repeat py-16 -mt-6"

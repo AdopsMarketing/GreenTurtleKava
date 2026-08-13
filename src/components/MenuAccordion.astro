@@ -22,7 +22,7 @@ const { categories, exclusive = false } = Astro.props;
       <summary class="cursor-pointer list-none bg-brown px-5 py-4 flex items-center gap-3">
         <svg
           viewBox="0 0 24 24"
-          class="w-4 h-4 text-gold shrink-0 transition-transform duration-500 group-open:rotate-180"
+          class="w-7 h-7 text-gold shrink-0 transition-transform duration-500 group-open:rotate-180"
           fill="none"
           stroke="currentColor"
           stroke-width="2"
@@ -36,7 +36,7 @@ const { categories, exclusive = false } = Astro.props;
           <div class="flex gap-3 items-start">
             <img src="/images/theme/menu-icon.png" alt="" width="46" height="46" class="shrink-0" />
             <div class="flex-1">
-              <h5 class="relative text-tan text-[18px] font-body md:after:content-[''] md:after:absolute md:after:left-0 md:after:-bottom-1 md:after:w-full md:after:h-[2px] md:after:bg-tan">
+              <h5 class="relative text-tan text-[18px] font-body md:after:content-[''] md:after:absolute md:after:left-0 md:after:-bottom-1 md:after:w-full md:after:h-0.5 md:after:bg-tan">
                 {item.name}
                 <span class="float-right">{item.price}</span>
               </h5>

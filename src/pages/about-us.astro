@@ -3,6 +3,7 @@ import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Container from '../components/Container.astro';
 import Button from '../components/Button.astro';
+import ReviewsSection from '../components/ReviewsSection.astro';
 
 const entry = await getEntry('pages', 'about-us');
 if (!entry) throw new Error('Missing about-us content entry');
@@ -17,7 +18,7 @@ if (!entry) throw new Error('Missing about-us content entry');
   <section class="bg-cover bg-center py-16 text-center" style="background-image: url('/images/theme/big.png')">
     <Container>
       <h1 class="font-body text-brown text-[50px] lg:text-[70px]">OUR MISSION</h1>
-      <p class="font-body text-muted-blue text-[20px] lg:text-[36px] max-w-[900px] mx-auto mt-2 leading-snug">
+      <p class="font-body text-muted-blue text-[20px] lg:text-[36px] max-w-225 mx-auto mt-2 leading-snug">
         Green Turtle Kava exists to bring communities the finest Kava in the world while fostering
         connectedness, creativity, and service.
       </p>
@@ -26,7 +27,7 @@ if (!entry) throw new Error('Missing about-us content entry');
 
   <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/bowl.png')">
     <Container>
-      <div class="grid lg:grid-cols-2 gap-10 items-start">
+      <div class="grid lg:grid-cols-2 gap-4 items-start">
         <img src="/images/uploads/2021/05/t-2.png" alt="kava bar stress relief tea - beach view" width="549" height="772" class="w-full h-auto" />
         <div>
           <h2 class="font-body text-gold text-[32px] pb-2">WHO WE ARE</h2>
@@ -48,7 +49,7 @@ if (!entry) throw new Error('Missing about-us content entry');
         </div>
       </div>
 
-      <div class="grid md:grid-cols-2 gap-4 mt-10 max-w-[1100px] mx-auto">
+      <div class="grid md:grid-cols-2 gap-4 mt-10  mx-auto">
         <img src="/images/uploads/2021/05/s-1.png" alt="Kava Bar in Saint Augustine, FL shell on beach" width="549" height="628" class="w-full h-auto object-cover" />
         <img src="/images/uploads/2021/05/t-1.png" alt="kava bar green turtle team" width="549" height="628" class="w-full h-auto object-cover" />
       </div>
@@ -59,9 +60,9 @@ if (!entry) throw new Error('Missing about-us content entry');
     <Container>
       <div class="grid lg:grid-cols-2 gap-10 items-start">
         <div class="relative">
-          <h2 class="font-script text-tan-light text-[70px] leading-none">
+          <h2 class="font-script text-tan-light text-[70px] text-center leading-none">
             Green Turtle
-            <img src="/images/theme/line.png" alt="" class="mt-1 w-[177px]" />
+            <img src="/images/theme/line.png" alt="" class="w-45 mx-auto" />
           </h2>
           <h1 class="font-body text-brown text-[30px] lg:text-[95px] leading-none mt-2">
             KAVA SHARED<br />WITH A FRIEND<br />IS HAPPINESS
@@ -86,15 +87,5 @@ if (!entry) throw new Error('Missing about-us content entry');
     </Container>
   </section>
 
-  <section class="bg-cover bg-no-repeat py-16 text-center" style="background-image: url('/images/theme/obg.png')">
-    <Container>
-      <h2 class="font-script text-tan-light text-[70px] leading-none">What your<img src="/images/theme/line.png" alt="" class="mx-auto mt-1 w-[177px]" /></h2>
-      <h1 class="font-body text-brown text-[30px] lg:text-[70px] mt-2">TURTLE TRIBE IS SAYING....</h1>
-      <div class="flex flex-wrap justify-center items-center gap-x-12 gap-y-6 max-w-[900px] mx-auto mt-10">
-        <img src="/images/uploads/2021/05/b1.png" alt="Google Reviews" class="h-auto w-auto max-w-[222px]" />
-        <img src="/images/uploads/2021/05/b2.png" alt="Yelp Reviews" class="h-auto w-auto max-w-[262px]" />
-        <img src="/images/uploads/2021/05/b3.png" alt="Facebook Reviews" class="h-auto w-auto max-w-[280px]" />
-      </div>
-    </Container>
-  </section>
+  <ReviewsSection />
 </Layout>

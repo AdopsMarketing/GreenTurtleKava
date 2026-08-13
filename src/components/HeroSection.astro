@@ -9,10 +9,10 @@ const { heading, image = '/images/theme/banner.png' } = Astro.props;
 ---
 
 <div
-  class="bg-cover bg-center bg-no-repeat text-center py-[100px] lg:py-[259px]"
+  class="bg-cover bg-top bg-no-repeat text-center py-25 lg:py-65"
   style={`background-image: url('${image}')`}
 >
-  <div class="mx-auto max-w-[1140px] px-[15px]">
+  <div class="mx-auto max-w-page px-4">
     <h1 class="inline-block border border-gold bg-[rgba(27,23,25,0.7)] px-5 py-1.5 text-white font-body text-[30px] lg:text-[70px] leading-tight">
       {heading}
     </h1>

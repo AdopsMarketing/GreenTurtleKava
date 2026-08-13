@@ -5,6 +5,7 @@ import Container from '../components/Container.astro';
 import Button from '../components/Button.astro';
 import MenuAccordion from '../components/MenuAccordion.astro';
 import SocialIcons from '../components/icons/SocialIcons.astro';
+import ReviewsSection from '../components/ReviewsSection.astro';
 import { locationMenus } from '../data/locationMenus';
 
 export async function getStaticPaths() {
@@ -100,15 +101,7 @@ const date =
             <MenuAccordion categories={locationMenus[(entry.data as any).slug] ?? []} />
           </div>
 
-          <div class="text-center mt-16">
-            <h2 class="font-script text-tan-light text-[35px] lg:text-[90px] leading-none">What your<img src="/images/theme/line.png" alt="" class="mx-auto mt-1 w-[177px]" /></h2>
-            <h1 class="font-body text-brown text-[35px] lg:text-[70px] mt-2">TURTLE TRIBE IS SAYING....</h1>
-            <div class="grid grid-cols-3 gap-8 items-center max-w-[700px] mx-auto mt-8">
-              <img src="/images/uploads/2021/05/b1.png" alt="Google Reviews" class="w-full h-auto" />
-              <img src="/images/uploads/2021/05/b2.png" alt="Yelp Reviews" class="w-full h-auto" />
-              <img src="/images/uploads/2021/05/b3.png" alt="Facebook Reviews" class="w-full h-auto" />
-            </div>
-          </div>
+          <ReviewsSection bare class="mt-16" />
 
           <div class="text-center mt-16">
             <h1 class="font-body text-brown text-[35px] lg:text-[70px] mb-4">CONNECT WITH US</h1>
