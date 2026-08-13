@@ -86,7 +86,7 @@ const groupLabels: Record<string, string> = {
     <Container>
       {groupOrder.map((key) => groups[key].length > 0 && (
         <div class="mb-16">
-          <h1 class="font-body text-brown text-[40px] mb-6">{groupLabels[key]}</h1>
+          <h1 class="font-body text-body-text text-[40px] mb-6">{groupLabels[key]}</h1>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {groups[key].slice(0, 3).map(({ event }) => (
               <EventCard event={event} />
