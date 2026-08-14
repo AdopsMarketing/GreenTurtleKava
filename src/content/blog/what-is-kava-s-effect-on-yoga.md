@@ -5,7 +5,7 @@ date: "2024-02-17T09:56:02"
 link: "https://greenturtlekava.co/what-is-kava-s-effect-on-yoga/"
 metaDescription: "What is kava? Kava can be a valuable addition to a yoga practice, enhancing its benefits and promoting overall well-being."
 canonical: "https://greenturtlekava.co/what-is-kava-s-effect-on-yoga/"
-ogImage: "/images/uploads/2024/02/unnamed.jpeg"
+ogImage: "/images/media/2024/02/unnamed.jpeg"
 ---
 <div></div>
 <p><span>What is kava? What is it used for? Why is it becoming so popular? Kava, a traditional herbal remedy derived from the root of the Piper methysticum plant, has been gaining popularity for its various health benefits. One area where kava can be particularly beneficial is in conjunction with yoga practice. Yoga, an ancient practice that combines physical postures, breathing exercises, and meditation, is known for its ability to promote relaxation, reduce stress, and improve overall well-being. When paired with kava, yoga practitioners may experience enhanced benefits. Here are five ways kava can help with yoga:</span></p>

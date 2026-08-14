@@ -18,14 +18,24 @@ const blog = defineCollection({
   }),
 });
 
+// Events are managed through Keystatic (see keystatic.config.ts), which derives the URL slug
+// from the filename rather than a frontmatter field — so entries it creates carry no `slug`,
+// `link` or `canonical` key. Use `event.id` for the slug and `eventUrl()` for the absolute URL.
 const events = defineCollection({
   loader: glob({ pattern: '**/*.md', base: './src/content/events' }),
   schema: z.object({
     title: z.string(),
-    slug: z.string(),
     date: z.coerce.date(),
-    link: z.string().url(),
-    ...seoFields,
+    // The date the event actually happens. Optional: the ~190 events imported from WordPress
+    // predate this field and fall back to the slug/publish-date heuristics in /events/.
+    eventDate: z.coerce.date().optional(),
+    // Empty string means "auto-detect from the body copy" — same fallback as above.
+    location: z.string().default(''),
+    metaDescription: z.string().default(''),
+    // `featuredImage` is the Keystatic upload; `ogImage` is the path inherited from the
+    // WordPress import. Read them through `eventImage()` rather than directly.
+    featuredImage: z.string().default(''),
+    ogImage: z.string().default(''),
   }),
 });
 

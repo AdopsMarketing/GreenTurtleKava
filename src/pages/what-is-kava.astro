@@ -3,6 +3,7 @@ import { getEntry } from 'astro:content';
 import Layout from '../layouts/Layout.astro';
 import Container from '../components/Container.astro';
 import Button from '../components/Button.astro';
+import ReviewsSection from '../components/ReviewsSection.astro';
 
 const entry = await getEntry('pages', 'what-is-kava');
 if (!entry) throw new Error('Missing what-is-kava content entry');
@@ -17,7 +18,7 @@ if (!entry) throw new Error('Missing what-is-kava content entry');
   <section class="bg-cover bg-center py-16" style="background-image: url('/images/theme/big-bg.png')">
     <Container>
       <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <img src="/images/uploads/2021/05/l1.png" alt="what is kava green turtle kava leaf" width="655" height="506" class="w-full h-auto" />
+        <img src="/images/media/2021/05/l1.png" alt="what is kava green turtle kava leaf" width="655" height="506" class="w-full h-auto" />
         <div>
           <h2 class="font-body text-body-text text-[32px]">What is Kava in the first place?</h2>
           <h3 class="font-body text-muted-blue text-[30px] mt-2">RELAXATION | COMMUNITY | HARMONY</h3>
@@ -33,7 +34,7 @@ if (!entry) throw new Error('Missing what-is-kava content entry');
         <h3 class="font-body text-brown text-[50px] lg:text-[71px] text-center leading-none">
           <span class="lg:-ml-15">DELIGHTFUL</span><br />EXPERIENCE
         </h3>
-        <img src="/images/uploads/elementor/thumbs/l2-pgdkfc5qh90qlgn5lnz8c0t2a7uf6xpzob1zehheuc.png" alt="what is kava kava leaf closeup" class="w-full h-auto" />
+        <img src="/images/media/l2.png" alt="what is kava kava leaf closeup" class="w-full h-auto" />
       </div>
     </Container>
   </section>
@@ -41,7 +42,7 @@ if (!entry) throw new Error('Missing what-is-kava content entry');
   <section class="bg-cream py-16">
     <Container>
       <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <img src="/images/uploads/2021/05/l3.png" alt="kava tea root" width="352" height="568" class="w-full max-w-[352px] mx-auto h-auto" />
+        <img src="/images/media/2021/05/l3.png" alt="kava tea root" width="352" height="568" class="w-full max-w-[352px] mx-auto h-auto" />
         <div class="font-nav-book text-muted-blue text-[16px] lg:text-[18px] space-y-4">
           <p>
             Kava, also called &ldquo;kava-kava,&rdquo; is an herbal substance that comes from the root of Piper
@@ -65,18 +66,18 @@ if (!entry) throw new Error('Missing what-is-kava content entry');
 
   <section class="bg-cover bg-top py-16 relative" style="background-image: url('/images/theme/b-bg.png')">
     <Container>
-      <div class="relative bg-white max-w-[810px] mx-auto lg:mt-[85px] p-5 lg:py-10 lg:px-10">
+      <div class="relative bg-white max-w-200 mx-auto lg:mt-22 p-5 lg:py-10 lg:px-10">
         <img
-          src="/images/uploads/2021/05/site-cup.png"
+          src="/images/media/2021/05/site-cup.png"
           alt=""
-          class="hidden lg:block absolute top-0 -right-[120px] w-[228px] z-10"
+          class="hidden lg:block absolute top-0 -right-30 w-58 z-10"
         />
         <img
-          src="/images/uploads/2021/05/big-cup.png"
+          src="/images/media/2021/05/big-cup.png"
           alt=""
-          class="block w-full max-w-none relative lg:-top-[90px] lg:-left-[165px]"
+          class="block w-full max-w-none relative lg:-top-22 lg:-left-42"
         />
-        <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:mt-0 lg:!-mt-[50px]">
+        <div class="grid lg:grid-cols-2 gap-8 lg:gap-16 items-start relative mt-6 lg:!-mt-[50px]">
           <h2 class="text-brown-dark text-[30px] lg:text-[54px] leading-tight font-body pb-[14px] lg:pb-0">
             COME FOR KAVA<br />STAY FOR THE VIBE
           </h2>
@@ -97,4 +98,6 @@ if (!entry) throw new Error('Missing what-is-kava content entry');
       </div>
     </Container>
   </section>
+
+  <ReviewsSection />
 </Layout>

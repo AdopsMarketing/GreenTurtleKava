@@ -5,7 +5,7 @@ date: "2024-08-13T08:47:49"
 link: "https://greenturtlekava.co/seasonal-kava-drinks-7-best-kava-recipes/"
 metaDescription: "‘what I can do with Kava?’ You can make a variety of kava drink mixes, and here we will explore some of the top recipes that you can try out."
 canonical: "https://greenturtlekava.co/seasonal-kava-drinks-7-best-kava-recipes/"
-ogImage: "/images/uploads/2024/08/Seasonal-Kava-Drinks-7-Best-Kava-Recipes.png"
+ogImage: "/images/media/2024/08/Seasonal-Kava-Drinks-7-Best-Kava-Recipes.png"
 ---
 <p>Kava is becoming very popular very quickly in recent years. However, it has been around for centuries, as an essential element belonging to the South Pacific region and its native cultures. With its growing prominence, Kava is no longer just being consumed in the traditional manner in which the locals use it. Rather, it is being utilized in a whole bunch of seasonal recipes to create delicious kava drinks which perfectly match the vibe of the season.<br/></p><p>In this article we will share 7 of our top kava recipes that you will truly relish. Let’s dive into it.</p>
 <h2>Seasonal Recipes for Kava</h2>

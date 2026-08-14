@@ -5,7 +5,7 @@ date: "2024-10-08T10:10:20"
 link: "https://greenturtlekava.co/how-does-kava-help-in-modern-anxiety-management/"
 metaDescription: "Kava is an active alternative remedy used in modern anxiety management, promoting relaxation, calmness, and improving mood without side effects"
 canonical: "https://greenturtlekava.co/how-does-kava-help-in-modern-anxiety-management/"
-ogImage: "/images/uploads/2024/10/How-Does-Kava-Help-in-Modern-Anxiety-Management.png"
+ogImage: "/images/media/2024/10/How-Does-Kava-Help-in-Modern-Anxiety-Management.png"
 ---
 <p>Kava is a South Pacific ceremonial plant that is used as an active ingredient in the management of anxiety and stress.</p><p>The United States has seen a surge in the use of kava as an alternative medicine used to treat and minimize the symptoms of anxiety. There has been a sudden increase in the recent years in how this plant has been used for both recreational and medical purposes.</p><p>Kava Kava as it is also called has been popularly used by the natives of the South Pacific Islands over the years for its relaxation properties. It comes in various forms, including <a href="https://greenturtlekava.co/">kava drink</a>, capsules, tablets, and extracts.</p><p>As an herbal remedial medication, it has the same effect as alcohol just without the side effects. In this post, we will explain kava and how it can help in modern anxiety management.</p>
 <h2>What is Kava?</h2>

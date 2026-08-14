@@ -5,7 +5,7 @@ date: "2025-05-14T11:44:42"
 link: "https://greenturtlekava.co/kava-be-used-in-skincare-to-benefit-your-skin/"
 metaDescription: "Kava offers skin benefits like reducing inflammation, calming irritation, and fighting free radicals for a smoother, healthier-looking complexion."
 canonical: "https://greenturtlekava.co/kava-be-used-in-skincare-to-benefit-your-skin/"
-ogImage: "/images/uploads/2025/05/How-Can-Kava-Be-Used-in-Skincare-to-Benefit-Your-Skin.jpg"
+ogImage: "/images/media/2025/05/How-Can-Kava-Be-Used-in-Skincare-to-Benefit-Your-Skin.jpg"
 ---
 <p>Drinking kava leads to its popular calming properties. The plant offers benefits not just for your internal health but also shows positive effects on your skin. Originating from the South Pacific, the beneficial plant contains anti-inflammatory properties and antioxidants that address acne issues and minimize irritation while addressing aging skin problems. This article evaluates kava skin benefits by explaining its correct application in skincare products and procedures. </p>
 <h2>How Kava Helps Your Skin Look Better</h2>

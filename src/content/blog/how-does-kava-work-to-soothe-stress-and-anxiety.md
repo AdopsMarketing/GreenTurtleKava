@@ -5,12 +5,12 @@ date: "2024-12-19T13:13:05"
 link: "https://greenturtlekava.co/how-does-kava-work-to-soothe-stress-and-anxiety/"
 metaDescription: "Kava offers natural stress relief by reducing anxiety, improving sleep, and promoting relaxation. In this blog learn about its benefits and how it works."
 canonical: "https://greenturtlekava.co/how-does-kava-work-to-soothe-stress-and-anxiety/"
-ogImage: "/images/uploads/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiety.png"
+ogImage: "/images/media/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiety.png"
 ---
 <p>Do you experience stress on a day-to-day basis and need a solution? Have you been looking for herbal medicine for anxiety? Then Kava is the answer you’ve been looking for this entire time. </p><p>Let’s take a look at how kava works to soothe stress and anxiety. </p>
 <h2>What is Kava?</h2>
 <p>Kava is a beverage derived from a plant that is native to the South Pacific islands. For centuries, this plant species has been an integral part of Pacific Islander cultures as a ceremonial beverage used for calming nerves and elevating anxiety levels.</p><p>Kava is a species of herbaceous plants characterized by tri-palmate leaves and stout stems which are scientifically classified as Piper methysticum. The plant has found systematic usage by the Pacific Islanders in bringing peace and tranquillity during important social events and milestones.</p><p>Traditionally, <a href="https://greenturtlekava.co/kava-preparation-affect-on-potency-and-flavor/">preparing Kava</a> was quite an experience. People would grind the plant’s roots into a paste – originally by chewing and spitting them out. The paste would then be mixed with water, strained, and consumed as a special drink that brings people together.</p>
-<img src="/images/uploads/2024/12/What-is-Kava.png" alt="What is Kava? - Green Turtle Kava">
+<img src="/images/media/2024/12/What-is-Kava.png" alt="What is Kava? - Green Turtle Kava">
 <h2>The Science Behind Kava</h2>
 <p>At the core of Kava’s effectiveness are compounds called kavalactones. These are the plant’s special relaxation molecules. These natural chemicals work directly with your brain’s neurotransmitters, particularly GABA (gamma-aminobutyric acid), which helps calm your nervous system.</p>
 <h3>Proven Benefits</h3>
@@ -31,7 +31,7 @@ ogImage: "/images/uploads/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiet
 <p>Choosing Kava connects consumers to a centuries-old tradition of Pacific Island wellness practices. It’s more than a supplement; it’s a cultural experience. </p>
 <h3>Potential Long-Term Health Benefits</h3>
 <p>Emerging research suggests <a href="https://greenturtlekava.co/health-benefits-of-kava-why-you-should-try-it/">Kava might offer broader health advantages</a> beyond stress relief, including potential neuroprotective and anti-inflammatory properties.</p>
-<img src="/images/uploads/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiety-1.png" alt="How Does Kava Work to Soothe Stress and Anxiety">
+<img src="/images/media/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiety-1.png" alt="How Does Kava Work to Soothe Stress and Anxiety">
 <h2>Maximizing Your Kava Experience</h2>
 <p>To ensure the best possible results, follow these strategic guidelines given below:</p><ul><li>Start with low doses</li><li>Purchase from reputable sources</li><li>Combine with healthy lifestyle practices</li><li>Monitor your body’s response</li></ul>
 <h2>Different Ways to Enjoy Kava</h2>
@@ -48,6 +48,6 @@ ogImage: "/images/uploads/2024/12/How-Does-Kava-Work-to-Soothe-Stress-and-Anxiet
 <p>While Kava is generally safe, some precautions are essential. Certain groups of people should exercise extreme caution or completely avoid Kava consumption:</p><ul><li>Pregnant or breastfeeding women</li><li>People with liver conditions</li><li>Individuals with Parkinson’s disease</li><li>Those scheduled for surgery</li></ul>
 <h2>Where Can You Get Quality Kava?</h2>
 <p>Looking for a reliable source to get Kava? Check out <a href="https://greenturtlekava.co/">Green Turtle Kava</a>, a premium provider of high-quality Kava products. They offer ethically sourced ingredients, transparent kavalactone content, multiple product formats, and even provide expert guidance.</p><p>Understanding that individual preferences vary, <a href="https://greenturtlekava.co/kava-benefits-and-traditions/">Green Turtle Kava offers diverse consumption options</a>:</p><ul><li>Traditional tea blends</li><li>Capsules</li><li>Liquid extracts</li><li>Powdered supplements</li></ul><p>This variety ensures that consumers can find a Kava product that fits their lifestyle and personal preferences.</p>
-<img src="/images/uploads/2024/12/Where-Can-You-Get-Quality-Kava.png" alt="Where Can You Get Quality Kava? - Green Turtle Kava Bar">
+<img src="/images/media/2024/12/Where-Can-You-Get-Quality-Kava.png" alt="Where Can You Get Quality Kava? - Green Turtle Kava Bar">
 <h2>A Final Word</h2>
 <p>Kava has opened doors towards an innovative approach for the treatment of mental stress. It does not promise results like antidepressants or anti anxiety medicines do, but is a safe option for those who do not want to depend on strong medications.</p><p>Excited to unwind and let go of all the stress? All you have to do now is <a href="https://greenturtlekava.co/contact-us/">visit Green Turtle Kava and let the journey begin</a>!</p><p>Disclaimer: This information is just for educational purposes. Please see your doctor or other healthcare providers before taking any supplement for the first time.</p>

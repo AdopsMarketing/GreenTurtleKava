@@ -3,7 +3,6 @@ import '../styles/global.css';
 import Header from '../components/Header.astro';
 import Footer from '../components/Footer.astro';
 import HeroSection from '../components/HeroSection.astro';
-import SpinPopup from '../components/SpinPopup.astro';
 
 interface Props {
   title: string;
@@ -15,6 +14,10 @@ interface Props {
 
 const { title, description = '', canonical, ogImage = '', heroHeading } = Astro.props;
 const resolvedCanonical = canonical ?? Astro.url.href;
+
+// OptiMonk — popups/campaigns (spin-to-win etc.) are managed in the OptiMonk dashboard.
+// Account ID from OptiMonk → Install code; override per-environment with PUBLIC_OPTIMONK_ACCOUNT_ID.
+const OPTIMONK_ACCOUNT_ID = import.meta.env.PUBLIC_OPTIMONK_ACCOUNT_ID ?? '195346';
 ---
 
 <!doctype html>
@@ -36,6 +39,15 @@ const resolvedCanonical = canonical ?? Astro.url.href;
 
     <link rel="preload" href="/fonts/fontsfree-net-theforegenroughone-webfont.woff2" as="font" type="font/woff2" crossorigin />
     <link rel="preload" href="/fonts/futura-pt-medium.woff2" as="font" type="font/woff2" crossorigin />
+
+    {OPTIMONK_ACCOUNT_ID && (
+      <script
+        is:inline
+        async
+        type="text/javascript"
+        src={`https://front.optimonk.com/public/${OPTIMONK_ACCOUNT_ID}/js/preload.js`}
+      ></script>
+    )}
   </head>
   <body class="font-body text-body-text bg-cream">
     <Header />
@@ -44,6 +56,5 @@ const resolvedCanonical = canonical ?? Astro.url.href;
       <slot />
     </main>
     <Footer />
-    <SpinPopup />
   </body>
 </html>

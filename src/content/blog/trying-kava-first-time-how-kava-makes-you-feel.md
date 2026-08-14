@@ -5,7 +5,7 @@ date: "2024-11-05T08:36:46"
 link: "https://greenturtlekava.co/trying-kava-first-time-how-kava-makes-you-feel/"
 metaDescription: "Trying Kava for the first time? Learn how Kava can help in promoting relaxation, uplifts mood, and boosts sociability without hangovers or addiction."
 canonical: "https://greenturtlekava.co/trying-kava-first-time-how-kava-makes-you-feel/"
-ogImage: "/images/uploads/2024/11/Trying-Kava-for-the-First-Time-Know-How-Kava-Makes-You-Feel.png"
+ogImage: "/images/media/2024/11/Trying-Kava-for-the-First-Time-Know-How-Kava-Makes-You-Feel.png"
 ---
 <p>Having its origins in the global South Pacific, Kava, a herbal drink, has gained widespread popularity over the past few years. Associated with offering exceptional relaxation and tranquility, Kava has quickly become a social beverage. </p><p>This is very popular, especially among people who want to feel the kind of uplifted mood and spirits that alcohol provides without consuming alcohol or suffering from the hangovers that it comes with. But, before you consume kava for the first time, there are a few things that you must learn about it, which we will explore in this article. </p>
 <h2>The Distinctive Effects Of Kava</h2>

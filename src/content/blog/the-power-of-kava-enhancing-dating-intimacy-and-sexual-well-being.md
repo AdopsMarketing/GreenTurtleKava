@@ -5,7 +5,7 @@ date: "2024-01-11T01:23:53"
 link: "https://greenturtlekava.co/the-power-of-kava-enhancing-dating-intimacy-and-sexual-well-being/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/the-power-of-kava-enhancing-dating-intimacy-and-sexual-well-being/"
-ogImage: "/images/uploads/2024/01/unnamed.jpeg"
+ogImage: "/images/media/2024/01/unnamed.jpeg"
 ---
 <div></div>
 <h2>The Ancient Roots of Kava</h2>

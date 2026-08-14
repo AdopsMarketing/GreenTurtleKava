@@ -5,7 +5,7 @@ date: "2023-07-03T14:59:35"
 link: "https://greenturtlekava.co/what-is-a-kava-bar/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/what-is-a-kava-bar/"
-ogImage: "/images/uploads/2023/07/unnamed-6.jpg"
+ogImage: "/images/media/2023/07/unnamed-6.jpg"
 ---
 <div></div>
 <p><span>Welcome to the fascinating world of kava bars! In recent years, these unique establishments have been gaining popularity, offering an alternative social experience for those seeking relaxation, cultural exploration, and a non-alcoholic beverage option. Whether you’re a curious newcomer or an avid enthusiast, this blog post will take you on a journey to discover what kava bars are, their origins, the drinks they serve, and the experience they offer. So sit back, relax, and prepare to delve into the intriguing realm of kava bars!</span></p>

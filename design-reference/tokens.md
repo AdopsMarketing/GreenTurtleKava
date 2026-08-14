@@ -1,6 +1,6 @@
 # Green Turtle Kava — Design Tokens
 
-Source: `wp-content/themes/green_turtle/css/style.css?v=6` (theme stylesheet, ground truth)
+Source: the brand's original theme stylesheet (ground truth)
 + computed-style inspection of the live homepage at 1920px.
 Framework underneath: **Bootstrap 4.6** grid (`.container` = 1140px, 15px gutters) with a custom theme layer on top.
 No Tailwind/Elementor classes are to be copied — values only.
@@ -28,7 +28,7 @@ No Tailwind/Elementor classes are to be copied — values only.
 
 ## Typography
 
-Self-hosted, downloaded to `wp-export/fonts/` (source: `wp-content/themes/green_turtle/fonts/`):
+Self-hosted in `public/fonts/` (from the brand's original theme):
 
 | Font family (CSS name) | File | Weight/style | Usage |
 |---|---|---|---|

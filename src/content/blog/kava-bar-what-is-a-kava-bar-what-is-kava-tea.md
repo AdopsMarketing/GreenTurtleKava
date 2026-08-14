@@ -5,7 +5,7 @@ date: "2024-02-19T19:28:02"
 link: "https://greenturtlekava.co/kava-bar-what-is-a-kava-bar-what-is-kava-tea/"
 metaDescription: "Kava bars have emerged as vibrant and unique social spaces serving kava tea. They are often characterized by their relaxed atmosphere and sense of community"
 canonical: "https://greenturtlekava.co/kava-bar-what-is-a-kava-bar-what-is-kava-tea/"
-ogImage: "/images/uploads/2024/02/unnamed-1.jpeg"
+ogImage: "/images/media/2024/02/unnamed-1.jpeg"
 ---
 <div></div>
 <p> </p>

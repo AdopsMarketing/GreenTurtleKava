@@ -5,7 +5,7 @@ date: "2023-11-22T18:18:35"
 link: "https://greenturtlekava.co/can-kava-make-you-happy-unveiling-the-ancient-elixirs-effects-on-mood/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/can-kava-make-you-happy-unveiling-the-ancient-elixirs-effects-on-mood/"
-ogImage: "/images/uploads/2023/11/unnamed.jpeg"
+ogImage: "/images/media/2023/11/unnamed.jpeg"
 ---
 <div></div>
 <p><span>In the realm of natural remedies and alternative herbal substances, kava has gained attention for its potential to induce relaxation and promote a sense of well-being. Originating from the South Pacific islands, kava has been traditionally used for centuries as a ceremonial drink and a way to enhance social connections. But can this ancient elixir truly make you happy? In this article, we delve into the science and history of</span><a><span> kava</span></a><span> to explore its effects on mood and its potential as a mood-enhancing agent.</span></p>

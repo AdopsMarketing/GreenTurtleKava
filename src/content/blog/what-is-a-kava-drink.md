@@ -5,7 +5,7 @@ date: "2023-06-13T08:34:18"
 link: "https://greenturtlekava.co/what-is-a-kava-drink/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/what-is-a-kava-drink/"
-ogImage: "/images/uploads/2023/06/unnamed-4-1.jpg"
+ogImage: "/images/media/2023/06/unnamed-4-1.jpg"
 ---
 <div></div>
 <p><a><span>Kava</span></a><span>, a unique and intriguing beverage, holds a significant place in the cultures and traditions of the South Pacific islands. Derived from the roots of the Piper methysticum plant, kava has been consumed for centuries due to its therapeutic properties and social significance. This article delves into the origins of kava, its traditional preparation, the cultural and social aspects surrounding its consumption, as well as the potential benefits and precautions associated with this beloved beverage.</span></p>

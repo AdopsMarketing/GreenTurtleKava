@@ -5,12 +5,12 @@ date: "2025-01-07T10:35:21"
 link: "https://greenturtlekava.co/can-kava-help-you-get-a-good-nights-rest/"
 metaDescription: "Kava, also being a traditional drink from the South Pacific, may offer them just the solution that attracts researchers and health enthusiasts together."
 canonical: "https://greenturtlekava.co/can-kava-help-you-get-a-good-nights-rest/"
-ogImage: "/images/uploads/2025/01/Can-This-Plant-Help-You-Finally-Get-a-Good-Nights-Rest-Know-About-Kava.png"
+ogImage: "/images/media/2025/01/Can-This-Plant-Help-You-Finally-Get-a-Good-Nights-Rest-Know-About-Kava.png"
 ---
 <p>Not getting enough sleep has lately turned into a silent problem in this world. Many feel quite hard to find that very natural and effective way to fix their sleepless nights in nature. </p><p>Kava, also being a traditional drink from the South Pacific, may offer them just the solution that attracts researchers and health enthusiasts together. </p>
 <h2>The Origins of Kava: More Than Just a Drink</h2>
 <p>Kava is a tropical shrub that is evergreen, native to the South Pacific islands. The tropical shrub has the name Pipermethysticum and has been the core of Pacific Island social and ceremonial practices long before it caused waves globally.</p><p>Historically, kava was prepared with a fair amount of caution. People in the Pacific Islands would grind the roots of the plant into a paste by chewing and spitting. Now preparation is cleaner and makes use of methods of hand grinding. The paste mixed up with water is strained and drunk to help people <a href="https://greenturtlekava.co/kava-bar-what-is-a-kava-bar-what-is-kava-tea/">relax and socialize</a>.</p>
-<img src="/images/uploads/2025/01/The-Origins-of-Kava_-More-Than-Just-a-Drink.png" alt="The Origins of Kava_ More Than Just a Drink">
+<img src="/images/media/2025/01/The-Origins-of-Kava_-More-Than-Just-a-Drink.png" alt="The Origins of Kava_ More Than Just a Drink">
 <h2>The Science Behind Kava: Understanding Its Powerful Compounds</h2>
 <p>Kava works very well due to compounds called kavalactones. These makeup between 3% and 20% of the dry weight of the root of the plant. Scientific studies have proven that these active ingredients have tremendous potential and provide many benefits other than just relaxation.</p><p>Researchers have found several important possible effects of kavalactones. These include lowering anxiety, protecting nerve pathways, reducing pain feelings, and even showing early signs that they might lower cancer risk in animal studies. Although more research is needed, the first results are hopeful.</p><p>The mechanism of action is very interesting. Kavalactones are said to bind with neurotransmitters in the brain, especially gamma-aminobutyric acid (GABA). This binding action will reduce nerve activity, creating a calming effect and potentially dealing with the issues that are disturbing sleep.</p>
 <h2>Sleep Struggles: A Global Challenge</h2>
@@ -19,7 +19,7 @@ ogImage: "/images/uploads/2025/01/Can-This-Plant-Help-You-Finally-Get-a-Good-Nig
 <p>Many research studies had shown that kava has excellent evidence in helping sleep disorders. One of the essential 28-day studies with a random assignment showed that there are clear improvements in how participants have slept. People who took kava extract fell asleep faster and slept longer, and reported less anxiety.</p><p>Another four-week study looked specifically at people with insomnia and found impressive results. Participants had clear improvements in how long they slept, the quality of their sleep, and how efficiently they slept compared to the control group.</p>
 <h2>Exploring Kava Consumption Methods</h2>
 <p>Kava is not just for traditional drinking anymore. Today, <a href="https://greenturtlekava.co/what-are-different-types-of-kava/">people can pick from different ways</a> to use it:</p><ol><li>Kava Tea: A gentle introduction to the plant, often blended with other relaxation-promoting herbs.</li><li>Liquid Tinctures: Full extracts that contain precise doses.</li><li>Capsules Best for those who need very strict diet control End.</li><li>Powdered Supplements: Easy to prepare and use.</li></ol>
-<img src="/images/uploads/2025/01/Kava-Tea.png" alt="Kava Tea">
+<img src="/images/media/2025/01/Kava-Tea.png" alt="Kava Tea">
 <h2>Dosage and Recommendations</h2>
 <p>Experts recommend careful approach to kava consumption. The daily intake of kavalactones should not exceed 250 mg, with an effective dose ranging between 70 to 250 mg. Consumers should always carefully read product labels and understand the kavalactone content.</p>
 <h2>Safety Considerations and Potential Risks</h2>

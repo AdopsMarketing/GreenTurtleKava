@@ -5,7 +5,7 @@ date: "2023-06-13T08:04:40"
 link: "https://greenturtlekava.co/what-is-kava-shop/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/what-is-kava-shop/"
-ogImage: "/images/uploads/2023/06/unnamed.jpg"
+ogImage: "/images/media/2023/06/unnamed.jpg"
 ---
 <div></div>
 <p><span>In recent years, a growing number of people seeking relaxation and a taste of exotic cultures have been drawn to kava shops. These unique establishments offer a haven for those looking to unwind, socialize, and indulge in the traditional beverage known as kava. In this article, we delve into the world of kava shops, exploring what they are and the experiences they offer to visitors.</span></p>

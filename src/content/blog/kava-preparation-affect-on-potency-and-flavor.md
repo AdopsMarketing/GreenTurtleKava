@@ -5,7 +5,7 @@ date: "2024-10-22T13:18:38"
 link: "https://greenturtlekava.co/kava-preparation-affect-on-potency-and-flavor/"
 metaDescription: "Different kava preparation methods impact its potency and flavor, with fats enhancing strength and spices adjusting taste for a smoother experience."
 canonical: "https://greenturtlekava.co/kava-preparation-affect-on-potency-and-flavor/"
-ogImage: "/images/uploads/2024/10/How-Different-Preparation-Methods-Affect-Kavas-Potency-and-Flavor.png"
+ogImage: "/images/media/2024/10/How-Different-Preparation-Methods-Affect-Kavas-Potency-and-Flavor.png"
 ---
 <p>The natural taste of kava is slightly minty and woody. Many people have confirmed that kava drink tastes like the earth. The main ingredient of kava which is the kavapyrones majorly contributes to the taste of kava and its effects on the human brain and mind.</p><p>The distinctive taste of kava can be influenced by factors such as where it was grown and the variety of the plant itself. The freshness of the kava can also affect its flavor and potency. A fresher kava is often more potent and of higher quality.</p><p>Although certain things can affect your <a href="https://greenturtlekava.co/">kava drink</a>, its potency, and flavor all come down to its preparation method.</p>
 <h2>Can Different Preparation Methods Affect Kava’s Potency and Flavor?</h2>

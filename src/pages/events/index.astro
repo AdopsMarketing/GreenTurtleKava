@@ -6,40 +6,23 @@ import FormInput from '../../components/FormInput.astro';
 import Button from '../../components/Button.astro';
 import EventCard from '../../components/EventCard.astro';
 import EventCountdown from '../../components/EventCountdown.astro';
+import {
+  EVENT_LOCATIONS,
+  EVENT_LOCATION_LABELS,
+  eventHref,
+  eventImage,
+  resolveEventDate,
+  resolveEventLocation,
+  type EventLocation,
+} from '../../data/events';
 
 const allEvents = await getCollection('events');
 
-function detectLocation(body: string): 'St. Augustine' | 'Daytona Beach' | 'Ormond Beach' | 'Other' {
-  if (/Daytona Beach/i.test(body)) return 'Daytona Beach';
-  if (/Ormond Beach/i.test(body)) return 'Ormond Beach';
-  if (/St\.?\s?Augustine/i.test(body)) return 'St. Augustine';
-  return 'Other';
-}
-
-const MONTHS = ['january','february','march','april','may','june','july','august','september','october','november','december'];
-
-// Many event slugs encode the real event date (e.g. "massage-and-dry-needling-july-25"),
-// which is far more reliable than the WP post-creation date for picking the next upcoming event.
-function eventDate(slug: string, fallbackIso: string): Date {
-  const match = slug.match(/-([a-z]+)-(\d{1,2})$/i);
-  if (match) {
-    const monthIndex = MONTHS.indexOf(match[1].toLowerCase());
-    const day = parseInt(match[2], 10);
-    if (monthIndex >= 0 && day >= 1 && day <= 31) {
-      const fallback = new Date(fallbackIso);
-      let year = fallback.getFullYear();
-      let candidate = new Date(year, monthIndex, day, 12, 0, 0);
-      return candidate;
-    }
-  }
-  return new Date(fallbackIso);
-}
-
 const now = new Date();
-const withLocation = allEvents.map((e) => ({
-  event: e,
-  location: detectLocation(e.body ?? ''),
-  parsedDate: eventDate(e.data.slug, e.data.date as unknown as string),
+const withLocation = allEvents.map((event) => ({
+  event,
+  location: resolveEventLocation(event),
+  parsedDate: resolveEventDate(event),
 }));
 withLocation.sort((a, b) => b.parsedDate.getTime() - a.parsedDate.getTime());
 
@@ -48,23 +31,12 @@ const nextItem = upcoming[0] ?? withLocation[0];
 const nextEvent = nextItem?.event;
 const nextEventDate = nextItem?.parsedDate;
 
-const groups: Record<string, typeof withLocation> = {
-  'St. Augustine': [],
-  'Daytona Beach': [],
-  'Ormond Beach': [],
-  'Other': [],
-};
+const groups = Object.fromEntries(
+  EVENT_LOCATIONS.map((key) => [key, [] as typeof withLocation])
+) as Record<EventLocation, typeof withLocation>;
 for (const item of withLocation) {
   groups[item.location].push(item);
 }
-
-const groupOrder = ['St. Augustine', 'Daytona Beach', 'Ormond Beach', 'Other'] as const;
-const groupLabels: Record<string, string> = {
-  'St. Augustine': 'St Augustine Events',
-  'Daytona Beach': 'Daytona Beach Events',
-  'Ormond Beach': 'Ormond Beach Events',
-  'Other': 'Coming Soon Events',
-};
 ---
 
 <Layout
@@ -77,16 +49,16 @@ const groupLabels: Record<string, string> = {
     <EventCountdown
       targetIso={nextEventDate.toISOString()}
       title={nextEvent.data.title}
-      href={`/event/${nextEvent.data.slug}/`}
-      image={nextEvent.data.ogImage}
+      href={eventHref(nextEvent)}
+      image={eventImage(nextEvent)}
     />
   )}
 
   <section class="bg-cover bg-no-repeat py-16" style="background-image: url('/images/theme/obg.png')">
     <Container>
-      {groupOrder.map((key) => groups[key].length > 0 && (
+      {EVENT_LOCATIONS.map((key) => groups[key].length > 0 && (
         <div class="mb-16">
-          <h1 class="font-body text-body-text text-[40px] mb-6">{groupLabels[key]}</h1>
+          <h1 class="font-body text-body-text text-[40px] mb-6">{EVENT_LOCATION_LABELS[key]}</h1>
           <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
             {groups[key].slice(0, 3).map(({ event }) => (
               <EventCard event={event} />

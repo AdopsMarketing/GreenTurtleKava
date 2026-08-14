@@ -2,7 +2,7 @@
 @import "./fonts.css";
 
 @theme {
-  /* Colors — exact values from wp-content/themes/green_turtle/css/style.css */
+  /* Colors — exact values from the original theme stylesheet */
   --color-navy: #2b495f;
   --color-gold: #c5a771;
   --color-brown: #614b34;

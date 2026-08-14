@@ -1,20 +1,18 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { eventHref, eventImage, formatEventDate } from "../data/events";
 
 interface Props {
   event: CollectionEntry<"events">;
 }
 const { event } = Astro.props;
-const date = new Date(event.data.date).toLocaleDateString("en-US", {
-  month: "long",
-  day: "numeric",
-  year: "numeric",
-});
+const date = formatEventDate(event);
+const image = eventImage(event);
 ---
 
-<a href={`/event/${event.data.slug}/`} class="block relative h-full aspect-350/434 overflow-hidden">
+<a href={eventHref(event)} class="block relative h-full aspect-350/434 overflow-hidden">
   <img
-    src={event.data.ogImage}
+    src={image}
     alt={event.data.title}
     class="absolute inset-0 w-full h-full object-cover"
   />

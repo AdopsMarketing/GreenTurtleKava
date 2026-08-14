@@ -5,7 +5,7 @@ date: "2023-06-09T06:13:09"
 link: "https://greenturtlekava.co/fijian-kava-quality/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/fijian-kava-quality/"
-ogImage: "/images/uploads/2023/06/unnamed-1.jpg"
+ogImage: "/images/media/2023/06/unnamed-1.jpg"
 ---
 <div></div>
 <p><a><span>Fijian kava</span></a><span> holds a prominent position in the hearts of locals and enthusiasts alike. This unique beverage, crafted from the roots of the Piper methysticum plant, has a rich cultural heritage and has been cherished for centuries in the islands of Fiji. Known for its relaxing and soothing effects, Fijian kava is sought after for its exceptional quality and distinct characteristics. In this blog, we delve into the world of Fijian kava, exploring its cultivation, processing methods, regional variations, and the factors that contribute to its unrivaled quality.</span></p>

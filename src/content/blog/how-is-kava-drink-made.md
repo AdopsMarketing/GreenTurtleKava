@@ -5,7 +5,7 @@ date: "2024-08-27T09:15:12"
 link: "https://greenturtlekava.co/how-is-kava-drink-made/"
 metaDescription: "Starting from the farm, making Kava is a long process that starts with careful cultivation followed by harvesting, processing, and turning into a drink."
 canonical: "https://greenturtlekava.co/how-is-kava-drink-made/"
-ogImage: "/images/uploads/2024/08/From-Farm-to-Cup-How-Is-Kava-Drink-Made.png"
+ogImage: "/images/media/2024/08/From-Farm-to-Cup-How-Is-Kava-Drink-Made.png"
 ---
 <p>Kava is a unique plant that finds its origin in the South Pacific region, and plays an important part in the regional cultures. While it has just started gaining prominence in the western world, Kava has been a pivotal part of the South Pacific cultures for centuries. The Kava drink, derived from the kava plant, is a central part of the social culture in the region. However, it is much more prominent for its usage as a ceremonial beverage rather than a social one. In this article we will explain how the Kava drink is made, and more. </p>
 <h2>How Kava Is Made</h2>

@@ -9,19 +9,19 @@ phone: "3862724790"
 mapEmbedQuery: "Green Turtle Kava Bar - Daytona Beach"
 metaDescription: "Kava Bar at Daytona Beach | Where you'll find your good vibe tribe... Serving the finest kava, kratom & coffee products sourced from around the world."
 canonical: "https://greenturtlekava.co/kava-bar-at-daytona-beach/"
-ogImage: "/images/uploads/2021/07/Depositphotos_27155705_l-2015.jpg"
+ogImage: "/images/media/2021/07/Depositphotos_27155705_l-2015.jpg"
 ---
 
 
 <h2>RELAX AND RESET at The Green Turtle Kava Bar Daytona Beach<br/>YOUR lOCAL tURTLE sANCTUARY and Tea House!</h2><p>Our drinks provide a soothing and relaxing effect for your mind, body, and spirit.<br/>We take pride in providing the highest quality of Botanical Teas and Premium Kava from the South Pacific.</p>
-<img src="/images/uploads/2021/10/v2.jpg" alt="Kava shell with powder and spoon">
+<img src="/images/media/2021/10/v2.jpg" alt="Kava shell with powder and spoon">
 <h2>Daytona Beach’s<br/>Original Kava Bar</h2>
 
 <p>Daytona Beach’s original Kava Bar is a place to reset during the day and connect with your friends for quality conversation. This location features a steady calendar of events which include live musicians, trivia night, pool<br/>tournaments, AND MORE.</p>
 <p>Additionally, Daytona Beach’s Kava Bar provides daily specials no matter what day you stop in. See below the latest daily specials list, which includes all traditional kava, kratom tea and coffee drinks:</p>
 <h2>Kava Bar Daily Specials</h2><table><tbody><tr><th>Monday</th><td>Just Another Manic Monday… Happy Hour 2-4PM – BOGO Kava &amp; Tea</td></tr><tr><th>Tuesday</th><td>Turtle Tuesdays…<br/>BOGO any size botanical tea ALL DAY</td></tr><tr><th>Wednesday</th><td>Wind Down Wednesday… Happy Hour 2-4PM – BOGO Kava &amp; TeaTuesday </td></tr><tr><th>Thursday</th><td>Thirsty Thursday Ladies Night… BOGO kava &amp; tea 7-10pm</td></tr><tr><th>Friday</th><td>Feisty Friday… BOGO kava &amp; tea 2-4pm</td></tr><tr><th>Saturday</th><td>Serenade Saturday… LIVE MUSIC…TBD</td></tr><tr><th>Sunday</th><td>Sunday Funday… 20% all specialty drinks 11-2pm</td></tr></tbody></table><p><a href="tel:3862724790">CALL KAVA BAR</a></p>
 <h2><a href="https://greenturtlekava.co/what-is-kava/">What is Kava?</a></h2>
-<img src="/images/uploads/2021/10/sl2.png" alt="kava kava leaf closeup">
+<img src="/images/media/2021/10/sl2.png" alt="kava kava leaf closeup">
 <p>
                   Kava is an evergreen plant that is primarily native to the South Pacific. Kava
                  is an ancient root that has been utilized for over 2,000 years and features many
@@ -41,10 +41,10 @@ ogImage: "/images/uploads/2021/07/Depositphotos_27155705_l-2015.jpg"
     The essence of our company is to provide a place where you can rejuvenate your soul
      and recuperate from the stresses of every-day life.
   </p>
-<img src="/images/uploads/2021/10/sl1.png" alt="kava kava leave - green turtle kava bar website">
-<img src="/images/uploads/2021/10/v2.jpg" alt="Kava shell with powder and spoon">
+<img src="/images/media/2021/10/sl1.png" alt="kava kava leave - green turtle kava bar website">
+<img src="/images/media/2021/10/v2.jpg" alt="Kava shell with powder and spoon">
 <p> </p><h2>Benefits of Kava</h2><p>-Utilized to rejuvenate and relax</p><p>-Studies suggest, its properties help to decrease anxiety, reduce stress and help with sleep issues</p><p>-Many of these properties have been utilized for health-oriented purposes in the early 19th Century </p><p>-Overall feeling of euphoria and relaxation</p>
-<img src="/images/uploads/2021/10/v1.jpg" alt="Tea example at green turtle kava bar">
+<img src="/images/media/2021/10/v1.jpg" alt="Tea example at green turtle kava bar">
 <p> </p><h2>Benefits of Exotic Teas</h2><p>-White Exotic Teas: increases productivity and<br/>concentration, elevated mood booster, stimulant, energy enhancer</p><p>-Green Exotic Teas: mild energy booster, enhances focus, reduces social anxieties</p><p>-Red Exotic Teas: provides body relaxation, promotes<br/>feelings of well-being and confidence</p>
 <a href="https://greenturtlekava.co/contact-us/">
 25% OFF NEW CUSTOMER BULA DEAL!

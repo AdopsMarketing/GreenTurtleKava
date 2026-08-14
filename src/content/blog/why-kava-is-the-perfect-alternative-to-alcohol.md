@@ -5,7 +5,7 @@ date: "2024-08-20T10:43:45"
 link: "https://greenturtlekava.co/why-kava-is-the-perfect-alternative-to-alcohol/"
 metaDescription: "Kava offers a healthier, non-addictive alternative to alcohol, providing relaxation without the harmful effects, hangovers, or cognitive impairment."
 canonical: "https://greenturtlekava.co/why-kava-is-the-perfect-alternative-to-alcohol/"
-ogImage: "/images/uploads/2024/08/Why-Kava-is-the-Perfect-Alternative-to-Alcohol.png"
+ogImage: "/images/media/2024/08/Why-Kava-is-the-Perfect-Alternative-to-Alcohol.png"
 ---
 <p>Alcohol has played the part of an essential socializing and often relaxing beverage. However, although it has its own appeal, it also brings a bundle of disadvantages for a person’s health. The  rising awareness about the ill-effects of alcohol is driving people towards its alternatives such as Kava. Many claim that Kava is the Perfect Alternative to alcohol. Is that actually the truth? In this comprehensive study, we aim to find out just that! So let’s get right to it. </p>
 <h2>What Is Kava?</h2>

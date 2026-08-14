@@ -5,12 +5,12 @@ date: "2025-04-08T12:26:29"
 link: "https://greenturtlekava.co/kava-vs-kratom-how-different-are-they/"
 metaDescription: "Kava and kratom are often compared, but they have different effects, uses, and risks. Learn how they differ to make an informed wellness choice."
 canonical: "https://greenturtlekava.co/kava-vs-kratom-how-different-are-they/"
-ogImage: "/images/uploads/2025/04/Kava-vs-Kratom-How-Different-Are-They.jpg"
+ogImage: "/images/media/2025/04/Kava-vs-Kratom-How-Different-Are-They.jpg"
 ---
 <p>Kava and kratom are often compared because of their relaxing effects. But they are very different in how they work, their risks, and their benefits.</p><p>One comes from the Pacific Islands. The other comes from Southeast Asia. One is legal everywhere in the U.S. The other faces bans in several states. </p><p>If you’ve ever wondered about the difference between kava and kratom, this blog will break it all down. </p>
 <h2>What is Kava?</h2>
 <p>The Piper methysticum plant produces kava which extraction occurs from its roots. Kava Plant has its native origins in Pacific Island territories such as Fiji and Vanuatu and Tonga. </p><p>People on islands have practiced kava usage for their ceremonies and public social occasions for centuries. People acknowledge this substance for it <a href="https://greenturtlekava.co/how-does-kava-work-to-soothe-stress-and-anxiety/">reduces stress</a> and creates a calming effect.</p>
-<img src="/images/uploads/2025/04/What-is-kava.jpg" alt="What is kava">
+<img src="/images/media/2025/04/What-is-kava.jpg" alt="What is kava">
 <h3>How People Use Kava</h3>
 <p>Most people enjoy kava as an oral beverage. The ground Kava root powder is mixed with either coconut milk or water. Others choose to take kava through capsules along with extracts when taking supplements.</p><p>Kava serves as a social beverage throughout American kava bars because consumers use it to relax without creating the same intoxicating impact of alcohol.</p>
 <h3>Effects of Kava</h3>
@@ -19,7 +19,7 @@ ogImage: "/images/uploads/2025/04/Kava-vs-Kratom-How-Different-Are-They.jpg"
 <p>The use of kava remains safe for most individuals when consumed in moderate amounts. Excessive consumption of Kava or taking high doses might lead to liver problems. Some users also report:</p><ul><li>Nausea</li><li>Dizziness</li><li>Dry skin (with frequent use)</li></ul><p>Using kava properly together with avoiding alcohol consumption and medication is the safest approach to ensure protection.</p>
 <h2>What is Kratom?</h2>
 <p>The Mitragyna speciosa tree exists in Southeast Asia as the natural source of Kratom. The leaves of this plant contain substances which modify brain function.</p><p>At different levels of consumption kratom functions as either a stimulant or sedative agent.</p>
-<img src="/images/uploads/2025/04/What-is-kratom.jpg" alt="What is kratom">
+<img src="/images/media/2025/04/What-is-kratom.jpg" alt="What is kratom">
 <h3>How People Use Kratom</h3>
 <p>The different use forms of kratom include the mixture of powder with both juice and water and the use of capsules and tablets along with tea preparation and liquid extract brewing. People use kratom to manage their pain needs and others depend on its energizing properties for daily activities. A top-level dose of kratom functions as a relaxing substance that produces euphoria alongside sedation.</p>
 <h3>Effects of Kratom</h3>

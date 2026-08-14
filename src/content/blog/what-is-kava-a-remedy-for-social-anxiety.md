@@ -5,7 +5,7 @@ date: "2024-01-24T23:05:13"
 link: "https://greenturtlekava.co/what-is-kava-a-remedy-for-social-anxiety/"
 metaDescription: "What is kava? A Natural Remedy for Social Anxiety with Scientific Backing"
 canonical: "https://greenturtlekava.co/what-is-kava-a-remedy-for-social-anxiety/"
-ogImage: "/images/uploads/2024/01/unnamed-1.jpeg"
+ogImage: "/images/media/2024/01/unnamed-1.jpeg"
 ---
 <div></div>
 <p><span>What is Kava? What is it used for? What is a kava bar? Follow along as we explore some of these questions and delve into this ancient ceremonial drink’s ability to combat anxiety. </span></p>

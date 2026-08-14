@@ -1,12 +1,11 @@
 ---
 title: "Paint By Kava"
-slug: "paint-by-kava"
-date: "2024-05-25T20:00:07"
-link: "https://greenturtlekava.co/event/paint-by-kava/"
+date: 2024-05-25T20:00:07.000Z
 metaDescription: "Green Turtle Kava Bar at St AugustinePaint by Kava | Paint & drink kava. Follow along as we get rooted during our group painting experience. BULA"
-canonical: "https://greenturtlekava.co/event/paint-by-kava/"
-ogImage: "/images/uploads/2024/01/Paint.png"
+ogImage: "/images/media/2024/01/Paint.png"
 ---
-<h1>Green Turtle Kava Bar at St Augustine</h1>
-<h2>Paint by Kava | Paint &amp; drink kava</h2>
-<p><span>Follow along as we get rooted during our group painting experience</span>. BULA</p>
+# Green Turtle Kava Bar at St Augustine
+
+## Paint by Kava | Paint & drink kava
+
+Follow along as we get rooted during our group painting experience. BULA

@@ -5,7 +5,7 @@ date: "2023-10-16T21:06:39"
 link: "https://greenturtlekava.co/exploring-the-world-of-mocktails-and-kava-drinks-near-you/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/exploring-the-world-of-mocktails-and-kava-drinks-near-you/"
-ogImage: "/images/uploads/2023/10/unnamed.jpeg"
+ogImage: "/images/media/2023/10/unnamed.jpeg"
 ---
 <div></div>
 <p><img/></p>

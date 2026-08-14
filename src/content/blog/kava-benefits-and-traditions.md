@@ -5,7 +5,7 @@ date: "2024-07-23T09:00:06"
 link: "https://greenturtlekava.co/kava-benefits-and-traditions/"
 metaDescription: "Kava is a traditional non-alcoholic drink from the Pacific Islands, from the root of Piper methysticum. Click here to know the benefits it offers."
 canonical: "https://greenturtlekava.co/kava-benefits-and-traditions/"
-ogImage: "/images/uploads/2024/07/Magic-of-Kava-Benefits-and-Traditions-at-Green-Turtle-Kava-Bar1.png"
+ogImage: "/images/media/2024/07/Magic-of-Kava-Benefits-and-Traditions-at-Green-Turtle-Kava-Bar1.png"
 ---
 <p>Have you ever considered learning more about the drink that is trending and pleasing palates globally? </p><p>Kava—originating from the Pacific islands and made from the roots of Piper methysticum—is more than just a refreshing beverage—it is a cultural and health treasure dating back centuries. </p><p>The kava root extract market has been progressing rapidly in the past few years and is forecasted to reach <a href="https://www.thebusinessresearchcompany.com/report/kava-root-extract-global-market-report">$1.37</a> billion in 2024. </p><p>In this article, explore Kava: Benefits and Traditions and meet the captivating story of Green Turtle Kava Bar, where each cup encourages you to enjoy moments of rest as well as the cultural experience.</p>
 <h2>All about Kava!</h2>

@@ -5,7 +5,7 @@ date: "2024-09-10T09:57:38"
 link: "https://greenturtlekava.co/can-kava-help-in-sleep-for-better-night-rest/"
 metaDescription: "Kava is a natural sleep aid that induces relaxation and calmness, reduces anxiety, and improves sleep quality for a more restful night’s sleep."
 canonical: "https://greenturtlekava.co/can-kava-help-in-sleep-for-better-night-rest/"
-ogImage: "/images/uploads/2024/09/Kava-for-Sleep-Can-It-Help-You-Get-a-Better-Nights-Rest.png"
+ogImage: "/images/media/2024/09/Kava-for-Sleep-Can-It-Help-You-Get-a-Better-Nights-Rest.png"
 ---
 <p>One of the common sleep disorders that affects many adults is insomnia. A study shows that <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC1978319/#:~:text=Chronic%20insomnia%20is%20highly%20prevalent,30%25%20of%20the%20general%20population.">30%</a> of the general populace is affected by insomnia. Insomnia usually causes sleep deprivation, negatively affecting mood, energy, and overall health. In fact, chronic insomnia has been linked to <a href="https://www.sciencedirect.com/science/article/abs/pii/S2352721818300421">poor work productivity</a>, impaired concentration, accidents, and increased errors. </p><p>The demands of modern life are on the rise, resulting in sleeplessness in many people. Therefore, more people are seeking ways to enhance sleep. One such way is the <a href="https://greenturtlekava.co/">kava drink</a>. It is a natural remedy to promote sleep by producing calming and relaxing effects on the body and mind. </p><p>In this blog, we will explore the relationship between kava and sleep so individuals can properly understand the effects of kava, allowing them to answer the question, ‘Can kava help you get a better night’s sleep?’</p>
 <h2>What Is Kava?</h2>

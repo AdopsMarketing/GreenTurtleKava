@@ -5,7 +5,7 @@ date: "2024-05-06T23:06:27"
 link: "https://greenturtlekava.co/what-is-kava-used-for-a-spiritual-co-pilot/"
 metaDescription: "kava can also play a significant role in supporting your spiritual journey. So you may be wondering what is kava used for? Read more to find out."
 canonical: "https://greenturtlekava.co/what-is-kava-used-for-a-spiritual-co-pilot/"
-ogImage: "/images/uploads/2024/05/unnamed.jpg"
+ogImage: "/images/media/2024/05/unnamed.jpg"
 ---
 <div></div>
 <p>Kava, a traditional herbal remedy derived from the roots of the Piper methysticum plant, has been used for centuries in the South Pacific for its calming and euphoric effects. While it’s often known for its ability to promote relaxation and reduce anxiety, kava can also play a significant role in supporting your spiritual journey. So you may be wondering <a>what is kava used for?</a> Read more to find out.</p>

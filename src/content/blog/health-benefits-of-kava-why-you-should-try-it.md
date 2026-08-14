@@ -5,7 +5,7 @@ date: "2024-08-06T10:33:44"
 link: "https://greenturtlekava.co/health-benefits-of-kava-why-you-should-try-it/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/health-benefits-of-kava-why-you-should-try-it/"
-ogImage: "/images/uploads/2024/08/The-Health-Benefits-of-Drinking-Kava-Why-You-Should-Try-It.jpg"
+ogImage: "/images/media/2024/08/The-Health-Benefits-of-Drinking-Kava-Why-You-Should-Try-It.jpg"
 ---
 <p>Arising from the Polynesian term meaning bitter, Kava is an extract or beverage excavated from the root of the Piper methysticum plant. Since ancient times, it has been named for catering to the Indigenous community of the South Pacific as a traditional remedy and herbal supplement. It is often appreciated as a recreational beverage and a dietary addition. This article elucidates everything about Kava: benefits backed up by scientific studies.</p>
 <h2>Bite-Size Information About Kava</h2>

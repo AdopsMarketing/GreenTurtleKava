@@ -5,7 +5,7 @@ date: "2023-11-25T01:56:50"
 link: "https://greenturtlekava.co/exploring-the-positive-impact-of-kava-on-the-elderly/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/exploring-the-positive-impact-of-kava-on-the-elderly/"
-ogImage: "/images/uploads/2023/11/unnamed-1-1.png"
+ogImage: "/images/media/2023/11/unnamed-1-1.png"
 ---
 <div></div>
 <p><span>As we age, maintaining a healthy and fulfilling lifestyle becomes increasingly important. While there are various approaches to enhancing the well-being of the elderly, one natural remedy that is gaining attention for its potential positive impact is kava. Derived from the root of the Piper methysticum plant, kava has been used for centuries in traditional Pacific Island cultures for its calming and soothing effects. In recent years, research has begun to uncover the potential benefits of kava for the elderly, ranging from promoting relaxation and improving sleep to reducing anxiety and enhancing cognitive function. In this article, we will explore the positive impact that kava could have on the elderly, backed by scientific evidence and studies.</span></p>

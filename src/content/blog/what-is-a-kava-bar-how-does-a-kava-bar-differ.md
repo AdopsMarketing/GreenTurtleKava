@@ -5,7 +5,7 @@ date: "2024-02-24T18:22:43"
 link: "https://greenturtlekava.co/what-is-a-kava-bar-how-does-a-kava-bar-differ/"
 metaDescription: "This article will explore the dissimilarities between kava bars and alcoholic bars, shedding light on their unique characteristics and origins."
 canonical: "https://greenturtlekava.co/what-is-a-kava-bar-how-does-a-kava-bar-differ/"
-ogImage: "/images/uploads/2024/02/unnamed-2.jpeg"
+ogImage: "/images/media/2024/02/unnamed-2.jpeg"
 ---
 <div></div>
 <p><span>The social landscape has long been dotted with various types of drinking establishments catering to different preferences and cultures. What is a kava bar, and how is its experience distinct from traditional alcoholic bars? While both are places for socializing and relaxation, they differ significantly regarding their beverages, effects, and cultural backgrounds. This article will explore the dissimilarities between kava bars and alcoholic bars, shedding light on their unique characteristics and origins.</span></p>

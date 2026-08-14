@@ -5,7 +5,7 @@ date: "2023-06-09T06:17:01"
 link: "https://greenturtlekava.co/kava-drink-fiji-a-cultural-tradition-and-relaxing-elixir/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/kava-drink-fiji-a-cultural-tradition-and-relaxing-elixir/"
-ogImage: "/images/uploads/2023/06/unnamed-3.jpg"
+ogImage: "/images/media/2023/06/unnamed-3.jpg"
 ---
 <div></div>
 <p><span>The history of kava in Fiji is deeply intertwined with the country’s cultural heritage and traditions. The consumption of kava has been a significant part of Fijian society for centuries, playing a central role in social, ceremonial, and medicinal contexts. As of today, there are few </span><a><span>kava bars</span></a><span> that continue to uphold these traditions. Let’s explore the fascinating history of kava in Fiji.</span></p>

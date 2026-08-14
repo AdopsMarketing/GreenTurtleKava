@@ -5,7 +5,7 @@ date: "2023-07-03T15:04:13"
 link: "https://greenturtlekava.co/is-it-cava-or-kava/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/is-it-cava-or-kava/"
-ogImage: "/images/uploads/2023/07/unnamed-8.jpg"
+ogImage: "/images/media/2023/07/unnamed-8.jpg"
 ---
 <div></div>
 <p><span>The misspelling of “kava” as “cava” might be due to a typographical error or confusion between the two terms. While “kava” refers to a traditional beverage made from the roots of the Piper methysticum plant, “cava” is a term used to describe a sparkling wine, typically produced in the Catalonia region of Spain.</span></p>

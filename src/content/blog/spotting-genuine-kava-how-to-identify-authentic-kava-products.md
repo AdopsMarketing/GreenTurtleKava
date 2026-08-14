@@ -5,7 +5,7 @@ date: "2023-10-13T22:24:02"
 link: "https://greenturtlekava.co/spotting-genuine-kava-how-to-identify-authentic-kava-products/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/spotting-genuine-kava-how-to-identify-authentic-kava-products/"
-ogImage: "/images/uploads/2023/10/DSCF9540-1024x683.jpg"
+ogImage: "/images/media/2023/10/DSCF9540-1024x683.jpg"
 ---
 <div></div>
 <p> </p>

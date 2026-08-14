@@ -5,7 +5,7 @@ date: "2023-07-03T15:07:54"
 link: "https://greenturtlekava.co/cava-ca-va-or-kava-menu/"
 metaDescription: ""
 canonical: "https://greenturtlekava.co/cava-ca-va-or-kava-menu/"
-ogImage: "/images/uploads/2023/07/unnamed-10.jpg"
+ogImage: "/images/media/2023/07/unnamed-10.jpg"
 ---
 <div></div>
 <p><span>Are you searching for the Cava menu or Ca Va Menu? While “ca va” is a French phrase meaning “how are you,” it is not typically associated with a specific menu or culinary offerings. The phrase is used as a casual greeting or inquiry about someone’s well-being in French-speaking contexts. </span></p>
