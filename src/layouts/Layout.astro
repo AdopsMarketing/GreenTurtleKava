@@ -20,6 +20,12 @@ const resolvedCanonical = canonical ?? Astro.url.href;
 // OptiMonk — popups/campaigns (spin-to-win etc.) are managed in the OptiMonk dashboard.
 // Account ID from OptiMonk → Install code; override per-environment with PUBLIC_OPTIMONK_ACCOUNT_ID.
 const OPTIMONK_ACCOUNT_ID = import.meta.env.PUBLIC_OPTIMONK_ACCOUNT_ID ?? '195346';
+
+// Google Tag Manager — GA4, Google Ads conversions, etc. are managed inside the GTM container.
+const GTM_ID = import.meta.env.PUBLIC_GTM_ID ?? 'GTM-PTTRCX2';
+
+// Google Analytics 4 (gtag.js), loaded directly. Override with PUBLIC_GA4_ID.
+const GA4_ID = import.meta.env.PUBLIC_GA4_ID ?? 'G-EJSD6Z7EW5';
 ---
 
 <!doctype html>
@@ -27,6 +33,24 @@ const OPTIMONK_ACCOUNT_ID = import.meta.env.PUBLIC_OPTIMONK_ACCOUNT_ID ?? '19534
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    {GTM_ID && (
+      <script is:inline define:vars={{ gtmId: GTM_ID }}>
+        (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer',gtmId);
+      </script>
+    )}
+
+    {GA4_ID && (
+      <>
+        <script is:inline async src={`https://www.googletagmanager.com/gtag/js?id=${GA4_ID}`}></script>
+        <script is:inline define:vars={{ ga4Id: GA4_ID }}>
+          window.dataLayer = window.dataLayer || [];
+          window.gtag = function(){ window.dataLayer.push(arguments); };
+          gtag('js', new Date());
+          gtag('config', ga4Id);
+        </script>
+      </>
+    )}
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <title>{title}</title>
     {noindex && <meta name="robots" content="noindex, nofollow" />}
@@ -53,6 +77,16 @@ const OPTIMONK_ACCOUNT_ID = import.meta.env.PUBLIC_OPTIMONK_ACCOUNT_ID ?? '19534
     )}
   </head>
   <body class="font-body text-body-text bg-cream">
+    {GTM_ID && (
+      <noscript>
+        <iframe
+          src={`https://www.googletagmanager.com/ns.html?id=${GTM_ID}`}
+          height="0"
+          width="0"
+          style="display:none;visibility:hidden"
+          title="gtm"></iframe>
+      </noscript>
+    )}
     <Header />
     {heroHeading && <HeroSection heading={heroHeading} />}
     <main>
