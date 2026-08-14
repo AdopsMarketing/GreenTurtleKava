@@ -1,0 +1,96 @@
+---
+// Progressive enhancement for lead forms: any `<form data-lead>` is submitted via
+// fetch() to /api/lead (GoHighLevel), with inline status feedback. Without JS the
+// form still POSTs to /api/lead directly (action fallback).
+---
+
+<style is:global>
+  [data-lead-status] { font-size: 14px; margin-top: 0.5rem; }
+  [data-lead-status][data-state='ok'] { color: #16a34a; }
+  [data-lead-status][data-state='error'] { color: #e11738; }
+</style>
+
+<script is:inline>
+  (function () {
+    var ATTR_KEYS = [
+      'utm_source', 'utm_medium', 'utm_campaign', 'utm_adgroup', 'utm_term', 'utm_content',
+      'matchtype', 'network', 'device', 'placement', 'loc_physical_ms', 'targetid',
+      'gclid', 'fbclid', 'msclkid',
+    ];
+
+    // First-touch attribution: the first time we see UTMs/click IDs, persist them so
+    // they survive navigation to the page where the form is actually submitted.
+    function getAttribution() {
+      var stored = {};
+      try { stored = JSON.parse(localStorage.getItem('gtk_attr') || '{}'); } catch (e) {}
+      var params = new URLSearchParams(location.search);
+      var current = {};
+      ATTR_KEYS.forEach(function (k) { var v = params.get(k); if (v) current[k] = v; });
+
+      var hasStored = ATTR_KEYS.some(function (k) { return stored[k]; });
+      var hasCurrent = Object.keys(current).length > 0;
+      if (hasCurrent && !hasStored) {
+        stored = Object.assign({}, current, {
+          landing_page: location.href,
+          referrer: document.referrer || '',
+        });
+        try { localStorage.setItem('gtk_attr', JSON.stringify(stored)); } catch (e) {}
+      }
+
+      // First-touch (stored) as the base; current-page UTMs win if present (last-touch).
+      var out = Object.assign({}, stored, current);
+      out.page_url = location.href;
+      if (!out.referrer) out.referrer = document.referrer || '';
+      return out;
+    }
+
+    function serialize(form) {
+      var fd = new FormData(form);
+      var data = {};
+      fd.forEach(function (v, k) {
+        var key = k.slice(-2) === '[]' ? k.slice(0, -2) : k;
+        if (data[key] !== undefined) data[key] = [].concat(data[key], v);
+        else data[key] = v;
+      });
+      // Attach attribution (UTMs, click IDs, landing page, referrer) — form fields win on conflict.
+      var attr = getAttribution();
+      Object.keys(attr).forEach(function (k) { if (data[k] === undefined && attr[k]) data[k] = attr[k]; });
+      return data;
+    }
+
+    document.querySelectorAll('form[data-lead]').forEach(function (form) {
+      var status = form.querySelector('[data-lead-status]');
+      var btn = form.querySelector('[type="submit"]');
+      form.addEventListener('submit', function (e) {
+        e.preventDefault();
+        if (form.dataset.sending) return;
+        if (!form.checkValidity()) { form.reportValidity(); return; }
+        form.dataset.sending = '1';
+        if (btn) btn.disabled = true;
+        if (status) { status.hidden = false; status.textContent = 'Sending…'; status.removeAttribute('data-state'); }
+
+        fetch('/api/lead', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(serialize(form)),
+        })
+          .then(function (res) { return res.json().catch(function () { return {}; }).then(function (out) { return { ok: res.ok, out: out }; }); })
+          .then(function (r) {
+            if (r.ok && r.out && r.out.ok) {
+              if (status) { status.textContent = form.getAttribute('data-lead-success') || 'Thanks! We’ll be in touch soon.'; status.setAttribute('data-state', 'ok'); }
+              form.reset();
+            } else {
+              if (status) { status.textContent = (r.out && r.out.error) || 'Something went wrong. Please try again.'; status.setAttribute('data-state', 'error'); }
+            }
+          })
+          .catch(function () {
+            if (status) { status.textContent = 'Network error. Please try again.'; status.setAttribute('data-state', 'error'); }
+          })
+          .finally(function () {
+            form.dataset.sending = '';
+            if (btn) btn.disabled = false;
+          });
+      });
+    });
+  })();
+</script>

@@ -76,12 +76,15 @@ for (const item of withLocation) {
         <p class="font-nav-book text-white mb-8">
           Sign up free with the link below for updates on upcoming events, promos and rewards for turtle tribe members
         </p>
-        <form class="space-y-6 text-left">
+        <form action="/api/lead" method="POST" data-lead data-lead-success="You’re on the list — watch for updates on events and promos!" class="space-y-6 text-left">
+          <input type="hidden" name="source" value="Events signup" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
           <FormInput name="first_name" label="First Name" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <FormInput name="email" type="email" label="Email" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <FormInput name="phone" type="tel" label="Phone Number" class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <div class="text-center pt-2">
             <Button type="submit" variant="sign">Submit</Button>
+            <p data-lead-status hidden class="text-white"></p>
           </div>
         </form>
       </div>

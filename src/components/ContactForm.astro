@@ -13,7 +13,9 @@ import Button from './Button.astro';
 const { submitLabel = 'Send Message', showMessage = true, showSmsOptIn = false } = Astro.props;
 ---
 
-<form action="https://formspree.io/f/REPLACE_WITH_FORM_ID" method="POST" class="space-y-5 max-w-[600px] mx-auto">
+<form action="/api/lead" method="POST" data-lead data-lead-success="Thanks — we’ll be in touch soon." class="space-y-5 max-w-[600px] mx-auto">
+  <input type="hidden" name="source" value="Contact form" />
+  <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
   <FormInput name="name" label="Name" required />
   <FormInput name="email" type="email" label="Email" required />
   <FormInput name="phone" type="tel" label="Phone" />
@@ -31,5 +33,6 @@ const { submitLabel = 'Send Message', showMessage = true, showSmsOptIn = false }
   )}
   <div class="text-center pt-2">
     <Button type="submit" variant="submit">{submitLabel}</Button>
+    <p data-lead-status hidden class="text-body-text"></p>
   </div>
 </form>

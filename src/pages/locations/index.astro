@@ -46,12 +46,15 @@ const sorted = order.map((slug) => locations.find((l) => l.data.slug === slug)!)
         <p class="font-nav-book text-white mb-6">
           Sign up free with the link below for updates on upcoming events, promos and rewards for turtle tribe members
         </p>
-        <form class="space-y-4 text-left">
+        <form action="/api/lead" method="POST" data-lead data-lead-success="You’re signed up — see you soon. Bula!" class="space-y-4 text-left">
+          <input type="hidden" name="source" value="Location signup" />
+          <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hidden" aria-hidden="true" />
           <FormInput name="first_name" label="First Name" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <FormInput name="email" type="email" label="Your Email" required class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <FormInput name="phone" type="tel" label="Phone" class="[&_input]:text-white border-tan border-2 rounded-xs" />
           <div class="text-center pt-2">
             <Button type="submit" variant="sign">Sign Up</Button>
+            <p data-lead-status hidden class="text-white"></p>
           </div>
         </form>
       </div>
