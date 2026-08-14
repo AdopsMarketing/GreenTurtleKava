@@ -18,11 +18,12 @@
       'gclid', 'fbclid', 'msclkid',
     ];
 
-    // First-touch attribution: the first time we see UTMs/click IDs, persist them so
-    // they survive navigation to the page where the form is actually submitted.
+    // First-touch attribution (per browsing session): the first time we see UTMs/click IDs,
+    // persist them in sessionStorage so they survive navigation to the page where the form is
+    // submitted. Cleared when the tab/session closes.
     function getAttribution() {
       var stored = {};
-      try { stored = JSON.parse(localStorage.getItem('gtk_attr') || '{}'); } catch (e) {}
+      try { stored = JSON.parse(sessionStorage.getItem('gtk_attr') || '{}'); } catch (e) {}
       var params = new URLSearchParams(location.search);
       var current = {};
       ATTR_KEYS.forEach(function (k) { var v = params.get(k); if (v) current[k] = v; });
@@ -34,7 +35,7 @@
           landing_page: location.href,
           referrer: document.referrer || '',
         });
-        try { localStorage.setItem('gtk_attr', JSON.stringify(stored)); } catch (e) {}
+        try { sessionStorage.setItem('gtk_attr', JSON.stringify(stored)); } catch (e) {}
       }
 
       // First-touch (stored) as the base; current-page UTMs win if present (last-touch).
