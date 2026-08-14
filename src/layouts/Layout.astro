@@ -11,9 +11,10 @@ interface Props {
   canonical?: string;
   ogImage?: string;
   heroHeading?: string;
+  noindex?: boolean;
 }
 
-const { title, description = '', canonical, ogImage = '', heroHeading } = Astro.props;
+const { title, description = '', canonical, ogImage = '', heroHeading, noindex = false } = Astro.props;
 const resolvedCanonical = canonical ?? Astro.url.href;
 
 // OptiMonk — popups/campaigns (spin-to-win etc.) are managed in the OptiMonk dashboard.
@@ -28,6 +29,7 @@ const OPTIMONK_ACCOUNT_ID = import.meta.env.PUBLIC_OPTIMONK_ACCOUNT_ID ?? '19534
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/png" href="/images/logo.png" />
     <title>{title}</title>
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
     {description && <meta name="description" content={description} />}
     <link rel="canonical" href={resolvedCanonical} />
 

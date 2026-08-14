@@ -77,8 +77,14 @@
           .then(function (res) { return res.json().catch(function () { return {}; }).then(function (out) { return { ok: res.ok, out: out }; }); })
           .then(function (r) {
             if (r.ok && r.out && r.out.ok) {
-              if (status) { status.textContent = form.getAttribute('data-lead-success') || 'Thanks! We’ll be in touch soon.'; status.setAttribute('data-state', 'ok'); }
               form.reset();
+              // Redirect to the thank-you page (a clean conversion URL) unless opted out.
+              var redirect = form.getAttribute('data-lead-redirect');
+              if (redirect !== 'none') {
+                window.location.assign(redirect || '/thank-you/');
+                return;
+              }
+              if (status) { status.textContent = form.getAttribute('data-lead-success') || 'Thanks! We’ll be in touch soon.'; status.setAttribute('data-state', 'ok'); }
             } else {
               if (status) { status.textContent = (r.out && r.out.error) || 'Something went wrong. Please try again.'; status.setAttribute('data-state', 'error'); }
             }

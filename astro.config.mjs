@@ -26,7 +26,7 @@ export default defineConfig({
     sitemap({
       // Keep transactional / functional pages out of the sitemap; shop + product pages stay in.
       filter: (page) =>
-        !['/cart/', '/checkout/', '/my-account/', '/shop/thank-you/', '/api/', '/keystatic'].some(
+        !['/cart/', '/checkout/', '/my-account/', '/shop/thank-you/', '/thank-you/', '/api/', '/keystatic'].some(
           (p) => page.includes(p)
         ),
     }),

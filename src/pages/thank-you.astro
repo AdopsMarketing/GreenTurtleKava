@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Container from '../components/Container.astro';
+import Button from '../components/Button.astro';
+---
+
+<Layout
+  title="Thank You | Green Turtle Kava Bar"
+  description="Thanks for reaching out to Green Turtle Kava Bar — we’ll be in touch soon."
+  canonical="https://greenturtlekava.co/thank-you/"
+  noindex
+>
+  <section class="bg-cover bg-no-repeat py-24 lg:py-32 text-center" style="background-image: url('/images/theme/obg.png')">
+    <Container>
+      <img src="/images/logo.png" alt="Green Turtle Kava" width="282" height="262" class="mx-auto w-[130px] h-auto mb-6" />
+      <h1 class="font-body text-brown text-[45px] lg:text-[80px] leading-none">THANK YOU!</h1>
+      <p class="font-nav-book text-muted-blue text-[18px] lg:text-[22px] max-w-[640px] mx-auto mt-4">
+        We&rsquo;ve received your details &mdash; a Green Turtle tribe member will be in touch soon. Bula!
+      </p>
+      <div class="mt-8 flex flex-wrap justify-center gap-4">
+        <Button href="/" variant="view">Back Home</Button>
+        <Button href="/menu/" variant="customer">See the Menu</Button>
+      </div>
+    </Container>
+  </section>
+</Layout>
